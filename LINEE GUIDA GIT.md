@@ -15,3 +15,4 @@
 - git commit -am "messaggio di commit CHIARO!" (aggiunge alla staging area e effettua la commit)
 - git push -u origin "nome_vostro_branch"
 
+bella davi
