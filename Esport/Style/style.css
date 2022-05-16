@@ -105,9 +105,15 @@ menu li a {
 
 .video {
   position: absolute;
-  top: 38px;
+  top: 40px;
   z-index: -1;
 }
+/* 
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+} */
 
 .menu--open li a {
     z-index: 0;
