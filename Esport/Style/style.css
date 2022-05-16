@@ -8,16 +8,61 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/* ! BASE STYLE */
+
 body {
     font-family: 'Playfair Display', serif;
-    font-size: 16px;
     letter-spacing: .1em;
     background-color: #0f1519;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: #f9f9f9;
+    padding-bottom: 30px;
+}
+
+.big-text {
+    font-size: 70px;
+}
+
+.med-text {
+    font-size: 40px;
+}
+
+.normal-text {
+    font-size: 20px;
+}
+
+.small-text {
+    font-size: 18px;
+    letter-spacing: 0.09vw;
+}
+
+
+
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* ! HEADER */
+
 .header {
+    /* border: 3px solid green; */
     position: fixed;
-    background-color: black;
+    background-color: #111111;
     top: -23px;
     left: 50%;
     height: 119px;
@@ -34,7 +79,6 @@ body {
     right: -100%;
     height: 68vh;
     padding-top: 80px;
-    background: #000;
 }
 
 .menu li {
@@ -43,7 +87,7 @@ body {
 }
 
 menu li a {
-    color: white;
+    color: #f9f9f9;
     padding-left: 120px;
     display: block;
 }
@@ -54,12 +98,11 @@ menu li a {
     display: table;
     float: left;
     position: relative;
-    /* left: 10px; */
 }
 
 .logo h1 {
     z-index: 1;
-    color: white;
+    color: #f9f9f9;
     display: table-cell;
     vertical-align: middle;
     font-family: 'Playfair Display', serif;
@@ -88,7 +131,7 @@ menu li a {
 }
 
 .hamburger span {
-    background: white;
+    background: #f9f9f9;
     height: 2.5px;
     width: 90%;
     display: block;
@@ -103,10 +146,11 @@ menu li a {
 }
 
 .video {
-    position: absolute;
+    position: relative;
+    /* border: 3px solid yellow; */
     top: 95px;
     z-index: -1;
-    width: 101%;
+    width: 100%;
 }
 
 /* 
@@ -119,23 +163,32 @@ video {
 .menu--open li a {
     z-index: 0;
     display: inline-block;
-    color: white;
+    color: #f9f9f9;
     padding-top: 10px;
     text-decoration: none;
-
 }
 
-/* 
-h1 {
-  position: relative;
-  top: 320px;
-} */
+.titolo {
+    position: sticky;
+}
 
+.titolo h1 {
+    text-align: center;
+}
+
+.titolo h1 img {
+    width: 190px;
+}
 
 /* ! DESKTOP */
 
 @media screen and (min-width: 1024px) {
 
+
+    .titolo {
+        z-index: 1;
+        /* border: 1px solid red; */
+    }
 
     .hamburger {
         display: none;
@@ -143,7 +196,7 @@ h1 {
 
     .header {
         position: fixed;
-        background-color: black;
+        background-color: #111111;
         top: -23px;
         height: 119px;
         padding: 30px;
@@ -156,16 +209,17 @@ h1 {
         width: 100%;
         left: -1.9vw;
         height: 0px;
-        top: -56px;
+        top: -58.5px;
         text-align: center;
     }
 
     .menu li {
+
         display: inline-block;
     }
 
     .menu li a {
-        color: white;
+        color: #f9f9f9;
         left: 50%;
         padding: 0 15px 0 15px;
         display: block;
@@ -181,7 +235,7 @@ h1 {
     }
 
     .logo h1 {
-        color: white;
+        color: #f9f9f9;
         display: table-cell;
         vertical-align: middle;
         font-family: "Montserrat";
@@ -204,13 +258,70 @@ h1 {
         padding: 15px 0 1px 0;
         margin-right: 1px;
     }
+
+    .titolo {
+        top: 0px;
+        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        /* border: 1px solid red; */
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .titolo h1 img {
+        /* border: 1px solid red; */
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 65vh;
+        padding-top: 80px;
+        background-color: #111111;
+    }
+
+    .menu--open {
+        z-index: 0;
+        left: -100%;
+        text-align: center;
+        padding-top: 115px;
+    }
+
+    .titolo {
+z-index: -1;
+        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        position: relative;
+        top: 20px;
+        /* border: 1px solid red; */
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .titolo h1 img {
+        /* border: 1px solid red; */
+        width: 230px;
+
+    }
+
 }
 
 /* ! TABLET */
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
 
-    
+
 
     .menu {
         position: absolute;
@@ -218,7 +329,7 @@ h1 {
         right: -100%;
         height: 54vh;
         padding-top: 80px;
-        background: #000;
+        background-color: #111111;
     }
 
     .menu--open {
@@ -227,13 +338,76 @@ h1 {
         text-align: center;
         padding-top: 115px;
     }
+
+    .titolo {
+z-index: -1;
+        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .titolo h1 img {
+        /* border: 1px solid red; */
+        width: 140px;
+
+    }
+
+
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 54vh;
+        padding-top: 80px;
+        background-color: #111111;
+    }
+
+    .menu--open {
+        z-index: 0;
+        left: -100%;
+        text-align: center;
+        padding-top: 115px;
+    }
+
+    .titolo {
+        z-index: -1;
+        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        position: relative;
+        top: 30px;
+        /* border: 1px solid red; */
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .titolo h1 img {
+        /* border: 1px solid red; */
+        width: 190px;
+    }
+
+
+}
+
+
 
 /* ! MOBILE */
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 424px) {
 
-   
+
 
     .menu {
         position: absolute;
@@ -241,7 +415,7 @@ h1 {
         right: -100%;
         height: 42vh;
         padding-top: 80px;
-        background: #000;
+        background-color: #111111;
     }
 
     .menu--open {
@@ -250,9 +424,71 @@ h1 {
         text-align: center;
         padding-top: 115px;
     }
+
+    .titolo {
+        z-index: -1;
+        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        position: relative;
+        top: 45px;
+        /* border: 1px solid red; */
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .titolo h1 img {
+        /* border: 1px solid red; */
+        width: 130px;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 1023px) {
+
+    .logo-valorant {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 319px) {
+
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 42vh;
+        padding-top: 80px;
+        background-color: #111111;
+    }
+
+    .menu--open {
+        z-index: 0;
+        left: -100%;
+        text-align: center;
+        padding-top: 115px;
+    }
+
+    .titolo {
+        z-index: -1;
+        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        position: relative;
+        top: 53px;
+        /* border: 1px solid red; */
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .titolo h1 img {
+        /* border: 1px solid red; */
+        width: 115px;
+    }
 
     .logo-valorant {
         display: none;

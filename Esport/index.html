@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./Style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <img src="./Contents/img/logo-red-white.png" alt="" srcset="" />
             <!-- <h1>E-Sport</h1> -->
         </div>
-        <ul class="menu">
+        <ul class="menu small-text">
             <li><a href="">HOMEPAGE</a></li>
             <li><a href="">TOURNAMENTS</a></li>
             <li><a href="">PLAYERS</a></li>
@@ -42,26 +43,19 @@
 
     <div class="video">
         <video width="100%" autoplay loop muted>
-            <source src="./Contents/video/intro-video.mp4" type="video/mp4" />
-            Your browser does not support HTML video.
+            <!-- autoplay al posto di pause -->
+            <source src="./Contents/video/intro-video_Trim.mp4" type="video/mp4" />
         </video>
     </div>
     <!-- <header>
         <h1> VALORANT TOURNAMENTS PLATFORM</h1>
     </header> -->
 
-    <section>
-        <h2>LATEST NEWS</h2>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-    </section>
+    <div class="titolo">
+        <h1 class="intro-text">
+            <img src="./Contents/img/transparent-red-logo-1.png" alt="main-pic"> <br> esport
+        </h1>
+    </div>
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -70,6 +64,7 @@
             $(".menu").toggleClass("menu--open");
         });
     </script>
+
 </body>
 
 </html>
