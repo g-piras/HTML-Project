@@ -9,19 +9,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
-    /* font-family: "Inter", sans-serif; */
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
-    background-color: beige;
+    letter-spacing: .1em;
+    background-color: #0f1519;
 }
 
 .header {
     position: fixed;
     background-color: black;
-    top: -20px;
+    top: -23px;
     left: 50%;
+    height: 119px;
     transform: translateX(-50%);
     padding: 30px;
-    height: 100px;
     width: 101%;
     display: flex;
 
@@ -31,15 +32,14 @@ body {
     position: absolute;
     top: 0;
     right: -100%;
-    height: 70vh;
+    height: 68vh;
     padding-top: 80px;
     background: #000;
 }
 
 .menu li {
     display: block;
-
-
+    top: 30px;
 }
 
 menu li a {
@@ -65,7 +65,6 @@ menu li a {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: 100;
-    letter-spacing: .08em;
     top: 10px;
     padding-left: 5px;
 }
@@ -100,11 +99,12 @@ menu li a {
     z-index: 0;
     left: -100%;
     text-align: center;
+    padding-top: 115px;
 }
 
 .video {
     position: absolute;
-    top: 78px;
+    top: 95px;
     z-index: -1;
     width: 101%;
 }
@@ -132,6 +132,8 @@ h1 {
 } */
 
 
+/* ! DESKTOP */
+
 @media screen and (min-width: 1024px) {
 
 
@@ -142,10 +144,8 @@ h1 {
     .header {
         position: fixed;
         background-color: black;
-        top: -15;
-        left: 50%;
-        height: 100px;
-        /* transform: translateX(-50%); */
+        top: -23px;
+        height: 119px;
         padding: 30px;
         width: 101%;
         display: flex;
@@ -154,9 +154,9 @@ h1 {
     .menu {
         position: relative;
         width: 100%;
-        left: -9vw;
+        left: -1.9vw;
         height: 0px;
-        top: -53px;
+        top: -56px;
         text-align: center;
     }
 
@@ -166,17 +166,18 @@ h1 {
 
     .menu li a {
         color: white;
-        padding-left: 80px;
+        left: 50%;
+        padding: 0 15px 0 15px;
         display: block;
         text-decoration: none;
     }
 
     .logo {
-        padding-right: 30px;
-        width: 200px;
+        z-index: 1;
         height: 100%;
         display: table;
         float: left;
+        position: relative;
     }
 
     .logo h1 {
@@ -189,5 +190,71 @@ h1 {
         letter-spacing: .08em;
     }
 
+    .logo-valorant {
+        z-index: 1;
+        height: 100%;
+        display: table;
+        position: relative;
+    }
 
+    .logo-valorant img {
+        position: relative;
+        width: 39px;
+        height: 43px;
+        padding: 15px 0 1px 0;
+        margin-right: 1px;
+    }
+}
+
+/* ! TABLET */
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+    
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 54vh;
+        padding-top: 80px;
+        background: #000;
+    }
+
+    .menu--open {
+        z-index: 0;
+        left: -100%;
+        text-align: center;
+        padding-top: 115px;
+    }
+}
+
+/* ! MOBILE */
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+   
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 42vh;
+        padding-top: 80px;
+        background: #000;
+    }
+
+    .menu--open {
+        z-index: 0;
+        left: -100%;
+        text-align: center;
+        padding-top: 115px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+
+    .logo-valorant {
+        display: none;
+    }
 }
