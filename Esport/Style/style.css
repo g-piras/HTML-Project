@@ -1,4 +1,7 @@
-h1{
-    color:red;
-    font-size: 2vw;
+.header{
+    position: fixed;
+    border: 1px solid red;
+    width: 100%;
+    padding: 300px;
+    
 }
