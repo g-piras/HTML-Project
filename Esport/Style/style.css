@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -71,14 +71,14 @@ menu li a {
 }
 
 .logo img {
-  position: relative;
-  top: 2px;
-  width: 100px;
-  height: 40px;
-  padding-top: 17px;
-  margin-left: -1px;
+    position: relative;
+    top: 2px;
+    width: 100px;
+    height: 40px;
+    padding-top: 17px;
+    margin-left: -1px;
 }
-  
+
 .hamburger {
     display: block;
     width: 30px;
@@ -103,11 +103,12 @@ menu li a {
 }
 
 .video {
-  position: absolute;
-  top: 40px;
-  z-index: -1;
-  width: 101%;
+    position: absolute;
+    top: 78px;
+    z-index: -1;
+    width: 101%;
 }
+
 /* 
 video {
   object-fit: cover;
@@ -121,8 +122,9 @@ video {
     color: white;
     padding-top: 10px;
     text-decoration: none;
-    
+
 }
+
 /* 
 h1 {
   position: relative;
@@ -155,6 +157,7 @@ h1 {
         left: -9vw;
         height: 0px;
         top: -53px;
+        text-align: center;
     }
 
     .menu li {
@@ -183,7 +186,7 @@ h1 {
         font-family: "Montserrat";
         font-size: 32px;
         font-weight: 100;
-        letter-spacing: .08em;        
+        letter-spacing: .08em;
     }
 
 
