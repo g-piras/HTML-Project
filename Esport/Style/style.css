@@ -166,7 +166,7 @@ h1 {
 
     .menu li a {
         color: white;
-        padding-left: 120px;
+        /* padding-left: 120px; */
         display: block;
         text-decoration: none;
     }
