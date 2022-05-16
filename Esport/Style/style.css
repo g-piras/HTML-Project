@@ -22,7 +22,7 @@ body {
     transform: translateX(-50%);
     padding: 30px;
     height: 100px;
-    width: 100%;
+    width: 101%;
     display: flex;
 
 }
@@ -34,8 +34,6 @@ body {
     height: 70vh;
     padding-top: 80px;
     background: #000;
-
-
 }
 
 .menu li {
@@ -100,13 +98,15 @@ menu li a {
 
 .menu--open {
     z-index: 0;
-    left: 0%;
+    left: -100%;
+    text-align: center;
 }
 
 .video {
   position: absolute;
   top: 40px;
   z-index: -1;
+  width: 101%;
 }
 /* 
 video {
@@ -130,7 +130,7 @@ h1 {
 } */
 
 
-@media screen and (min-width: 498px) {
+@media screen and (min-width: 1024px) {
 
 
     .hamburger {
@@ -145,16 +145,16 @@ h1 {
         height: 100px;
         /* transform: translateX(-50%); */
         padding: 30px;
-        width: 100%;
+        width: 101%;
         display: flex;
     }
 
     .menu {
         position: relative;
         width: 100%;
-        left: 0;
+        left: -9vw;
         height: 0px;
-        top: -80px;
+        top: -53px;
     }
 
     .menu li {
@@ -165,6 +165,7 @@ h1 {
         color: white;
         padding-left: 120px;
         display: block;
+        text-decoration: none;
     }
 
     .logo {
