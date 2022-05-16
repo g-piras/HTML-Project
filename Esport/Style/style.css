@@ -98,7 +98,8 @@ menu li a {
 
 .menu--open {
     z-index: 0;
-    left: 0%;
+    left: -100%;
+    text-align: center;
 }
 
 .video {
