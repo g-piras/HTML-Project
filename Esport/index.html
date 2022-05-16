@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive menu A</title>
+    <link rel="stylesheet" href="./Style/style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./Contents/img/logo-red-white.png" alt="" srcset="" />
+            <!-- <h1>E-Sport</h1> -->
+        </div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="video">
+        <video width="100%" autoplay loop muted>
+            <source src="./Contents/video/intro-video.mp4" type="video/mp4" />
+            Your browser does not support HTML video.
+        </video>
+    </div>
+    <!-- <header>
+        <h1> VALORANT TOURNAMENTS PLATFORM</h1>
+    </header> -->
+
+    <section>
+        <h2>LATEST NEWS</h2>
+        <div>
+
+        </div>
+    </section>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script>
+        $(".hamburger").on("click", function () {
+            $(".menu").toggleClass("menu--open");
+        });
+    </script>
+</body>
+
+</html>
