@@ -5,26 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive menu A</title>
+    <link rel="stylesheet" href="./Style/style.css">
 </head>
 
 <body>
-    
-<div class="header">
-    <!-- inserire video background -->
-</div>
 
+    <div class="header">
+        <div class="logo">
+            <h1>Valorant</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
 
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
 
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+    <script>
 
-
+        $(".hamburger").on('click', function () {
+            $(".menu").toggleClass("menu--open");
+        });
+    </script>
 
 </body>
+
 </html>
-
-
-
 
 
 
