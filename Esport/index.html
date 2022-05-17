@@ -2,37 +2,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Valorant Esport</title>
-    <link rel="stylesheet" href="./Style/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css"
-        integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- RESET CSS -->
+
+    <link rel="stylesheet" href="./style/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> <!-- FONT PLAYFAIR -->
+
+    <title>Valorant Esport</title>
 </head>
 
 <body>
+
+
     <div class="header">
-        <div class="logo">
-            <img src="./Contents/img/logo-red-white.png" alt="" srcset="" />
-            <!-- <h1>E-Sport</h1> -->
-        </div>
-        <ul class="menu small-text">
-            <li><a href="">HOMEPAGE</a></li>
-            <li><a href="">TOURNAMENTS</a></li>
-            <li><a href="">PLAYERS</a></li>
-            <li><a href="">GALLERY</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">JOIN US</a></li>
+        <div class="logo-left"> <img src="./Contents/img/logo-red-white.png" alt="logo-left"></div>
+        <ul class="menu">
+            <li><a href="">Homepage</a></li>
+            <li><a href="">Tournaments</a></li>
+            <li><a href="">Players</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">About</a></li>
         </ul>
 
-        <div class="logo-valorant">
-            <img src="./Contents/img/transparent-red-logo2.png" alt="logo-valorant">
+        <div class="logo-right">
+            <img class="logo__logo-right" src="./Contents/img/transparent-red-logo2.png" alt="" srcset="">
         </div>
 
         <div class="hamburger">
@@ -42,77 +44,44 @@
         </div>
     </div>
 
+    <div class="hero">
 
+        <div class="hero__content">
+            <!-- BEM sintax -->
+            <img class="hero__content__img" src="./Contents/img/transparent-red-logo-1.png" alt="" srcset="">
+            <h2 class="normal-text">ESPORT</h2>
+        </div>
 
-    <div class="video">
-        <video width="100%" autoplay loop muted>
-            <!-- autoplay al posto di pause -->
-            <source src="./Contents/video/intro-video_Trim.mp4" type="video/mp4" />
+        <video autoplay muted loop id="video-back">
+            <source src="./Contents/video/intro-video_Trim.mp4" type="video/mp4">
         </video>
     </div>
 
-    <div class="titolo">
-        <h1 class="intro-text">
-            <img src="./Contents/img/transparent-red-logo-1.png" alt="main-pic"> <br> esport
-        </h1>
-    </div>
-
-
-    <div class="grid mt-1">
-        <div class="col">
-            <h3 class="big-text">VALORANT <br> GAME</h3>
-        </div>
-        <div class="col mt-1">
-            <p>Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend
-                your side using
-                sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than
-                your opponent if
-                you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike
-                Rush.</p>
-        </div>
-    </div>
-
-    <div class="divide">
-        <hr>
-    </div>
-
-    <div class="grid mt-1">
-        <div class="col">
-            <h3 class="big-text">LATEST <br> NEWS</h3>
-        </div>
-        
-    </div>
-    
-    
-
-    <div class="main-corousel" data-flickity='{"cellAlign": "left", "contain": true}'>
-        <div class="carousel-cell"> <p>ARTICOLO</p>  </div>
-        <div class="carousel-cell"> <p>ARTICOLO</p>  </div>
-        <div class="carousel-cell"> <p>ARTICOLO</p>  </div>
-        <div class="carousel-cell"> <p>ARTICOLO</p>  </div>
-        <div class="carousel-cell"> <p>ARTICOLO</p>  </div>
+    <div class="paragrafi" style="margin-top: 80px;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur molestias quam, repudiandae
+            reprehenderit libero mollitia amet magni quasi debitis enim cumque molestiae ullam praesentium placeat
+            distinctio nostrum sunt aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur molestias quam, repudiandae
+            reprehenderit libero mollitia amet magni quasi debitis enim cumque molestiae ullam praesentium placeat
+            distinctio nostrum sunt aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur molestias quam, repudiandae
+            reprehenderit libero mollitia amet magni quasi debitis enim cumque molestiae ullam praesentium placeat
+            distinctio nostrum sunt aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur molestias quam, repudiandae
+            reprehenderit libero mollitia amet magni quasi debitis enim cumque molestiae ullam praesentium placeat
+            distinctio nostrum sunt aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur molestias quam, repudiandae
+            reprehenderit libero mollitia amet magni quasi debitis enim cumque molestiae ullam praesentium placeat
+            distinctio nostrum sunt aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur molestias quam, repudiandae
+            reprehenderit libero mollitia amet magni quasi debitis enim cumque molestiae ullam praesentium placeat
+            distinctio nostrum sunt aut.</p>
     </div>
 
 
 
-
-
-
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js"
-        integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script>
-        $(".hamburger").on("click", function () {
-            $(".menu").toggleClass("menu--open");
-        });
-    </script>
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!-- Jquery -->
+    <script src="./script/main.js"></script>
 </body>
 
 </html>
