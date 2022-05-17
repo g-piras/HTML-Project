@@ -6,8 +6,6 @@
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
 /* ! BASE STYLE */
 
 body {
@@ -31,7 +29,7 @@ p {
 }
 
 .big-text {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .med-text {
@@ -47,20 +45,15 @@ p {
     letter-spacing: 0.09vw;
 }
 
-
-
-
 .intro-text {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-
 }
 
-/* ! HEADER */
+/* ! ------------------------ HEADER ------------------------ */
 
 .header {
-    /* border: 3px solid green; */
     position: fixed;
     background-color: #111111;
     top: -23px;
@@ -70,14 +63,13 @@ p {
     padding: 30px;
     width: 101%;
     display: flex;
-
 }
 
 .menu {
     position: absolute;
     top: 0;
     right: -100%;
-    height: 68vh;
+    height: 102vh;
     padding-top: 80px;
 }
 
@@ -147,7 +139,6 @@ menu li a {
 
 .video {
     position: relative;
-    /* border: 3px solid yellow; */
     top: 95px;
     z-index: -1;
     width: 100%;
@@ -180,14 +171,39 @@ video {
     width: 190px;
 }
 
-/* ! DESKTOP */
+
+
+
+/* ! ------------------------ COROUSEL ------------------------ */
+
+.main-carousel {
+    border: 1px solid white;
+    padding: 40px 0;
+}
+
+.carousel-cell {
+    height: 350px;
+    width: 350px;
+    border: 1px solid white;
+}
+
+.divide {
+    width: 100vw;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+
+/* ! ------------------------ MEDIA QUERIES ------------------------ */
+
+/* ! ------------------------ DESKTOP  ------------------------*/
 
 @media screen and (min-width: 1024px) {
 
+    /* ! ------------------------ HEADER ------------------------ */
 
     .titolo {
         z-index: 1;
-        /* border: 1px solid red; */
     }
 
     .hamburger {
@@ -195,6 +211,7 @@ video {
     }
 
     .header {
+        z-index: 10;
         position: fixed;
         background-color: #111111;
         top: -23px;
@@ -261,21 +278,51 @@ video {
 
     .titolo {
         top: 0px;
-        /* border: 1px solid red; */
         position: sticky;
     }
 
     .titolo h1 {
-        /* border: 1px solid red; */
         text-align: center;
         font-size: 25px;
-
     }
 
     .titolo h1 img {
-        /* border: 1px solid red; */
         width: 290px;
     }
+
+    .divide {
+        max-width: 1350px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    /* ! ------------------------ GRID ------------------------ */
+
+    .grid {
+        display: flex;
+        max-width: 1350px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .grid .col {
+        width: 100%;
+    }
+
+
+    /* ! ------------------------ COROUSEL ------------------------ */
+
+    .main-carousel {
+        border: 1px solid white;
+        padding: 40px 0;
+    }
+
+    .carousel-cell {
+        height: 350px;
+        width: 350px;
+        border: 1px solid white;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -283,7 +330,7 @@ video {
         position: absolute;
         top: 0;
         right: -100%;
-        height: 65vh;
+        height: 102vh;
         padding-top: 80px;
         background-color: #111111;
     }
@@ -296,78 +343,43 @@ video {
     }
 
     .titolo {
-z-index: -1;
-        /* border: 1px solid red; */
+        z-index: -1;
         position: sticky;
     }
 
     .titolo h1 {
         position: relative;
         top: 20px;
-        /* border: 1px solid red; */
         text-align: center;
         font-size: 20px;
     }
 
     .titolo h1 img {
-        /* border: 1px solid red; */
         width: 230px;
+    }
 
+    .grid {
+        display: flex;
+        max-width: 1350px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .grid .col {
+        width: 100%;
     }
 
 }
 
-/* ! TABLET */
+/* ! ------------------------ TABLET  ------------------------*/
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
-
-
 
     .menu {
         position: absolute;
         top: 0;
         right: -100%;
-        height: 54vh;
-        padding-top: 80px;
-        background-color: #111111;
-    }
-
-    .menu--open {
-        z-index: 0;
-        left: -100%;
-        text-align: center;
-        padding-top: 115px;
-    }
-
-    .titolo {
-z-index: -1;
-        /* border: 1px solid red; */
-        position: sticky;
-    }
-
-    .titolo h1 {
-        /* border: 1px solid red; */
-        text-align: center;
-    }
-
-    .titolo h1 img {
-        /* border: 1px solid red; */
-        width: 140px;
-
-    }
-
-
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-
-
-
-    .menu {
-        position: absolute;
-        top: 0;
-        right: -100%;
-        height: 54vh;
+        height: 102vh;
         padding-top: 80px;
         background-color: #111111;
     }
@@ -381,39 +393,62 @@ z-index: -1;
 
     .titolo {
         z-index: -1;
-        /* border: 1px solid red; */
+        position: sticky;
+    }
+
+    .titolo h1 {
+        text-align: center;
+    }
+
+    .titolo h1 img {
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        height: 102vh;
+        padding-top: 80px;
+        background-color: #111111;
+    }
+
+    .menu--open {
+        z-index: 0;
+        left: -100%;
+        text-align: center;
+        padding-top: 115px;
+    }
+
+    .titolo {
+        z-index: -1;
         position: sticky;
     }
 
     .titolo h1 {
         position: relative;
         top: 30px;
-        /* border: 1px solid red; */
         text-align: center;
         font-size: 16px;
     }
 
     .titolo h1 img {
-        /* border: 1px solid red; */
         width: 190px;
     }
-
-
 }
 
-
-
-/* ! MOBILE */
+/* ! ------------------------ MOBILE ------------------------ */
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
-
-
 
     .menu {
         position: absolute;
         top: 0;
         right: -100%;
-        height: 42vh;
+        height: 102vh;
         padding-top: 80px;
         background-color: #111111;
     }
@@ -427,29 +462,30 @@ z-index: -1;
 
     .titolo {
         z-index: -1;
-        /* border: 1px solid red; */
         position: sticky;
     }
 
     .titolo h1 {
         position: relative;
         top: 45px;
-        /* border: 1px solid red; */
         text-align: center;
         font-size: 13px;
     }
 
     .titolo h1 img {
-        /* border: 1px solid red; */
         width: 130px;
     }
 }
+
+/* ! ------------------------ 0px -> 1023px ------------------------ */
 
 @media screen and (min-width: 0px) and (max-width: 1023px) {
 
     .logo-valorant {
         display: none;
     }
+
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 319px) {
@@ -459,7 +495,7 @@ z-index: -1;
         position: absolute;
         top: 0;
         right: -100%;
-        height: 42vh;
+        height: 102vh;
         padding-top: 80px;
         background-color: #111111;
     }
@@ -473,20 +509,17 @@ z-index: -1;
 
     .titolo {
         z-index: -1;
-        /* border: 1px solid red; */
         position: sticky;
     }
 
     .titolo h1 {
         position: relative;
         top: 53px;
-        /* border: 1px solid red; */
         text-align: center;
         font-size: 10px;
     }
 
     .titolo h1 img {
-        /* border: 1px solid red; */
         width: 115px;
     }
 
@@ -494,3 +527,11 @@ z-index: -1;
         display: none;
     }
 }
+
+/* ! HELPERS */
+
+.mt-1 {
+    margin-top: 100px
+}
+
+;
