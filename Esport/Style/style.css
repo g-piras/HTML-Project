@@ -61,7 +61,7 @@ p {
 
 /* ! MOBILE FIRST */
 
-@media screen and (min-width: 268px) and (max-width:1024px) {
+@media screen and (min-width: 10px) and (max-width:1024px) {
 
     /* ! HEADER */
 
@@ -208,8 +208,7 @@ p {
         background: #111111;
     }
 
-    .logo-left {}
-
+    
     .logo-left img {
         width: 120px;
         height: 30px;
