@@ -1,7 +1,7 @@
 /* ! BASE STYLE */
 
 body {
-    font-family: 'VALORANT', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #0f1519;
 }
 
@@ -44,12 +44,13 @@ p {
 }
 
 .button {
-    display: inline-block; /* ! per applicare il padding a tutto il link del bottone */
+    display: inline-block;
+    /* ! per applicare il padding a tutto il link del bottone */
     background: #316bff;
     color: white;
     padding: 18px 28px;
     border-radius: 8px;
-    
+
 }
 
 
@@ -95,6 +96,7 @@ p {
     height: 100vh;
     width: 100%;
     z-index: 0;
+    font-family: 'VALORANT', sans-serif;
 }
 
 .menu li {
@@ -141,6 +143,7 @@ p {
     align-items: center;
     height: 100vh;
     width: 100%;
+    font-family: 'VALORANT', sans-serif;
 }
 
 .hero:after {
@@ -210,7 +213,7 @@ p {
         margin-right: -10px;
     }
 
-    .logo-left img { 
+    .logo-left img {
         width: 120px;
         height: 50px;
     }
