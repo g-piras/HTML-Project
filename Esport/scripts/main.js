@@ -1,6 +1,8 @@
-const toggleButton  = document.getElementsByClassName("toggle-button")[0]
-const navbarLinks = document.getElementsByClassName("navbar-links")[0]
+//momentaneamente il menu a tendina si apre tramite jQuery, da rifare usando javascript
 
-toggleButton.addEventListener("click", () => {
-    navbarLinks.classList.toggle("active");
-})
+$(document).ready(function () {  //indica a jQuery di esequire il codice all'interno quando il documento è pronto 
+    /* Open Panel */
+    $(".hamburger").on('click', function () {
+        $(".menu").toggleClass("menu--open");
+    });
+});
