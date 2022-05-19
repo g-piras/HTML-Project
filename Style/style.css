@@ -1,8 +1,10 @@
 /* ! BASE STYLE */
 
 body {
+    position: absolute;
     font-family: 'Montserrat', sans-serif;
     background: #0f1519;
+    width: 100%;
 }
 
 /* ! classi da aggiungere al codice html */
@@ -41,6 +43,7 @@ p {
     text-transform: uppercase;
     font-size: 60px;
     font-weight: 900;
+    color: #ff4655;
 }
 
 .button {
@@ -50,8 +53,8 @@ p {
     color: white;
     padding: 18px 28px;
     border-radius: 8px;
-
 }
+
 
 
 
@@ -141,7 +144,7 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     font-family: 'VALORANT', sans-serif;
 }
@@ -168,14 +171,15 @@ p {
     padding-top: 4rem;
 }
 
-.hero__content__img {
-    position: relative;
+.hero__content h1 span:nth-child(1) {
+    display: none;
 }
 
-.paragrafi{
-    margin: 0 auto;
-    width: 60%;
+
+.hero__content h1 span:nth-child(3) {
+    display: block;
 }
+
 
 #video-back {
     position: absolute;
@@ -183,8 +187,50 @@ p {
     right: 0;
     min-width: 100%;
     min-height: 100%;
+    overflow: hidden;
 }
 
+.bottom-arrow {
+    border-bottom: 1px solid white;
+}
+
+.bottom-arrow:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid white;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+
+/* ! NEWS */
+
+
+.content {
+
+    top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+
+.latest-news {
+
+    display: inline-block;
+    font-family: "VALORANT", "sans-serif";
+    font-size: 30px;
+}
 
 
 
@@ -194,7 +240,7 @@ p {
 
 /* ! DESKTOP */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
 
     /* ! HEADER */
 
@@ -226,22 +272,48 @@ p {
     .menu {
         position: relative;
         display: flex;
-        justify-content: space-around;
         flex-direction: row;
-        right: 0;
+        right: 20px;
         height: 100%;
         padding-top: 0;
         margin-bottom: 10px;
     }
 
     .menu li {
-        padding: 0;
+        padding: 0 10px;
     }
 
     .menu li a {
         letter-spacing: 0.08vw;
-        font-size: 25px;
+        font-size: 18px;
         padding: 0;
+    }
+
+
+
+    /* ! HERO */
+
+    .hero {
+        height: 95vh;
+    }
+
+
+    .hero__content h1 span:nth-child(2) {
+        font-size: 80px;
+    }
+
+    .hero__content h1 span:nth-child(3) {
+        font-size: 35px;
+        display: block;
+        text-align: center;
+        margin-right: -47px;
+    }
+
+
+    /* ! NEWS */
+
+    .latest-news {
+        font-size: 40px;
     }
 
 }
