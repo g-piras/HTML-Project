@@ -196,6 +196,15 @@ footer{
     line-height: 30px;
 }
 
+#video-back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*tournament section*/
 .tournaments-header {
     text-align: center;
     padding: 6%;
@@ -228,16 +237,10 @@ footer{
 .trophy-card{
     background-color: #111;
     color: rgb(255, 103, 103);
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
-#video-back {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
+
 
 .trophy-card:hover{
     background-color: rgb(25, 25, 25);
@@ -303,7 +306,7 @@ footer{
     }
 
     .containercards{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
