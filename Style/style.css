@@ -16,10 +16,16 @@ h2,
 h3,
 h4,
 h5,
-p {
+h6 {
     color: white;
     padding-bottom: 30px;
+
 }
+
+
+
+
+
 
 .big-text {
     font-size: 70px;
@@ -172,10 +178,52 @@ p {
     position: relative;
 }
 
-.paragrafi{
-    margin: 0 auto;
-    width: 60%;
+
+.gamingtrophy{
+    max-width: 4cm;
+    float: right;
+}
+
+.paragrafi {
     padding: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+.tournaments-header {
+    text-align: center;
+    padding: 6%;
+    font-family: 'VALORANT', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 103, 103);
+}
+
+.tournaments-sub-header {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.trophy-title{
+    font-family: 'VALORANT', sans-serif;
+}
+
+.containercards{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 30px;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 2%;
+}
+
+.trophy-card{
+    background-color: #111;
+    border: white 0.5px solid;
+    color: rgb(255, 103, 103);
+    border-radius: 2%;
 }
 
 #video-back {
@@ -184,6 +232,10 @@ p {
     right: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+.trophy-card:hover{
+    background-color: rgb(25, 25, 25);
 }
 
 
@@ -243,6 +295,10 @@ p {
         letter-spacing: 0.08vw;
         font-size: 25px;
         padding: 0;
+    }
+
+    .containercards{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
 }
