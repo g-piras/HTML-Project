@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #0f1519;
+    background: hsl(206, 21%, 13%);
 }
 
 /* ! classi da aggiungere al codice html */
@@ -227,7 +227,6 @@ footer{
 
 .trophy-card{
     background-color: #111;
-    border: white 0.5px solid;
     color: rgb(255, 103, 103);
     border-radius: 2%;
 }
