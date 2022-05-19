@@ -172,6 +172,11 @@ p {
     position: relative;
 }
 
+.paragrafi{
+    margin: 0 auto;
+    width: 60%;
+}
+
 #video-back {
     position: absolute;
     top: 0;
