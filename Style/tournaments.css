@@ -38,9 +38,16 @@
     background-color: rgb(25, 25, 25);
 }
 
-@media screen and (min-width: 1024px){
+
+@media screen and (min-width: 850px){
+    .containercards{
+      grid-template-columns: 1fr 1fr;
+  }  
+  }
+
+@media screen and (min-width: 1200px){
   .containercards{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }  
 }
 
