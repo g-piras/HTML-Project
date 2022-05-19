@@ -1,8 +1,12 @@
 /* ! BASE STYLE */
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: #0f1519;
+    position: absolute;
+    font-size: 14px;
+    background: #0f1923;
+    width: 100%;
+    font-family: 'Maven Pro', sans-serif;
+
 }
 
 /* ! classi da aggiungere al codice html */
@@ -17,8 +21,8 @@ h3,
 h4,
 h5,
 p {
-    color: white;
-    padding-bottom: 30px;
+    color: #8b978f;
+    /* padding-bottom: 30px; */
 }
 
 .big-text {
@@ -41,17 +45,22 @@ p {
     text-transform: uppercase;
     font-size: 60px;
     font-weight: 900;
+    color: #ff4655;
 }
 
-.button {
+#esport {
+    color: white;
+}
+
+/* .button {
     display: inline-block;
-    /* ! per applicare il padding a tutto il link del bottone */
+    ! per applicare il padding a tutto il link del bottone
     background: #316bff;
     color: white;
     padding: 18px 28px;
     border-radius: 8px;
+} */
 
-}
 
 
 
@@ -141,7 +150,7 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     font-family: 'VALORANT', sans-serif;
 }
@@ -168,9 +177,15 @@ p {
     padding-top: 4rem;
 }
 
-.hero__content__img {
-    position: relative;
+.hero__content h1 span:nth-child(1) {
+    display: none;
 }
+
+
+.hero__content h1 span:nth-child(3) {
+    display: block;
+}
+
 
 #video-back {
     position: absolute;
@@ -178,27 +193,158 @@ p {
     right: 0;
     min-width: 100%;
     min-height: 100%;
+    overflow: hidden;
+}
+
+.bottom-arrow {
+    border-bottom: 1px solid white;
+}
+
+.bottom-arrow:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid white;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
 }
 
 
+/* ! INTRO SECTION */
 
 
+.intro .sidebar {
+    background: yellow;
+    border: 1px solid yellow;
+    width: 300px;
+    height: 300px;
+}
 
+.sidebar {
+    display: none;
+}
+
+.container-presentation {
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.intro-title {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.intro-title h2 {
+    font-weight: bold;
+    color: #ff4655;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.boxed-section {
+    /* border: 1px solid cyan; */
+
+    height: 100%;
+}
+
+.content-teaser-img {
+    overflow: hidden;
+}
+
+.content-teaser-img img {
+
+    width: 100%
+}
+
+
+.content-article h2 span {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 21px;
+    color: #ece8e1;
+
+
+}
+
+.content-piramid-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-piramid-img img {
+    width: 100%;
+}
+
+
+.content-ema-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-ema-img img {
+    width: 100%;
+}
+
+/* ! ARTICLE SECTION */
+
+.news-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.news-title h2 {
+    font-family: "Tungsten Bold";
+    font-size: 70px;
+    color: #ece8e1;
+    padding-bottom: 20px;
+}
+
+.container-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+}
+
+
+.container-articles img {
+/* border: 1px solid red; */
+padding: 10px;
+}
 
 
 
 /* ! DESKTOP */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
 
     /* ! HEADER */
 
 
     .header {
-        position: absolute;
+        position: fixed;
         display: flex;
         align-items: baseline;
-        padding: 40px;
+        padding: 30px;
     }
 
     .hamburger {
@@ -221,23 +367,54 @@ p {
     .menu {
         position: relative;
         display: flex;
-        justify-content: space-around;
         flex-direction: row;
-        right: 0;
+        right: 20px;
         height: 100%;
         padding-top: 0;
         margin-bottom: 10px;
     }
 
     .menu li {
-        padding: 0;
+        padding: 0 10px;
     }
 
     .menu li a {
         letter-spacing: 0.08vw;
-        font-size: 25px;
+        font-size: 18px;
         padding: 0;
     }
+
+
+
+    /* ! HERO */
+
+    .hero {
+        height: 95vh;
+    }
+
+
+    .hero__content h1 span:nth-child(2) {
+        font-size: 80px;
+    }
+
+    .hero__content h1 span:nth-child(3) {
+        font-size: 35px;
+        display: block;
+        text-align: center;
+        margin-right: -47px;
+    }
+
+
+    /* ! INTRO SECTION */
+
+
+
+
+
+
+    /* ! NEWS */
+
+
 
 }
 
