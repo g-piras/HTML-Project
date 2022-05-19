@@ -1,0 +1,61 @@
+h1{
+    font-family: 'VALORANT', sans-serif;
+    color: white;
+    font-size: 28px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+section, main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.page-header{
+    
+    padding: 120px 0 20px 0;
+    justify-content: center;
+}
+.valorant-red{
+    font-size: 38px;
+    color: #ff4655;
+}
+
+main{
+    font-family: 'VALORANT', sans-serif;
+    padding: 2% 5% 0 5%
+}
+main h2{
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    padding:20px 20px 5px 20px;
+    border-radius: 10px;
+    border-top: 2px solid #ff4655;
+}
+.team-name img{
+    width: 200px;
+    display:none;
+}
+.team-name p:first-child{
+    font-size: 22px;
+    color:  #ff4655;
+}
+ul.teams > li{
+    background-color: black;
+    padding: 40px 0 30px 0;
+    border-radius: 25px;
+    border-top: 3px solid #ff4655;
+    border-right: 3px solid #ff4655;
+    text-align: center;
+    margin: 40px;
+    width: 350px;
+}
+.wins img
+{
+    width: 30px;
+}
+.wins *, .wins, .team-name p:first-child{
+    display: inline-block !important;
+}
