@@ -1,12 +1,17 @@
 /* ! BASE STYLE */
 
 body {
+<<<<<<< HEAD
     position: absolute;
     font-size: 14px;
     background: #0f1923;
     width: 100%;
     font-family: 'Maven Pro', sans-serif;
 
+=======
+    font-family: 'Montserrat', sans-serif;
+    background: hsl(206, 21%, 13%);
+>>>>>>> 52cc230e3984cc7c1ea0e6fe4fce2a639f4f5992
 }
 
 /* ! classi da aggiungere al codice html */
@@ -20,10 +25,28 @@ h2,
 h3,
 h4,
 h5,
+<<<<<<< HEAD
 p {
     color: #8b978f;
     /* padding-bottom: 30px; */
+=======
+h6 {
+    color: white;
+    padding-bottom: 30px;
+
+>>>>>>> 52cc230e3984cc7c1ea0e6fe4fce2a639f4f5992
 }
+
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
 
 .big-text {
     font-size: 70px;
@@ -183,8 +206,20 @@ p {
 }
 
 
+<<<<<<< HEAD
 .hero__content h1 span:nth-child(3) {
     display: block;
+=======
+.gamingtrophy{
+    max-width: 155px;
+    float: right;
+}
+
+.paragrafi {
+    padding: 20px;
+    color: white;
+    line-height: 30px;
+>>>>>>> 52cc230e3984cc7c1ea0e6fe4fce2a639f4f5992
 }
 
 
@@ -217,6 +252,7 @@ p {
 
 /* ! INTRO SECTION */
 
+<<<<<<< HEAD
 
 .intro .sidebar {
     background: yellow;
@@ -334,6 +370,8 @@ padding: 10px;
 
 
 
+=======
+>>>>>>> 52cc230e3984cc7c1ea0e6fe4fce2a639f4f5992
 /* ! DESKTOP */
 
 @media screen and (min-width: 800px) {
@@ -387,6 +425,7 @@ padding: 10px;
 
 
 
+<<<<<<< HEAD
     /* ! HERO */
 
     .hero {
@@ -417,6 +456,8 @@ padding: 10px;
 
 
 
+=======
+>>>>>>> 52cc230e3984cc7c1ea0e6fe4fce2a639f4f5992
 }
 
 
