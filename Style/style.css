@@ -2,9 +2,11 @@
 
 body {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    background: #0f1519;
+    font-size: 14px;
+    background: #0f1923;
     width: 100%;
+    font-family: 'Maven Pro', sans-serif;
+
 }
 
 /* ! classi da aggiungere al codice html */
@@ -19,8 +21,8 @@ h3,
 h4,
 h5,
 p {
-    color: white;
-    padding-bottom: 30px;
+    color: #8b978f;
+    /* padding-bottom: 30px; */
 }
 
 .big-text {
@@ -46,14 +48,18 @@ p {
     color: #ff4655;
 }
 
-.button {
+#esport {
+    color: white;
+}
+
+/* .button {
     display: inline-block;
-    /* ! per applicare il padding a tutto il link del bottone */
+    ! per applicare il padding a tutto il link del bottone
     background: #316bff;
     color: white;
     padding: 18px 28px;
     border-radius: 8px;
-}
+} */
 
 
 
@@ -208,33 +214,122 @@ p {
 }
 
 
-/* ! NEWS */
+/* ! INTRO SECTION */
 
 
-.content {
+.intro .sidebar {
+    background: yellow;
+    border: 1px solid yellow;
+    width: 300px;
+    height: 300px;
+}
 
-    top: 100px;
+.sidebar {
+    display: none;
+}
+
+.container-presentation {
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
     position: relative;
-    display: flex;
-    justify-content: center;
+
+}
+
+.intro-title {
+
     width: 100%;
+    text-align: center;
+
+}
+
+.intro-title h2 {
+    font-weight: bold;
+    color: #ff4655;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.boxed-section {
+    /* border: 1px solid cyan; */
+
     height: 100%;
+}
 
+.content-teaser-img {
+    overflow: hidden;
+}
+
+.content-teaser-img img {
+
+    width: 100%
+}
+
+
+.content-article h2 span {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 21px;
+    color: #ece8e1;
 
 
 }
 
+.content-piramid-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-.latest-news {
-
-    display: inline-block;
-    font-family: "VALORANT", "sans-serif";
-    font-size: 30px;
+.content-piramid-img img {
+    width: 100%;
 }
 
 
+.content-ema-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-ema-img img {
+    width: 100%;
+}
+
+/* ! ARTICLE SECTION */
+
+.news-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.news-title h2 {
+    font-family: "Tungsten Bold";
+    font-size: 70px;
+    color: #ece8e1;
+    padding-bottom: 20px;
+}
+
+.container-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+}
 
 
+.container-articles img {
+/* border: 1px solid red; */
+padding: 10px;
+}
 
 
 
@@ -246,10 +341,10 @@ p {
 
 
     .header {
-        position: absolute;
+        position: fixed;
         display: flex;
         align-items: baseline;
-        padding: 40px;
+        padding: 30px;
     }
 
     .hamburger {
@@ -310,11 +405,16 @@ p {
     }
 
 
+    /* ! INTRO SECTION */
+
+
+
+
+
+
     /* ! NEWS */
 
-    .latest-news {
-        font-size: 40px;
-    }
+
 
 }
 
