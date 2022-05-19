@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #0f1519;
+    background: hsl(206, 21%, 13%);
 }
 
 /* ! classi da aggiungere al codice html */
@@ -23,6 +23,12 @@ h6 {
 }
 
 
+footer{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
 
 
 
@@ -180,7 +186,7 @@ h6 {
 
 
 .gamingtrophy{
-    max-width: 4cm;
+    max-width: 155px;
     float: right;
 }
 
@@ -190,6 +196,15 @@ h6 {
     line-height: 30px;
 }
 
+#video-back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*tournament section*/
 .tournaments-header {
     text-align: center;
     padding: 6%;
@@ -221,18 +236,11 @@ h6 {
 
 .trophy-card{
     background-color: #111;
-    border: white 0.5px solid;
     color: rgb(255, 103, 103);
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
-#video-back {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
+
 
 .trophy-card:hover{
     background-color: rgb(25, 25, 25);
@@ -298,7 +306,7 @@ h6 {
     }
 
     .containercards{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
