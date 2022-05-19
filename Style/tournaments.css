@@ -37,3 +37,10 @@
 .trophy-card:hover{
     background-color: rgb(25, 25, 25);
 }
+
+@media screen and (min-width: 1024px){
+  .containercards{
+    grid-template-columns: 1fr 1fr;
+}  
+}
+

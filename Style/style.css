@@ -258,9 +258,7 @@ footer{
         padding: 0;
     }
 
-    .containercards{
-        grid-template-columns: 1fr 1fr;
-    }
+
 
 }
 
