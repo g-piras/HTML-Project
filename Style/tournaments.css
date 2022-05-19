@@ -1,0 +1,39 @@
+/*tournament section*/
+.tournaments-header {
+    text-align: center;
+    padding: 6%;
+    font-family: 'VALORANT', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 103, 103);
+}
+
+.tournaments-sub-header {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.trophy-title{
+    font-family: 'VALORANT', sans-serif;
+}
+
+.containercards{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 30px;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 2%;
+}
+
+.trophy-card{
+    background-color: #111;
+    color: rgb(255, 103, 103);
+    border-radius: 10px;
+}
+
+.trophy-card:hover{
+    background-color: rgb(25, 25, 25);
+}
