@@ -1,6 +1,9 @@
 
 //toggle - menu a tendina
 
+
+
+
 let hamburger = document.querySelector(".hamburger");
 let menu = document.querySelector(".menu");
 hamburger.addEventListener("click", function () {
@@ -18,61 +21,28 @@ arrow.addEventListener("click", function () {
 
 
 
-
 //scroll
 
 
-window.addEventListener("scroll",function(){
+function onScroll(querySel, screenHeight) {
+    let target = document.querySelector(querySel);
+    let targetPosition = target.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight / screenHeight;
 
-    let introTitle = document.querySelector(".intro-title");
-    let introPosition = introTitle.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight/1.7;
-
-    if(introPosition < screenPosition){
-        introTitle.classList.add("active");
-    }else{
-        introTitle.classList.remove("active");
+    if (targetPosition < screenPosition) {
+        target.classList.add("active");
+    } else {
+        target.classList.remove("active");
     }
-});
+}
+
 
 window.addEventListener("scroll", function () {
-
-    let introTitle = document.querySelector(".intro-title");
-    let introPosition = introTitle.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight/1.5;
-
-    if (introPosition < screenPosition) {
-        introTitle.classList.add("active");
-    } else {
-        introTitle.classList.remove("active");
-    }
+    onScroll(".intro-title", 1.4);
+    onScroll(".content-teaser-img", 1.5);
+    onScroll(".artOne", 1.2);
 });
 
-window.addEventListener("scroll", function () {
-
-    let valorantImgOne = document.querySelector(".content-teaser-img");
-    let imgOnePosition = valorantImgOne.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight /1.2;
-
-    if (imgOnePosition < screenPosition) {
-        valorantImgOne.classList.add("active");
-    } else {
-        valorantImgOne.classList.remove("active");
-    }
-});
-
-window.addEventListener("scroll", function () {
-
-    let contentArticleOne = document.querySelector(".content-article");
-    let contentPositionOne = contentArticleOne.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight/0.777;
-
-    if (contentPositionOne < screenPosition) {
-        contentArticleOne.classList.add("active");
-    } else {
-        contentArticleOne.classList.remove("active");
-    }
-});
 
 
 
