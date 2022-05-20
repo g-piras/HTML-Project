@@ -1,0 +1,11 @@
+form {
+    position:relative;
+    top: 200px;
+    width: 80%;
+}
+
+label {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
