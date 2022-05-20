@@ -25,13 +25,15 @@
     gap: 30px;
     margin: 0 auto;
     width: 80%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
+    border-bottom: 0.5px solid grey ;
 }
 
 .trophy-card{
     background-color: #111;
     color: rgb(255, 103, 103);
     border-radius: 10px;
+    border: grey solid 0.3px;
 }
 
 .trophy-card:hover{
