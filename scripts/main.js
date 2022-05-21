@@ -16,7 +16,7 @@ hamburger.addEventListener("click", function () {
 
 let arrow = document.querySelector(".bottom-arrow");
 arrow.addEventListener("click", function () {
-    window.scrollTo(0, 508);
+    window.scrollTo(0, 600);
 });
 
 
@@ -37,11 +37,32 @@ function onScroll(querySel, screenHeight) {
 }
 
 
+// Hide menu on scroll
+
 window.addEventListener("scroll", function () {
-    onScroll(".intro-title", 1.4);
-    onScroll(".content-teaser-img", 1.5);
-    onScroll(".artOne", 1.2);
+    onScroll(".intro-title", 1.2);
+    onScroll(".content-teaser-img", 1.3);
+    onScroll(".artOne", .95);
 });
+
+let lastScrollTop = 0;
+
+let menuHidden = document.querySelector(".header");
+
+window.addEventListener("scroll", function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        menuHidden.style.top = "-100px";
+    } else {
+        menuHidden.style.top = "0";
+    }
+    lastScrollTop = scrollTop;
+})
+
+
+
+
 
 
 
