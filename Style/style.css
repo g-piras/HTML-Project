@@ -314,11 +314,6 @@ p {
     width: 100%;
 }
 
-.active {
-    opacity: 1;
-    transform: scale(1);
-}
-
 
 
 
@@ -327,8 +322,9 @@ p {
 .news-title {
     margin-top: 20px;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 20px;  
 }
+
 
 .news-title h2 {
     font-family: 'Playfair Display', serif;
@@ -338,6 +334,8 @@ p {
     padding-bottom: 20px;
 }
 
+
+
 .container-articles {
     display: flex;
     flex-direction: row;
@@ -346,6 +344,7 @@ p {
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 
@@ -354,6 +353,11 @@ p {
 }
 
 
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
 
 
 /* ! FULL ARTICLES  */

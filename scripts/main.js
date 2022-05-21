@@ -37,13 +37,18 @@ function onScroll(querySel, screenHeight) {
 }
 
 
-// Hide menu on scroll
 
 window.addEventListener("scroll", function () {
     onScroll(".intro-title", 1.2);
     onScroll(".content-teaser-img", 1.3);
     onScroll(".artOne", .95);
+    
 });
+
+
+
+
+// Hide menu on scroll
 
 let lastScrollTop = 0;
 
