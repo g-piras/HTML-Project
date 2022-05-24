@@ -18,9 +18,9 @@ let tournaments = [
   },
 ];
 
-let title = document.getElementById(
-    "").innerHTML = NEW;
-}
+// let title = document.getElementById(
+//     "").innerHTML = NEW;
+// }
 
 
 
