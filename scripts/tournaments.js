@@ -1,4 +1,4 @@
-let tournaments = [
+/* let tournaments = [
   {
     name: "Miami Cup",
     place: "Miami",
@@ -18,10 +18,17 @@ let tournaments = [
   },
 ];
 
+<<<<<<< HEAD
 // let title = document.getElementById(
 //     "").innerHTML = NEW;
 // }
 
+=======
+let title = document.getElementById(
+    "").innerHTML = NEW;
+}
+ */
+>>>>>>> davide
 
 
 
