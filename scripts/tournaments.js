@@ -1,4 +1,4 @@
-let tournaments = [
+/* let tournaments = [
   {
     name: "Miami Cup",
     place: "Miami",
@@ -21,7 +21,7 @@ let tournaments = [
 let title = document.getElementById(
     "").innerHTML = NEW;
 }
-
+ */
 
 
 
