@@ -1,6 +1,9 @@
 
 //toggle - menu a tendina
 
+
+
+
 let hamburger = document.querySelector(".hamburger");
 let menu = document.querySelector(".menu");
 hamburger.addEventListener("click", function () {
@@ -13,66 +16,54 @@ hamburger.addEventListener("click", function () {
 
 let arrow = document.querySelector(".bottom-arrow");
 arrow.addEventListener("click", function () {
-    window.scrollTo(0, 508);
+    window.scrollTo(0, 600);
 });
-
 
 
 
 //scroll
 
 
-window.addEventListener("scroll",function(){
+function onScroll(querySel, screenHeight) {
+    let target = document.querySelector(querySel);
+    let targetPosition = target.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight / screenHeight;
 
-    let introTitle = document.querySelector(".intro-title");
-    let introPosition = introTitle.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight/1.7;
-
-    if(introPosition < screenPosition){
-        introTitle.classList.add("active");
-    }else{
-        introTitle.classList.remove("active");
+    if (targetPosition < screenPosition) {
+        target.classList.add("active");
+    } else {
+        target.classList.remove("active");
     }
-});
+}
+
+
+// Hide menu on scroll
 
 window.addEventListener("scroll", function () {
-
-    let introTitle = document.querySelector(".intro-title");
-    let introPosition = introTitle.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight/1.5;
-
-    if (introPosition < screenPosition) {
-        introTitle.classList.add("active");
-    } else {
-        introTitle.classList.remove("active");
-    }
+    onScroll(".intro-title", 1.2);
+    onScroll(".content-teaser-img", 1.3);
+    onScroll(".artOne", .95);
 });
+
+let lastScrollTop = 0;
+
+let menuHidden = document.querySelector(".header");
 
 window.addEventListener("scroll", function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    let valorantImgOne = document.querySelector(".content-teaser-img");
-    let imgOnePosition = valorantImgOne.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight /1.2;
-
-    if (imgOnePosition < screenPosition) {
-        valorantImgOne.classList.add("active");
+    if (scrollTop > lastScrollTop) {
+        menuHidden.style.top = "-100px";
     } else {
-        valorantImgOne.classList.remove("active");
+        menuHidden.style.top = "0";
     }
-});
+    lastScrollTop = scrollTop;
+})
 
-window.addEventListener("scroll", function () {
 
-    let contentArticleOne = document.querySelector(".content-article");
-    let contentPositionOne = contentArticleOne.getBoundingClientRect().top;
-    let screenPosition = window.innerHeight/0.777;
 
-    if (contentPositionOne < screenPosition) {
-        contentArticleOne.classList.add("active");
-    } else {
-        contentArticleOne.classList.remove("active");
-    }
-});
+
+
 
 
 

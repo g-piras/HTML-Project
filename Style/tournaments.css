@@ -1,4 +1,12 @@
 /*tournament section*/
+h1,h2,h3,h4,h5{
+    margin-bottom: 1cm;
+}
+
+p{
+    line-height: 30px;
+}
+
 .tournaments-header {
     text-align: center;
     padding: 6%;
@@ -29,11 +37,17 @@
     border-bottom: 0.5px solid grey ;
 }
 
+.gamingtrophy{
+    height: 4cm;
+    float: right;
+}
+
 .trophy-card{
     background-color: #111;
     color: rgb(255, 103, 103);
     border-radius: 10px;
     border: grey solid 0.3px;
+    padding: 20px;
 }
 
 .trophy-card:hover{

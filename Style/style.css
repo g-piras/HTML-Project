@@ -1,5 +1,7 @@
 /* ! BASE STYLE */
 
+
+
 body {
     position: absolute;
     font-size: 14px;
@@ -52,7 +54,8 @@ p {
 }
 
 #esport {
-    color: white;
+    color: #ECECEC;
+    font-size: 25px;
 }
 
 
@@ -61,6 +64,10 @@ p {
 
 
 /* ! HEADER */
+
+.sidebar {
+    display: none;
+}
 
 .logo-right img {
     display: none;
@@ -75,6 +82,12 @@ p {
     left: 0;
     padding: 30px;
     z-index: 3;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+
+.hidden-header {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .logo-left {
@@ -170,6 +183,11 @@ p {
     padding-top: 4rem;
 }
 
+.hero__content .intro-text,
+#esport {
+    transition: all 0.9s ease-in;
+}
+
 .hero__content h1 span:nth-child(1) {
     display: none;
 }
@@ -210,19 +228,7 @@ p {
 /* ! INTRO SECTION */
 
 
-.intro .sidebar {
-    background: yellow;
-    border: 1px solid yellow;
-    width: 300px;
-    height: 300px;
-}
-
-.sidebar {
-    display: none;
-}
-
 .container-presentation {
-    /* border: 1px solid red; */
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
@@ -232,13 +238,11 @@ p {
 
 
 .intro-title {
-
     width: 100%;
     text-align: center;
     opacity: 0;
     transform: scale(0.1);
     transition: all 1s cubic-bezier(.215, .61, .355, 1);
-
 }
 
 
@@ -251,10 +255,7 @@ p {
 }
 
 .boxed-section {
-    /* border: 1px solid cyan; */
     height: 100%;
-
-
 }
 
 
@@ -267,16 +268,50 @@ p {
 }
 
 .content-teaser-img img {
-
     width: 100%
 }
 
 
 
-.content-article {
+.artOne {
     opacity: 0;
     transform: scale(0.1);
     transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+
+.artOne,
+.artTwo p {
+    line-height: 1.7;
+}
+
+.content-article h2 span {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 21px;
+    color: #ece8e1;
+}
+
+.content-piramid-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-piramid-img img {
+    width: 100%;
+}
+
+
+.content-ema-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.content-ema-img img {
+    width: 100%;
 }
 
 .active {
@@ -285,54 +320,20 @@ p {
 }
 
 
-.content-article h2 span {
-    /* border: 2px solid green; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    font-size: 21px;
-    color: #ece8e1;
 
 
-}
-
-.content-piramid-img {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-.content-piramid-img img {
-    width: 100%;
-
-}
-
-
-.content-ema-img {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.content-ema-img img {
-    width: 100%;
-}
-
-
-
-
-/* ! ARTICLE SECTION */
+/* ! ARTICLE SECTION LINKS */
 
 .news-title {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
 }
 
 .news-title h2 {
-    font-family: "Tungsten Bold";
-    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: bold;
     color: #ece8e1;
     padding-bottom: 20px;
 }
@@ -345,14 +346,77 @@ p {
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
-    /* border: 1px solid red; */
 }
 
 
 .container-articles img {
-    /* border: 1px solid red; */
     padding: 10px;
 }
+
+
+
+
+/* ! FULL ARTICLES  */
+
+.articles-section {
+    width: 100%;
+    height: 100%;
+    background: #ECECEC;
+    margin-bottom: 80px;
+}
+
+.img-article {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.img-article img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.img-inside-article {
+    margin: 0;
+}
+
+.img-inside-article img {
+    width: 100%;
+}
+
+
+
+
+.articles-section p {
+    color: #0f1923;
+    line-height: 1.7;
+    letter-spacing: 0.07vw;
+}
+
+.articles-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f1923;
+}
+
+.articles-section h3 {
+    font-family: 'Playfair Display', serif;
+    color: #0f1923;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.article-one,
+.article-two,
+.article-three,
+.article-four {
+    margin: 20px;
+}
+
+
+
+
+
 
 
 
