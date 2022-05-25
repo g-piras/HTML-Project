@@ -1,0 +1,123 @@
+h1{
+    font-family: 'VALORANT', sans-serif;
+    color: white;
+    font-size: 28px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+section, main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.page-header{
+    
+    padding: 120px 0 20px 0;
+    justify-content: center;
+}
+.valorant-red{
+    font-size: 38px;
+    color: #ff4655;
+}
+
+main{
+    font-family: 'VALORANT', sans-serif;
+    padding: 2% 5% 0 5%
+}
+main h2{
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    padding:20px 20px 5px 20px;
+    border-radius: 10px;
+    border-top: 2px solid #ff4655;
+}
+.team-name img{
+    width: 200px;
+    display:none;
+}
+.team-info p:first-child{
+    color:  #ff4655;
+}
+ul.teams > li{
+    background-color: black;
+    padding: 30px 0 35px 0;
+    border-radius: 25px;
+    border-top: 3px solid #ff4655;
+    border-right: 3px solid #ff4655;
+    text-align: center;
+    margin: 40px auto;
+    width: 350px;
+}
+ul.teams li p{
+    padding: 10px;
+}
+.team-info img
+{
+    padding: 10px 0;
+    width: 30px;
+    display: inherit;
+    margin-left: 15px;
+}
+.team-info{
+    font-size: 22px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+}
+.team-info p{
+    padding: 10px;
+}
+.team-info *{ 
+    margin: 5px 0;
+    color: white;
+}
+main #retired{
+    font-size: 22px;
+}
+#selected-player-container.player-active{
+    display:flex;
+}
+#selected-player-container.player-inactive{
+    display:none;
+}
+#empty-div{
+    opacity: 40%;
+    z-index: 90;
+    position:fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+#selected-player{
+    opacity: 100%;
+    z-index: 100;
+    position:fixed;
+    background-color: #ff4655;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    width: 70vw;
+    height: 70vh;
+    top: 18%;
+}
+#selected-player .close-profile
+{
+    display: block;
+    width:25px;
+    margin: 20px;
+    top: 0;
+}
