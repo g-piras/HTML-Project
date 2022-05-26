@@ -1,5 +1,7 @@
 /* ! BASE STYLE */
 
+
+
 body {
     position: absolute;
     font-size: 14px;
@@ -22,8 +24,10 @@ h4,
 h5,
 p {
     color: #8b978f;
-    /* padding-bottom: 30px; */
 }
+
+
+
 
 .big-text {
     font-size: 70px;
@@ -49,19 +53,9 @@ p {
 }
 
 #esport {
-    color: white;
+    color: #ECECEC;
+    font-size: 25px;
 }
-
-/* .button {
-    display: inline-block;
-    ! per applicare il padding a tutto il link del bottone
-    background: #316bff;
-    color: white;
-    padding: 18px 28px;
-    border-radius: 8px;
-} */
-
-
 
 
 /* ! MOBILE */
@@ -69,6 +63,10 @@ p {
 
 
 /* ! HEADER */
+
+.sidebar {
+    display: none;
+}
 
 .logo-right img {
     display: none;
@@ -83,6 +81,12 @@ p {
     left: 0;
     padding: 30px;
     z-index: 3;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+
+.hidden-header {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .logo-left {
@@ -106,6 +110,7 @@ p {
     width: 100%;
     z-index: 0;
     font-family: 'VALORANT', sans-serif;
+    transition: all 0.7s cubic-bezier(.215, .61, .355, 1);
 }
 
 .menu li {
@@ -177,6 +182,11 @@ p {
     padding-top: 4rem;
 }
 
+.hero__content .intro-text,
+#esport {
+    transition: all 0.9s ease-in;
+}
+
 .hero__content h1 span:nth-child(1) {
     display: none;
 }
@@ -217,32 +227,24 @@ p {
 /* ! INTRO SECTION */
 
 
-.intro .sidebar {
-    background: yellow;
-    border: 1px solid yellow;
-    width: 300px;
-    height: 300px;
-}
-
-.sidebar {
-    display: none;
-}
-
 .container-presentation {
-    /* border: 1px solid red; */
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
     position: relative;
-
 }
+
+
 
 .intro-title {
-
     width: 100%;
     text-align: center;
-
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
+
+
 
 .intro-title h2 {
     font-weight: bold;
@@ -252,30 +254,42 @@ p {
 }
 
 .boxed-section {
-    /* border: 1px solid cyan; */
-
     height: 100%;
 }
 
+
+
 .content-teaser-img {
     overflow: hidden;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
 
 .content-teaser-img img {
-
     width: 100%
 }
 
 
+
+.artOne {
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+
+.artOne,
+.artTwo p {
+    line-height: 1.7;
+}
+
 .content-article h2 span {
-    /* border: 2px solid green; */
+
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     font-size: 21px;
     color: #ece8e1;
-
-
 }
 
 .content-piramid-img {
@@ -292,27 +306,35 @@ p {
 .content-ema-img {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .content-ema-img img {
     width: 100%;
 }
 
-/* ! ARTICLE SECTION */
+
+
+
+/* ! ARTICLE CARDS LINKS */
 
 .news-title {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
+    
 }
 
+
 .news-title h2 {
-    font-family: "Tungsten Bold";
-    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: bold;
     color: #ece8e1;
     padding-bottom: 20px;
 }
+
+
 
 .container-articles {
     display: flex;
@@ -322,14 +344,147 @@ p {
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
-    /* border: 1px solid red; */
+
 }
 
 
 .container-articles img {
-/* border: 1px solid red; */
-padding: 10px;
+    padding: 10px;
+    transition: all ease-in-out 0.5s;
+    
 }
+
+.container-articles a:last-child {
+    padding-bottom: 50px;
+}
+
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+/* ! FOOTER */
+
+.footer-container {
+    background: #111111;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+.social-links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+
+.social-links ul li img {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+}
+
+.logo-esport {
+    width: 100%;
+    height: 100px;
+
+}
+
+.logo-esport {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo-esport img {
+    width: 120px;
+    height: 30px;
+}
+
+.footer-logo h1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-logo span:first-child {
+    display: none;
+}
+
+.valorant-footer-text {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    color: #737373;
+    font-family: "VALORANT", sans-serif;
+}
+
+#esport-footer {
+    color: #737373;
+    font-size: 15px;
+    font-family: "VALORANT", sans-serif;
+}
+
+
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#copy{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #737373;
+}
+
+
+.footer-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-sections li a{
+    text-decoration: none;
+    color: #737373;
+    line-height: 1.3;
+}
+
+.footer-sections li:last-child {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -405,6 +560,7 @@ padding: 10px;
     }
 
 
+
     /* ! INTRO SECTION */
 
 
@@ -414,9 +570,8 @@ padding: 10px;
 
     /* ! NEWS */
 
-
-
 }
+
 
 
 
