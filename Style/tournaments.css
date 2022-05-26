@@ -5,6 +5,7 @@ h1,h2,h3,h4,h5{
 
 p{
     line-height: 30px;
+    color: rgb(179, 212, 220) !important;
 }
 
 .tournaments-header {
