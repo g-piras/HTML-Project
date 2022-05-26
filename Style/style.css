@@ -24,7 +24,6 @@ h4,
 h5,
 p {
     color: #8b978f;
-    /* padding-bottom: 30px; */
 }
 
 
@@ -317,12 +316,13 @@ p {
 
 
 
-/* ! ARTICLE SECTION LINKS */
+/* ! ARTICLE CARDS LINKS */
 
 .news-title {
     margin-top: 20px;
     margin-left: 40px;
-    margin-right: 20px;  
+    margin-right: 20px;
+    
 }
 
 
@@ -350,8 +350,13 @@ p {
 
 .container-articles img {
     padding: 10px;
+    transition: all ease-in-out 0.5s;
+    
 }
 
+.container-articles a:last-child {
+    padding-bottom: 50px;
+}
 
 
 .active {
@@ -360,62 +365,121 @@ p {
 }
 
 
-/* ! FULL ARTICLES  */
 
-.articles-section {
+
+/* ! FOOTER */
+
+.footer-container {
+    background: #111111;
     width: 100%;
     height: 100%;
-    background: #ECECEC;
-    margin-bottom: 80px;
+    padding-top: 30px;
+
 }
 
-.img-article {
-    margin: 20px;
-    overflow: hidden;
-}
-
-.img-article img {
-    width: 100%;
-    margin-top: 40px;
-}
-
-.img-inside-article {
-    margin: 0;
-}
-
-.img-inside-article img {
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
     width: 100%;
 }
 
+.social-links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 
-
-
-.articles-section p {
-    color: #0f1923;
-    line-height: 1.7;
-    letter-spacing: 0.07vw;
 }
 
-.articles-section h2 {
-    font-family: 'Playfair Display', serif;
+
+.social-links ul li img {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+}
+
+.logo-esport {
+    width: 100%;
+    height: 100px;
+
+}
+
+.logo-esport {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo-esport img {
+    width: 120px;
+    height: 30px;
+}
+
+.footer-logo h1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-logo span:first-child {
+    display: none;
+}
+
+.valorant-footer-text {
+    text-transform: uppercase;
     font-size: 30px;
-    font-weight: bold;
-    color: #0f1923;
+    font-weight: 900;
+    color: #737373;
+    font-family: "VALORANT", sans-serif;
 }
 
-.articles-section h3 {
-    font-family: 'Playfair Display', serif;
-    color: #0f1923;
-    font-weight: bold;
-    font-size: 20px;
+#esport-footer {
+    color: #737373;
+    font-size: 15px;
+    font-family: "VALORANT", sans-serif;
 }
 
-.article-one,
-.article-two,
-.article-three,
-.article-four {
-    margin: 20px;
+
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
+
+#copy{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #737373;
+}
+
+
+.footer-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-sections li a{
+    text-decoration: none;
+    color: #737373;
+    line-height: 1.3;
+}
+
+.footer-sections li:last-child {
+    margin-bottom: 20px;
+}
+
+
+
 
 
 
