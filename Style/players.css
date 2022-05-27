@@ -4,7 +4,9 @@ h1{
     font-size: 28px;
     margin: 0 auto;
     padding-bottom: 5px;
+
 }
+
 section, main{
     position: relative;
     display: flex;
@@ -13,8 +15,7 @@ section, main{
     width: 100%;
 }
 .page-header{
-    
-    padding: 120px 0 20px 0;
+    padding: 150px 0 40px 0;
     justify-content: center;
 }
 .valorant-red{
@@ -23,23 +24,30 @@ section, main{
 }
 
 main{
+    background-image: url(../Contents/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100rem 130px;
+    background-position: center top;
     font-family: 'VALORANT', sans-serif;
     padding: 2% 5% 0 5%
 }
 main h2{
-    font-size: 25px;
+    
+    font-size: 35px;
     color: white;
-    margin-top: 15px;
-    padding:20px 20px 5px 20px;
+    margin-top: 35px;
+    padding:20px 20px 5px 60px;
     border-radius: 10px;
-    border-top: 2px solid #ff4655;
+    border-top: 2px solid white;
 }
-.team-name img{
-    width: 200px;
+.team-list-item img{
+    width: 180px;
     display:none;
 }
 .team-info p:first-child{
     color:  #ff4655;
+    font-size: 28px;
+    word-break:keep-all;
 }
 ul.teams > li{
     background-color: black;
@@ -49,34 +57,39 @@ ul.teams > li{
     border-right: 3px solid #ff4655;
     text-align: center;
     margin: 40px auto;
-    width: 350px;
+    width: 330px;
 }
 ul.teams li p{
-    padding: 10px;
+    padding: 5px;
 }
 .team-info img
 {
     padding: 10px 0;
     width: 30px;
     display: inherit;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .team-info{
-    font-size: 22px;
+    font-size: 25px;
+    padding:10px;
     display: flex !important;
     flex-direction: row;
     justify-content: center;
-    align-items:flex-end;
+    align-items:center;
+    margin: 20px;
+    border-bottom: #ff4655 solid 1px;
+    border-radius: 20px;
 }
 .team-info p{
-    padding: 10px;
+    padding: 10px 0;
 }
 .team-info *{ 
     margin: 5px 0;
     color: white;
 }
 main #retired{
-    font-size: 22px;
+    margin-top: 80px;
+    font-size: 33px;
 }
 #selected-player-container.player-active{
     display:flex;
@@ -120,4 +133,50 @@ main #retired{
     width:25px;
     margin: 20px;
     top: 0;
+}
+
+.gamerTag{
+    font-size: 18px;
+    color: white;
+}
+  p.player-name{
+    padding: 0 0 10px 0 !important;
+    }
+    p.player-name.hidden
+   { 
+    animation: shrink 300ms ease-in-out forwards !important;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    perspective: 1000px;
+    z-index: -1;
+    }
+    p.player-name:not(.hidden){
+     display: block !important;
+     opacity:1 !important;
+     animation: growDown 300ms ease-in-out forwards;
+     transform-origin: top center;
+    }
+ @keyframes growDown {
+     0% {
+         transform: scaleY(0);
+     }
+     80% {
+         transform: scaleY(1.1);
+     }
+     100% {
+         transform: scaleY(1);
+     }
+ }
+ @keyframes shrink {
+    0% {
+        transform: scaleY(1);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
 }
