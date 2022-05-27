@@ -11,6 +11,8 @@ if (isset($_POST['fname'])) {
 
 
 $connection = new mysqli($servername, $username, $password, $dbname);
+
+
 $fName = $connection->real_escape_string($_POST['fname']);
 $mName = $connection->real_escape_string($_POST['mname']); 
 $lName = $connection->real_escape_string($_POST['lname']);
