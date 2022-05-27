@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 p {
-    color: #b2bbb5;
+    color: #8b978f;
 }
 
 
@@ -84,10 +84,30 @@ p {
     transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
 
+
+
 .hidden-header {
     opacity: 1;
     transform: scale(1);
+
 }
+
+.arrow {
+
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.arrow-down {
+    transform: rotate(135deg);
+    position: absolute;
+    display: none;
+}
+
+
 
 .logo-left {
     z-index: 1;
@@ -595,6 +615,13 @@ p {
         display: none;
     }
 
+    .visible {
+        display: block;
+        bottom: 10px;
+        left: 50%;
+
+    }
+
 
     /* ! HERO */
 
@@ -672,6 +699,7 @@ p {
 
     .hero:after {
         top: 31px;
+
     }
 
     #video-back {
