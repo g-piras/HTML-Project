@@ -173,6 +173,7 @@ main #retired{
 
 #selected-player #player-info-pfp{
     width:180px;
+    height: 180px;
     border-radius:20px;
     background-color: white;
     border-top: #ff4655 3px solid;
