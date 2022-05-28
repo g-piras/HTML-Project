@@ -74,8 +74,29 @@ function readTextFile(file, callback) {
   rawFile.send();
 }
 
-function generatePlayerInfo(playerPos) {
-    document.getElementById("selected-player-container")
+function generatePlayerInfo(jsonObj, playerName) {
+  for (const teams of jsonObj) {
+    for(const player of teams.players){
+      if(player.name === playerName.innerText){
+        document.getElementById("player-info-pfp").setAttribute("src", player.profilePicURL);
+        document.getElementById("player-info-name").innerText = player.name;
+        document.getElementById("player-info-code").innerText = player.gamerTag;
+        document.getElementById("player-info-bio").innerText = player.bio;
+        document.getElementById("player-info-age").innerText = player.age;
+        document.getElementById("player-info-experience").innerText = player.yearsOfXP;
+        document.getElementById("player-info-nationality").setAttribute("src", player.nationalityURL);
+        tournaments = document.getElementsByClassName("player-info-tournament");
+        for(let i = 0; i < tournaments.length; i++){
+          if(i < player.tournaments.length){
+            tournaments[i].innerText = player.tournaments[i];
+          }
+          else{
+            tournaments[i].innerText = "";
+          }
+        }
+      }
+    }
+  }
 }
 
 readTextFile(
@@ -83,24 +104,33 @@ readTextFile(
   function (text) {
     let jsonData = JSON.parse(text);
     printTeams(jsonData);
+    document.getElementsByClassName("close-profile")[0].addEventListener("click", function(){
+      document.getElementById("selected-player-container").className =
+        "player-inactive";
+        document.body.style.overflow = "visible";
+    });
+
+    document.getElementById("empty-div").addEventListener("click", function(){
+      document.getElementById("selected-player-container").className =
+        "player-inactive";
+        document.body.style.overflow = "visible";
+    });
+    let playerNames = document.getElementsByClassName("player-name");
     const players = document.getElementsByClassName("player-list-item");
-    for (let i = 0; i < playerTags.length; i++) {
+    for (let i = 0; i < players.length; i++) {
       players[i].addEventListener("click", function () {
+        generatePlayerInfo(jsonData, playerNames[i]);
         document.getElementById("selected-player-container").className =
           "player-active";
+          document.body.style.overflow = "hidden";
       });
       window.addEventListener("scroll", function () {
-        let playerName = document.getElementsByClassName("player-name")[i];
+        let playerName = playerNames[i];
         playerName.style.removeProperty("opacity");
         let targetPosition = playerName.getBoundingClientRect().top;
         let screenPosition;
-        if (i < 5) {
-          screenPosition = window.innerHeight / 1.7;
-        } else if (i + 5 < playerTags.length) {
-          screenPosition = window.innerHeight / 1.3;
-        } else {
-          screenPosition = window.innerHeight / 1;
-        }
+        
+        screenPosition = window.innerHeight / 1.3;
         if (targetPosition < screenPosition) {
           playerName.className = "player-name";
         } else {
