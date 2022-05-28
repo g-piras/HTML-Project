@@ -437,6 +437,61 @@ p {
 
 
 
+
+/* ! ABOUT US */
+
+.about-us {
+
+    
+    height: 100%;
+    border: 1px solid red;
+    margin-bottom: 40px;
+}
+
+.level-up {
+    border: 1px solid blue;
+    height: 33%;
+    
+}
+
+
+
+
+.about-us h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ece8e1;
+    padding-bottom: 20px;
+}
+
+.level-up h1>span {
+    font-family: "VALORANT", sans-serif;
+    font-size: 20px;
+}
+
+.level-up h1 :nth-child(2) {
+    text-decoration: underline;
+    color: #8b978f;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+.team {
+    border: 1px solid yellow;
+    height: 33%;
+}
+
+.contacts {
+    border: 1px solid green;
+    height: 33.9%;
+}
+
+
+
+
 /* ! FOOTER */
 
 .footer-container {

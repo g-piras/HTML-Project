@@ -95,12 +95,7 @@
 }
 
 .visible {
-    display: block;
-    bottom: 10px;
-    left: 50%;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-
+    display: none;
 }
 
 .arrow-left {
@@ -119,6 +114,10 @@
 
 .to-top:before {
     border: solid 0.13em #737373;
+}
+
+.top-fixed{
+    display: none;
 }
 
 
@@ -169,7 +168,16 @@
 
 @media screen and (min-width: 800px) {
 
-    article{
+    .visible {
+        display: block;
+        bottom: 10px;
+        left: 50%;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+
+    }
+
+    article {
         padding-top: 1px;
     }
 
@@ -183,10 +191,11 @@
     }
 
     .top-fixed {
-        color: #0f1923;
+        display: block;
+        color: #737373;
         position: fixed;
         bottom: 0;
-        right: 30px;
+        right: 50px;
     }
 }
 
@@ -215,16 +224,9 @@
 
         width: 30px;
         height: 30px;
-
-
     }
 
-    .top-fixed {
-        position: fixed;
-        bottom: 0;
-        right: 30px;
-    }
+  
 
-   
 
 }
