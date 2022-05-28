@@ -1,10 +1,12 @@
+
 h1{
     font-family: 'VALORANT', sans-serif;
-    color: white;
-    font-size: 28px;
+    font-weight: bold;
+    color: #ff4655;
+    font-size: 38px;
     margin: 0 auto;
     padding-bottom: 5px;
-
+text-align: center;
 }
 
 section, main{
@@ -16,25 +18,22 @@ section, main{
 }
 .page-header{
     padding: 150px 0 40px 0;
-    justify-content: center;
+    align-items: center !important;
 }
-.valorant-red{
-    font-size: 38px;
-    color: #ff4655;
-}
-
 
 
 main{
-    font-family: 'VALORANT', sans-serif;
+    font-family: 'Maven Pro', sans-serif !important;
+    font-weight: bold;
     padding: 2% 5% 0 5%
 }
 main h2{
-    width:380px;
+    font-family: 'VALORANT', sans-serif;
+    width:100%;
     font-size: 35px;
     color: white;
     margin-top: 35px;
-    padding:20px 20px 5px 60px;
+    padding:20px 20px 5px 20px;
     border-radius: 10px;
     border-top: 2px solid white;
     margin: 20px auto;
@@ -42,6 +41,10 @@ main h2{
 .team-list-item img{
     width: 180px;
     display:none;
+}
+
+.team-info{
+    font-family: 'VALORANT', sans-serif;
 }
 .team-info p:first-child{
     color:  #ff4655;
@@ -138,17 +141,65 @@ main #retired{
     right:10px;
 }
 
+#player-info-pfp{
+    margin-top: 80px !important;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.hero:after {
+    position: absolute;
+    display: block;
+    content: " ";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+#background-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.hero__content {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    z-index: 1;
+    padding-top: 4rem;
+}
+
 #selected-player p{
+    font-family: 'VALORANT', sans-serif !important;
     color: #ff4655 !important;
     font-size: 16px !important;
     padding: 8px 20px !important;
 }
 
 #selected-player span, #selected-player li,#selected-player #player-info-bio{
+    font-family: 'Maven Pro', sans-serif !important;
+    font-weight: bold;
     color: white !important;
     font-size: 14px !important;
     padding:5px 20px!important;
 }
+
 
 #selected-player #player-info-bio{
     padding: 5px 30px 5px 30px!important;
@@ -181,6 +232,7 @@ main #retired{
 }
 #selected-player #player-info-nationality{
     width:30px;
+    height: 25px !important;
     height: auto;
     border-radius:5px;
     margin: 0 20px !important;
