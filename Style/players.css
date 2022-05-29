@@ -17,7 +17,7 @@ section, main{
     width: 100%;
 }
 .page-header{
-    padding: 150px 0 40px 0;
+    padding: 80px 0 40px 0;
     align-items: center !important;
 }
 
@@ -38,7 +38,7 @@ main h2{
     border-top: 2px solid white;
     margin: 20px auto;
 }
-.team-list-item img{
+.player-list-item img{
     width: 180px;
     display:none;
 }
@@ -51,7 +51,7 @@ main h2{
     font-size: 28px;
     word-break:keep-all;
 }
-ul.teams > li{
+.team-list-item{
     background-color: black;
     padding: 30px 0 35px 0;
     border-radius: 25px;
@@ -61,7 +61,7 @@ ul.teams > li{
     margin: 40px auto;
     width: 330px;
 }
-ul.teams li p{
+.team-list-item p{
     padding: 5px;
 }
 .team-info img
@@ -70,6 +70,12 @@ ul.teams li p{
     width: 30px;
     display: inherit;
     margin-left: 5px;
+    border: none;
+}
+.team-info img:hover{
+    cursor: default;
+    transition: none;
+    box-shadow: none;
 }
 .team-info{
     font-size: 25px;
@@ -188,7 +194,7 @@ main #retired{
 #selected-player p{
     font-family: 'VALORANT', sans-serif !important;
     color: #ff4655 !important;
-    font-size: 16px !important;
+    font-size:3.5vw !important;
     padding: 4px 20px !important;
 }
 
@@ -196,7 +202,7 @@ main #retired{
     font-family: 'Maven Pro', sans-serif !important;
     font-weight: bold;
     color: white !important;
-    font-size: 14px !important;
+    font-size:3vw;
     padding:3px 20px!important;
 }
 
@@ -204,6 +210,7 @@ main #retired{
 #selected-player #player-info-bio{
     padding: 3px 30px!important;
     text-align: center;
+    font-size:3vw !important;
 }
 
 .player-info-inline{
@@ -215,7 +222,7 @@ main #retired{
 
 #selected-player h2{
     width: auto !important;
-    font-size: 22px !important;
+    font-size: 5.5vw !important;
     margin: auto !important;
     padding: 7px 15px !important;
     position: absolute !important;
@@ -232,6 +239,7 @@ main #retired{
     background-color: white;
     border-top: #ff4655 3px solid;
     border-right: #ff4655 3px solid;
+    margin-bottom: 20px !important;
 }
 #selected-player #player-info-nationality{
     width:30px;
@@ -309,4 +317,111 @@ main #retired{
     100% {
         color: white;
     }
+}
+
+
+
+
+@media screen and (min-height:750px){
+    #selected-player h2{
+        position:relative !important;
+        top:auto;
+        margin-bottom: 25px !important;
+        margin-top: 30px !important;
+    }
+    #selected-player #player-info-pfp{
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (min-width:500px){
+
+    #selected-player p{
+    font-size:18px !important;
+}
+
+#selected-player span, #selected-player li, #selected-player #player-info-bio{
+    font-size:15px !important;
+    }
+#selected-player h2{
+    font-size:28px !important;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .player-list-item img{
+        width: 316px;
+        height: 316px;
+        display:block;
+        border: none;
+        border-left: #ff4655 2px solid;
+        border-bottom: #ff4655 2px solid;
+        border-radius: 25px;
+    }
+    .player-list-item img:hover{
+        cursor: default;
+        transition: none;
+        box-shadow: none;
+    }
+    .team-info{
+        width:100%;
+        align-self: flex-start;
+        top:0;
+    }
+    .team-list-item{
+        background-color:transparent;
+        padding: 30px 0 35px 0;
+        border: none;
+        text-align: center;
+        width: 80vw;
+        margin-top: 0;
+        background-color: #0000005b;
+        padding: 25px;
+        border-radius: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row !important;
+    }
+
+    .player-list-item{
+        display: inline-flex !important;
+        width: 320px;
+        height: 410px;
+        border-top: #ff4655 3px solid;
+        border-right: #ff4655 3px solid;
+        border-radius: 25px;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 20px 30px!important;
+        background-color: #000;
+    }
+
+    .player-list-item *{
+        display: block;
+    }
+
+    .player-name-heading{
+        position: relative;
+        bottom: 0px !important;
+        padding-bottom: 20px;
+        border-radius: 25px;
+    }
+
+    #selected-player h2{
+        position:absolute !important;
+        top: 30px;
+        margin-bottom: 25px !important;
+        margin-top: 30px !important;
+        font-size: 36px !important;
+        padding:15px !important;
+    }
+    #selected-player #player-info-pfp{
+        margin-top: 0 !important;
+        width:340px;
+        height:340px;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+
 }

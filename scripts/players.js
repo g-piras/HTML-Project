@@ -10,16 +10,20 @@ function generatePlayer(playerInfo, container) {
   playerImage.setAttribute("alt", playerInfo.gamerTag + " Profile Picture");
   playerLi.appendChild(playerImage);
 
+  let nameDiv = document.createElement("div");
+  nameDiv.className = "player-name-heading";
+  playerLi.appendChild(nameDiv);
+
   let playerTag = document.createElement("p");
   playerTag.className = "gamerTag";
   playerTag.innerText = playerInfo.gamerTag;
-  playerLi.appendChild(playerTag);
+  nameDiv.appendChild(playerTag);
 
   let playerName = document.createElement("p");
   playerName.className = "player-name hidden";
   playerName.style.opacity = 0;
   playerName.innerText = playerInfo.name;
-  playerLi.appendChild(playerName);
+  nameDiv.appendChild(playerName);
 }
 
 function generateTeam(teamInfo, container) {
