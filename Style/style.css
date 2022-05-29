@@ -104,7 +104,7 @@ p {
 .arrow-down {
     transform: rotate(135deg);
     position: absolute;
-    display: none;
+    display: none !important;
 }
 
 
@@ -344,12 +344,13 @@ p {
 
 
 
-/* ! ARTICLE CARDS LINKS */
+/* ! ARTICLE CARDS SECTION*/
 
 .news-title {
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -380,10 +381,17 @@ p {
     padding: 10px;
     transition: all ease-in-out 0.5s;
 
+
+}
+
+.container-articles img:hover {
+    box-shadow: 0px 0px 20px 5px #ff4655;
+
+
 }
 
 .container-articles a:last-child {
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 
@@ -438,55 +446,120 @@ p {
 
 
 
-/* ! ABOUT US */
 
-.about-us {
 
-    
-    height: 100%;
-    border: 1px solid red;
-    margin-bottom: 40px;
+/* ! TOURNAMENT SECTION */
+
+
+
+
+.tournaments {
+    margin: 10%;
+    max-width: 900px;
+    text-align: center;
 }
 
-.level-up {
-    border: 1px solid blue;
-    height: 33%;
-    
-}
-
-
-
-
-.about-us h2 {
+.tournaments h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #ece8e1;
+    padding-bottom: 40px;
+}
+
+.tournaments p {
+
     padding-bottom: 20px;
+    line-height: 1.4;
+    color: #ece8e1a9;
 }
 
-.level-up h1>span {
+.tournaments p span:first-child {
     font-family: "VALORANT", sans-serif;
-    font-size: 20px;
+    margin-right: 10px;
+    color: #ff4655;
 }
 
-.level-up h1 :nth-child(2) {
-    text-decoration: underline;
-    color: #8b978f;
+.tournaments p em {
+    font-family: "VALORANT", sans-serif;
+    margin-right: 5px;
+    color: #ECECEC;
+}
+
+.trophy-card-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
+    height: 320px;
+    background-image: url("/tournaments.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 120%;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) solid 0.3px;
+    padding: 20px;
+}
+
+.trophy-card-home:hover {
+    box-shadow: 0px 0px 30px 5px #ff4655;
+    transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
+    height: 340px;
+
+}
+
+.arrow {
+
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #ececec;
+    border-right: 2px solid #ececec;
+}
+
+.arrow-right {
+    transform: rotate(45deg);
+    margin-right: -90%;
+}
+
+
+/* ! TEAMS SECTION */
+
+.teams {
+
+    margin: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.teams h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
     font-weight: bold;
-    font-size: 16px;
-
+    color: #ece8e1;
+    padding-bottom: 40px;
 }
 
-
-.team {
-    border: 1px solid yellow;
-    height: 33%;
+.teams img {
+    border: rgb(255, 255, 255) solid 0.3px;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 1100px;
 }
 
-.contacts {
-    border: 1px solid green;
-    height: 33.9%;
+.teams img:hover {
+    box-shadow: 0px 0px 30px 5px #ff4655;
+    transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
+}
+
+.teams h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #ece8e1;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -603,6 +676,41 @@ p {
     margin-bottom: 20px;
 }
 
+.about-us {
+    text-align: center;
+}
+
+.team-levelup h2{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.team-levelup p{
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.contacts{
+    padding: 30px;
+}
+
+.copy {
+
+    margin-top: 30px;
+    color: #737373;
+    padding: 20px;
+}
+
+.contacts {
+    padding-bottom: 20px;
+    color: #737373;
+    line-height: 1.3;
+}
+
+.bottom-footer {
+    display: none;
+}
+
 
 
 
@@ -671,7 +779,7 @@ p {
     }
 
     .visible {
-        display: block;
+        display: block !important;
         bottom: 10px;
         left: 50%;
 
@@ -700,6 +808,87 @@ p {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
+    /* ! ARTICLES SECTION */
+
+    .news-title {
+        text-align: center;
+    }
+
+    /* ! TOURNAMENTS SECTION */
+
+    .tournaments {
+        margin-top: 90px;
+        display: flex;
+        text-align: center;
+    }
+
+    .tournaments h2 {
+        font-size: 60px;
+    }
+
+    .tournaments p {
+        font-size: 18px;
+    }
+
+    .tournaments p span {
+        font-size: 22px;
+    }
+
+    .trophy-card-home {
+
+        margin-top: 20px;
+        height: 500px;
+
+    }
+
+    .trophy-card-home:hover {
+
+        height: 600px;
+
+    }
+
+    .bottom-footer{display: block;}
+
+    /* ! TEAMS SECTION */
+
+
+    .teams {
+        text-align: center;
+    }
+
+    /* ! FOOTER SECTION */
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .team-levelup {
+        margin-bottom: 20px;
+        margin-left: 100px;
+        line-height: 1.3;
+        color: #737373;
+    }
+
+    .team-levelup h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .contacts {
+        margin-right: 100px;
+        color: #737373;
+        line-height: 1.3;
+    }
+
+    .copy {
+        margin-left: 82px;
+    }
+
+
 
 
 }
@@ -747,6 +936,46 @@ p {
         text-align: center;
     }
 
+    /* ! TOURNAMENTS SECTION */
+
+    .tournaments {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .tournaments h2 {
+        padding-bottom: 30px;
+    }
+
+    .teams {
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .teams h2 {
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .teams h3:hover {
+        color: #ff4655;
+        transition: all 1s cubic-bezier(.215, .61, .355, 1);
+    }
+
+
+
+    /* ! FOOTER */
+
+    .top {
+        margin-top: 40px;
+    }
+
+    .footer-container {
+        margin-top: 50px;
+
+    }
+
+
 }
 
 
@@ -767,8 +996,6 @@ p {
     }
 
 }
-
-
 
 
 

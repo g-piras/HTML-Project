@@ -16,7 +16,9 @@ p{
     font-family: 'VALORANT', sans-serif;
     font-size: 40px;
     color: rgb(255, 103, 103);
+    margin-top: 130px;
 }
+
 
 .tournaments-sub-header {
     text-align: center;
@@ -38,7 +40,7 @@ p{
     width: 80%;
     padding-bottom: 3%;
     border-bottom: 0.5px solid grey ;
-    ;
+    
 }
 
 .gamingtrophy{
