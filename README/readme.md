@@ -206,9 +206,17 @@ We used media queries to gradually upscale contents size in all versions, from m
 
 #
 
-## Form 
+## Join Us Page
 
-
+The Join Us page [form.html](./../form.html) has been projected following the site standars.
+Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+Every input in the page is client/side validated.
+To accomplish this result we served of the attributes 
+``` HTML
+ patten=""
+ required=""
+ ```
 
 ## References
 - [W3Schools](www.w3schools.com)
