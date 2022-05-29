@@ -1,3 +1,11 @@
+/**
+* gallery.css
+*
+* The gallery should display photos about valorant tournaments 
+*/
+
+/* MOBILE FIRST */
+
 body {
     background-color: #ECECEC;
 }
@@ -38,6 +46,9 @@ figcaption {
     border-radius: 6px;
     font-size: 10.5px;
 }
+
+/* caption appears when mouse over image */
+
 img:hover ~ figcaption {
     visibility: visible;
 }
@@ -68,6 +79,8 @@ img:hover {
         padding: 6px;
     }
 }
+
+/* DESTKOP */
 
 @media screen and (min-width: 1100px) {
     .gallery {
