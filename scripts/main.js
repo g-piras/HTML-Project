@@ -34,7 +34,7 @@ window.addEventListener("scroll", function () {
     }
 
     lastScrollTop = scrollTop;
-})
+});
 
 
 
@@ -47,7 +47,7 @@ window.addEventListener("scroll", function () {
     } else {
         arrowDown.classList.remove("visible");
     }
-})
+});
 
 
 
@@ -56,7 +56,7 @@ window.addEventListener("scroll", function () {
 
 window.addEventListener("click", function () {
     menuHidden.style.top = "0px";
-})
+});
 
 
 

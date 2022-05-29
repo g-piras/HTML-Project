@@ -17,8 +17,8 @@ arrow.addEventListener("click", function () {
 
 /**
  * Showing contents while scrolling the page
- * @param {*} querySel 
- * @param {*} screenHeight 
+ * @param {string} querySel 
+ * @param {number} screenHeight 
  */
 
 function onScroll(querySel, screenHeight) {
