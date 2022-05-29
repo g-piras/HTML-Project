@@ -1,3 +1,7 @@
+:root {
+    --main-red-color: #ff4655;
+  }
+
 /*tournament section*/
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 0.7cm;
@@ -14,13 +18,17 @@ h6{
     color: rgb(143, 255, 7);
 }
 
+.past-date{
+    color: rgb(255, 0, 255);
+}
+
 .tournaments-header {
     text-align: center;
-    padding: 4%;
+    padding: 2%;
     font-family: 'VALORANT', sans-serif;
     font-size: 40px;
-    color: rgb(255, 103, 103);
-    margin-top: 130px;
+    color: var(--main-red-color);
+    margin-top: 20px;
 }
 
 
@@ -34,16 +42,17 @@ h6{
 
 .trophy-title{
     font-family: 'VALORANT', sans-serif;
+    color:  var(--main-red-color) ;
 }
 
 .containercards{
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 30px;
+    gap: 50px;
     margin: 0 auto;
     width: 80%;
     padding-bottom: 3%;
-    border-bottom: 0.5px solid grey ;
+    border-bottom: 0.5px solid var(--main-red-color) ;
     margin-bottom: 3%;
     
 }
@@ -62,7 +71,9 @@ h6{
 
 .trophy-card:hover{
     background-color: rgb(25, 25, 25);
-    box-shadow: 0px 0px 10px 5px rgba(199, 250, 255, 0.418);
+    box-shadow: 0px 0px 7px 5px rgba(199, 244, 255, 0.629) ;
+    transform: rotate(2deg);
+    transition: 0.5s;
 }
 
 .footer-container h2{
@@ -73,8 +84,22 @@ h6{
     color: #737373;
 }
 
+.trophy-card:hover .trophy-title {
+    text-decoration:underline;
+}
 
-@media screen and (min-width: 850px){
+
+
+
+
+.img-header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+@media screen and (min-width: 750px){
     .containercards{
       grid-template-columns: 1fr 1fr;
   }  
