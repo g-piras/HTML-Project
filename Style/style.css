@@ -555,11 +555,12 @@ p {
     width: 100%;
     border-radius: 10px;
     max-width: 1100px;
+    transition: all 0.5s ease-in-out;
 }
 
 .teams img:hover {
     box-shadow: 0px 0px 30px 5px var(--red);
-    transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
+    
 }
 
 .teams h3 {
@@ -844,6 +845,7 @@ p {
     .trophy-card-home {
         margin-top: 20px;
         height: 500px;
+        transition: all 0.5s ease-in-out;
     }
 
     .trophy-card-home:hover {
@@ -960,9 +962,13 @@ p {
         font-size: 60px;
     }
 
+    .teams h3{
+        transition: all 0.5s ease-in-out;
+    }
+
     .teams h3:hover {
         color: var(--red);
-        transition: all 1s cubic-bezier(.215, .61, .355, 1);
+        
     }
 
 
