@@ -43,7 +43,11 @@ $query = "INSERT INTO  players
         '$teamName', '$email', '$telephone', '$city', '$userAddress', 
         '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
     if($connection->query($query) === true ) {
-        echo "ok";
+        function function_alert() { 
+              
+            // Display the alert box; note the Js tags within echo, it performs the magic
+            echo "<script>alert('You successfully registered your account');</script>"; 
+        } 
         header("Location: ./form.html");
     } else {
         echo "no";
