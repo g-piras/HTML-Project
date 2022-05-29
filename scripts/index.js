@@ -1,4 +1,11 @@
-//click arrow to scroll down by 508px
+/**
+ * @file main.js
+ * @author: Giampietro Piras, Davide Murroni, Eloise Bryony Giorda, Federico Luciano Stroppiana, Francesco Abrate
+ */
+
+
+
+//click arrow to scroll down by 600px
 
 let arrow = document.querySelector(".bottom-arrow");
 arrow.addEventListener("click", function () {
@@ -7,8 +14,12 @@ arrow.addEventListener("click", function () {
 
 
 
-//scroll
 
+/**
+ * Showing contents while scrolling the page
+ * @param {*} querySel 
+ * @param {*} screenHeight 
+ */
 
 function onScroll(querySel, screenHeight) {
     let target = document.querySelector(querySel);

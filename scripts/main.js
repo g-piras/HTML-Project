@@ -1,8 +1,10 @@
+/**
+ * @file main.js
+ * @author: Giampietro Piras, Davide Murroni, Eloise Bryony Giorda, Federico Luciano Stroppiana, Francesco Abrate
+ */
 
-//toggle - menu a tendina
 
-
-
+//toggle - dropdown menu
 
 let hamburger = document.querySelector(".hamburger");
 let menu = document.querySelector(".menu");
@@ -36,7 +38,7 @@ window.addEventListener("scroll", function () {
 
 
 
-// fa comparire la freccia quando l'header si nasconde
+// Show littel arrow when menu is hidden
 
 window.addEventListener("scroll", function () {
     if (menuHidden.style.top == "-100px") {
@@ -50,7 +52,7 @@ window.addEventListener("scroll", function () {
 
 
 
-// se il menu è nascosto e lo "clicki" torna giù
+// If menu is hidden just click in every part of the page and menu will drop down again
 
 window.addEventListener("click", function () {
     menuHidden.style.top = "0px";

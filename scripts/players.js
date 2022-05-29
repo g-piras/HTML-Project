@@ -1,3 +1,8 @@
+/**
+ * @file main.js
+ * @author: Giampietro Piras, Davide Murroni, Eloise Bryony Giorda, Federico Luciano Stroppiana, Francesco Abrate
+ */
+
 let trophyIcon = "https://img.icons8.com/ios-glyphs/344/ffffff/trophy.png";
 
 function generatePlayer(playerInfo, container) {
