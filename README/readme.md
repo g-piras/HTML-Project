@@ -204,6 +204,38 @@ We used media queries to gradually upscale contents size in all versions, from m
 @media screen and (max-width: 900px) and (max-height: 700px) and (orientation: landscape){}
 ```
 
+***gallery.css*** In this file we display in columns photos about valorant tournaments  
+
+```css
+.gallery {
+    columns: 2;
+    column-gap: 0;
+    padding: 5px;
+}
+```
+
+Using the "mobile first" approach we start with 2 columns   
+Then we increase the number of columns with the increasing of the screen width using media queries  
+
+```css
+@media screen and (min-width: 450px) {}
+
+@media screen and (min-width: 680px) {}
+
+@media screen and (min-width: 800px) {}
+
+@media screen and (min-width: 1100px) {}
+```
+
+We use animations to increase the scale when the mouse pass over the images  
+
+```css
+img:hover {
+    transform: scale(1.03);
+    transition: all 0.25s;
+}
+```
+
 #
 
 ## Join Us Page
