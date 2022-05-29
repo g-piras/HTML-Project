@@ -142,7 +142,7 @@ main #retired{
 }
 
 #player-info-pfp{
-    margin-top: 80px !important;
+    margin-top: 50px !important;
 }
 
 .hero {
@@ -189,7 +189,7 @@ main #retired{
     font-family: 'VALORANT', sans-serif !important;
     color: #ff4655 !important;
     font-size: 16px !important;
-    padding: 8px 20px !important;
+    padding: 4px 20px !important;
 }
 
 #selected-player span, #selected-player li,#selected-player #player-info-bio{
@@ -197,12 +197,12 @@ main #retired{
     font-weight: bold;
     color: white !important;
     font-size: 14px !important;
-    padding:5px 20px!important;
+    padding:3px 20px!important;
 }
 
 
 #selected-player #player-info-bio{
-    padding: 5px 30px 5px 30px!important;
+    padding: 3px 30px!important;
     text-align: center;
 }
 
@@ -216,10 +216,13 @@ main #retired{
 #selected-player h2{
     width: auto !important;
     font-size: 22px !important;
-    margin-top: 5px !important;
-    padding: 10px 15px !important;
-    top: 50px;
-    position: absolute;
+    margin: auto !important;
+    padding: 7px 15px !important;
+    position: absolute !important;
+    flex-direction: column !important;
+    align-self: center;
+    justify-content: start;
+    top: 25px;
 }
 
 #selected-player #player-info-pfp{
