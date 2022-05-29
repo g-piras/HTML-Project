@@ -1,13 +1,17 @@
 /*tournament section*/
-h1,h2,h3,h4,h5{
-    margin-bottom: 1cm;
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.7cm;
     font-size: larger;
 }
 
 p{
     line-height: 30px;
     color: rgb(179, 212, 220);
-    font-size: larger;
+    font-size: 15px;
+}
+
+h6{
+    color: rgb(143, 255, 7);
 }
 
 .tournaments-header {
@@ -40,6 +44,7 @@ p{
     width: 80%;
     padding-bottom: 3%;
     border-bottom: 0.5px solid grey ;
+    margin-bottom: 3%;
     
 }
 
@@ -50,11 +55,9 @@ p{
 
 .trophy-card{
     background-color: #111;
-    color: rgb(255, 103, 103);
-    border-radius: 10px;
-    border: rgb(255, 255, 255) solid 0.3px;
+    /* border-radius: 5px; */
+    border: rgb(75, 75, 75) solid 1px;
     padding: 20px;
-    color: white
 }
 
 .trophy-card:hover{
