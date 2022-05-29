@@ -897,6 +897,10 @@ p {
         margin-left: 82px;
     }
 
+    .team-levelup a{
+        text-decoration: none;
+        color: #737373;
+    }
 
 
 
