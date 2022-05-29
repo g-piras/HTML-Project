@@ -6,9 +6,6 @@ form {
   margin-left: 35px;
   margin-right: 35px;
   
-
-
-
 }
 
 
@@ -16,6 +13,12 @@ form {
 label  { 
   color: white;
 } 
+
+input,
+option,
+select {
+  background-color: white;
+}
 
 
 input[type="text"],
@@ -35,8 +38,8 @@ button[type="submit"] {
   width: 30%;
   background-color: #ff4655;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 15%;
+  padding: 12px 20px;
+  margin: 10px 10px; 
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -46,12 +49,12 @@ button[type="reset"] {
   width: 30%;
   background-color: white;
   color: black;
-  padding: 14px 20px;
-  margin: 8px 15%;
+  padding: 12px 20px;
+  margin: 10px 10px; 
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
+} 
 
 p {
   color: white;
@@ -77,25 +80,34 @@ textarea {
   border-radius: 4px;
 }
 
-input::placeholder {
-  font-family: 'VALORANT', sans-serif;
 
-}
-/* .tournament-item {
+button.form-button {
   float: left;
-  padding: 5px;
-
+  margin-left: 10;
+  margin-top: 20px;
 }
 
-input[name="tournaments"] {
-  float: right;
-  margin-right: 50%;
-  clear: right;
-} */
+ div.form-container {
+  margin-bottom: 200px;
+} 
+
+
+div.internal-container-a {
+  border-bottom: 2px  solid #ff4655;
+  border-left: 3px  solid #ff4655;
+  border-radius: 10px;
+  padding: 2px 0px 15px 20px;
+  margin-bottom: 20px;
+} 
+
+div.external-container-a {
+  border-top: 2px  #ff4655;
+  border-right: 3px  #ff4655;
+  border-radius: 10px;
+  padding: 12px 10px 0px 10px;
+  margin-bottom: 20px;
+}
 
 
 
-/* button {
-  position: relative;
-  bottom: 30px;
-}  */
+

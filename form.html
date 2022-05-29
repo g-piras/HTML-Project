@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- RESET CSS -->
+
+    <link href="http://fonts.cdnfonts.com/css/valorant" rel="stylesheet"> <!-- gaming font -->
 
     <!-- title font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,13 +28,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        
+
+
+
     <link rel="stylesheet" href="./Style/style.css">
     <link rel="stylesheet" href="./Style/form.css"> 
     <title>Valorant Esport</title>
-
 </head>
-
+    
 <body>
      <!-- HEADER -->
 
@@ -62,25 +66,65 @@
     </div>
 
     <main>
+       
 <form method="post" action="./form.php" class="form-container" id="form">
-    <label class="form-item" for="fname">First name:</label>
-    <input type="text" id="fname" name="fname" placeholder="Enter your Name..." pattern="^[a-zA-Z]+$" maxlenght="30" required>
-    <label class="form-item" for="mname">Middle name:</label>
-    <input type="text" id="mname" name="mname" value="" placeholder="(Optional)" pattern="^[a-zA-Z]+$" maxlenght="30">
-    <label class="form-item" for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname" value="" placeholder="Enter your Surname..." pattern="^[a-zA-Z]+$" maxlenght="30" required>
+    <div class="form-container">
+        <div class="external-container-a">
+        <div class="internal-container-a">
+            <label class="form-item" for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your Name..." pattern="^[a-zA-Z]+$" maxlenght="30" required>
+    </div>
+    </div>
+        <div class="external-container-a">
+        <div class="internal-container-a">
+            <label class="form-item" for="mname">Middle name:</label>
+            <input type="text" id="mname" name="mname" value="" placeholder="(Optional)" pattern="^[a-zA-Z]+$" maxlenght="30">
+        </div>
+        </div>
+    <div class="external-container-a">
+    <div class="internal-container-a">
+            <label class="form-item" for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="" placeholder="Enter your Surname..." pattern="^[a-zA-Z]+$" maxlenght="30" required>
+</div>
+</div>
+<div class="external-container-a">
+<div class="internal-container-a">
     <label class="form-item" for="btag">Battle Tag:</label>
     <input type="text" id="btag" name="btag" value="" placeholder="Enter your Battle Tag..." maxlength="30" required>
+</div>
+</div>
+<div class="external-container-a">
+    <div class="internal-container-a">
     <label class="form-item" for="tname">Team Name</label>
     <input type="text" id="tname" name="tname" value="" placeholder="Enter your Team name..." maxlength="30" required>
+</div>
+</div>
+<div class="external-container-a">
+    <div class="internal-container-a">
     <label for="email">Enter your email:</label>
     <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+    </div>
+</div>
+    <div class="external-container-a">
+        <div class="internal-container-a">
     <label class="form-item" for="phone">Phone</label>
     <input type="tel" id="phone" name="phone" placeholder="333-333-3333" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}">
+        </div>
+    </div>
+    <div class="external-container-a">
+        <div class="internal-container-a">
     <label class="form-item" for="city">City</label>
     <input type="text" name="city" id="address" placeholder="Enter your city..." pattern="^[a-zA-Z]+$" maxlenght="30">
+</div>
+</div>
+    <div class="external-container-a">
+        <div class="internal-container-a">
     <label class="form-item" for="address">Address</label>
     <input type="text" name="address" id="address" placeholder="Enter your address..." maxlenght="50">
+</div>
+</div>
+    <div class="external-container-a">
+        <div class="internal-container-a">
     <label for="country">Country</label>
 <select id="country" name="country" value="" required>
    <option value="Afganistan">Afghanistan</option>
@@ -330,18 +374,31 @@
    <option value="Zambia">Zambia</option>
    <option value="Zimbabwe">Zimbabwe</option>
    </select>
+    </div>
+</div>
+    <div class="external-container-a">
+    <div class="internal-container-a">
     <label class="form-item" for="age">Date of birth</label>
     <input type="text" id="age" name="age" value="" placeholder="DD/MM/YYYY" required>
+</div>
+</div>
+<div class="external-container-a">
+    <div class="internal-container-a">
     <label for="gender">Gender</label>
     <select name="gender" id="gender" required>
         <option value="male">Male</option>
         <option value="female">Female</option>
         <option value="not binary">Not Binary</option>
     </select>
-    <label class="form-item" for="hair-color">Hair</label>
+</div>
+</div>
+    
+   <!--  <label class="form-item" for="hair-color">Hair</label>
     <input class="color-input" type="color" id="hair-color" name="hair-color" value="hair-color"reuired required/>
     <label class="form-item" for="eye-color">Eyes</label>
-    <input class="color-input" type="color" name="eye-color" id="eye-color" value="eye-color"required/>
+    <input class="color-input" type="color" name="eye-color" id="eye-color" value="eye-color"required/> -->
+    <div class="external-container-a">
+        <div class="internal-container-a">
     <label for="tournament">Desired tournament</label>
     <select name="tournament" id="tournament" class="tournament">
         <option value="tournament1" class="tournament-item">tournament1</option>
@@ -351,17 +408,25 @@
         <option value="tournament5" class="tournament-item">tournament5</option>
         <option value="tournament6" class="tournament-item">tournament6</option>
     </select>
+</div>
+</div>
+    <div class="external-container-a">
+        <div class="internal-container-a">
     <label for="bio">Bio</label>
    <textarea name="bio" id="bio" cols="50" rows="10" placeholder="(max 255 characters)" maxlength="255"></textarea>></textarea> 
-    <!-- <button type="submit" form="form" value="Submit">Submit</button>
-  <button type="reset" form="form" value="Reset">Reset</button>    -->
-  </form>
-  
+</div>
+</div>
+   <button class="form-button" type="submit" form="form" value="Submit">Submit</button>
+   <button class="form-button" type="reset" form="form" value="Reset">Reset</button> 
+
+</div>
+</form>
+
     </main>
 
     <!-- footer -->
 
-   <!--  <footer>
+<footer>
         <div class="footer-container">
             <div class="social-links">
 
@@ -394,6 +459,7 @@
             </div>
 
         </div>
-    </footer> -->
+    </footer> 
 
+    <script src="./scripts/main.js"></script>
 </body> 
