@@ -23,12 +23,12 @@
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: bold;
-    color: var(--titleColor);
+    color: var(--title);
 }
 
 .articles-section h3 {
     font-family: 'Playfair Display', serif;
-    color: var(--titleColor);
+    color: var(--title);
     font-weight: bold;
     font-size: 20px;
 }
