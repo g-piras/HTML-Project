@@ -3,7 +3,7 @@
 .articles-section {
     width: 100%;
     height: 100%;
-    background: #ECECEC;
+    background-color: #0f1923; 
 }
 
 .img-article {
@@ -14,7 +14,7 @@
 
 
 .articles-section p {
-    color: #0f1923;
+    color: #8b978f;
     line-height: 1.7;
     letter-spacing: 0.07vw;
 }
@@ -23,12 +23,12 @@
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: bold;
-    color: #0f1923;
+    color: var(--titleColor);
 }
 
 .articles-section h3 {
     font-family: 'Playfair Display', serif;
-    color: #0f1923;
+    color: var(--titleColor);
     font-weight: bold;
     font-size: 20px;
 }
@@ -95,12 +95,12 @@
 
 
 .to-top {
-    color: #737373;
-    border-color: #737373;
+    color: var(--grey);
+    border-color: var(--grey);
 }
 
 .to-top:before {
-    border: solid 0.13em #737373;
+    border: solid 0.13em var(--grey);
 }
 
 .top-fixed {
@@ -196,7 +196,7 @@
 
     .top-fixed {
         display: block;
-        color: #737373;
+        color: var(--grey);
         position: fixed;
         bottom: 0;
         right: 50px;

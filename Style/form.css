@@ -174,11 +174,12 @@ button[type="reset"]:hover {
 
 /* MEDIA QUERY */
 
-@media screen and (min-width: 899.99px) {
+@media screen and (min-width: 799.99px) {
   form {
     width: 50%;
     margin-left: 25%;
   }
+
 }
 
  

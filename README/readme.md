@@ -55,6 +55,7 @@ We started thinking about how to divide pages and work.... Eloise pensaci tu
 - [gallery.css](./../Style/gallery.css)
 
 - [form.php](./../form.php)
+- [registered_user_page.php](./../registered_user_page.php)
 
 - [json](./../Contents/json/players.json)
 
@@ -236,6 +237,9 @@ img:hover {
 ```
 
 #
+
+## Form 
+
 
 
 ## References
