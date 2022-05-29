@@ -83,12 +83,12 @@ textarea {
 
 button.form-button {
   float: left;
-  margin-left: 10;
+  margin-left: 35px;
   margin-top: 20px;
 }
 
  div.form-container {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
 } 
 
 
@@ -107,6 +107,7 @@ div.external-container-a {
   padding: 12px 10px 0px 10px;
   margin-bottom: 20px;
 }
+
 
 
 
