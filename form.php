@@ -27,19 +27,21 @@ $age = $connection->real_escape_string($_POST['age']);
 $gender = $connection->real_escape_string($_POST['gender']);
 $hair = $connection->real_escape_string($_POST['hair-color']);
 $eye = $connection->real_escape_string($_POST['eye-color']);
-$tournaments = $connection->real_escape_string($_POST['tournaments']);
-
-
+$hair = $connection->real_escape_string($_POST['hair-color']);
+$eye = $connection->real_escape_string($_POST['eye-color']);
+$tournaments = $connection->real_escape_string($_POST['tournament']);
+$otherGames = $connection->real_escape_string($_POST['other-games']);
+$bio = $connection->real_escape_string($_POST['bio']);
 
 
 $query = "INSERT INTO  players
  (firstName, middleName, surname,
  battleTag, teamName,  mail,
  phone, city, userAddress, country, age, gender,
- hair, eyes, tournaments)
+ hair, eyes, tournament, otherGames, bio )
         VALUES('$fName', '$mName', '$lName', '$battleTag', 
         '$teamName', '$email', '$telephone', '$city', '$userAddress', 
-        '$country', '$age', '$gender' '$hair', '$eye', '$tournaments')";
+        '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
     if($connection->query($query) === true ) {
         echo "ok";
         header("Location: ./form.html");

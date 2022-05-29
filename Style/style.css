@@ -1,4 +1,4 @@
-/* ! BASE STYLE */
+/* ALL PAGeS STANDARDS */
 
 
 
@@ -11,11 +11,12 @@ body {
 
 }
 
+/* COLORS */
+
 :root {
     --red: #FF4655;
 }
 
-/* ! classi da aggiungere al codice html */
 
 a {
     text-decoration: none;
@@ -30,8 +31,7 @@ p {
     color: #8b978f;
 }
 
-
-
+/* FONT-SIZES */
 
 .big-text {
     font-size: 70px;
@@ -148,6 +148,7 @@ p {
     text-align: center;
     color: white;
 }
+
 .menu li a:hover {
     color: var(--red);
     border-bottom: 2px solid var(--red);
@@ -160,7 +161,6 @@ p {
 .menu li:first-child {
     padding-top: 0;
 }
-
 
 
 .hamburger {
@@ -501,7 +501,7 @@ p {
     width: 100%;
     min-width: 300px;
     height: 320px;
-    background-image: url("/tournaments.jpg");
+    background-image: url("/Contents/img/tournaments.jpg");
     background-repeat: repeat-y;
     background-position: center;
     background-size: 120%;
@@ -657,12 +657,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-}
-
-#copy {
-    padding-right: 20px;
-    padding-bottom: 20px;
-    color: #737373;
+    display: none;
 }
 
 
@@ -688,35 +683,38 @@ p {
     text-align: center;
 }
 
-.team-levelup h2{
+.team-levelup h2 {
     padding-bottom: 10px;
     font-size: 18px;
 }
 
-.team-levelup p{
+.team-levelup p {
     line-height: 1.2;
     font-size: 14px;
 }
 
-.contacts{
-    padding: 30px;
-}
-
-.copy {
-
-    margin-top: 30px;
+.team-levelup a {
+    text-decoration: none;
     color: #737373;
-    padding: 20px;
 }
+
+
 
 .contacts {
+    padding: 30px;
     padding-bottom: 20px;
     color: #737373;
     line-height: 1.3;
 }
 
-.bottom-footer {
-    display: none;
+
+
+.copy {
+    color: #737373;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 15px;
+    text-align: center;
 }
 
 
@@ -791,7 +789,6 @@ p {
         display: block !important;
         bottom: 10px;
         left: 50%;
-
     }
 
 
@@ -845,22 +842,18 @@ p {
     }
 
     .trophy-card-home {
-
         margin-top: 20px;
         height: 500px;
-
     }
 
     .trophy-card-home:hover {
-
         height: 600px;
-
     }
 
-    .bottom-footer{display: block;}
+
+
 
     /* ! TEAMS SECTION */
-
 
     .teams {
         text-align: center;
@@ -877,7 +870,7 @@ p {
 
     .team-levelup {
         margin-bottom: 20px;
-        margin-left: 100px;
+        margin-left: 50px;
         line-height: 1.3;
         color: #737373;
     }
@@ -888,13 +881,14 @@ p {
     }
 
     .contacts {
-        margin-right: 100px;
+        margin-right: 50px;
         color: #737373;
         line-height: 1.3;
     }
 
-    .copy {
-        margin-left: 82px;
+    .bottom-footer {
+        display: block;
+        margin-left: 90px;
     }
 
 
