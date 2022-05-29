@@ -1,4 +1,9 @@
 
+.form-intro h2,
+.form-intro p {
+  color: white;
+}
+
 form {
   position: relative;
   top: 170px;
@@ -8,7 +13,21 @@ form {
   
 }
 
+.form-intro {
+  position: relative;
+  top: 150px;
+}
 
+h2 span {
+  color: #ff4655;
+}
+
+.form-intro h2,
+.form-intro p {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
  
 label  { 
   color: white;

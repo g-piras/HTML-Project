@@ -11,6 +11,10 @@ body {
 
 }
 
+:root {
+    --red: #FF4655;
+}
+
 /* ! classi da aggiungere al codice html */
 
 a {
@@ -49,7 +53,7 @@ p {
     text-transform: uppercase;
     font-size: 60px;
     font-weight: 900;
-    color: #ff4655;
+    color: var(--red);
 }
 
 #esport {
@@ -143,6 +147,10 @@ p {
     display: block;
     text-align: center;
     color: white;
+}
+.menu li a:hover {
+    color: var(--red);
+    border-bottom: 2px solid var(--red);
 }
 
 .menu--open {
@@ -275,7 +283,7 @@ p {
 
 .intro-title h2 {
     font-weight: bold;
-    color: #ff4655;
+    color: var(--red);
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -385,7 +393,7 @@ p {
 }
 
 .container-articles img:hover {
-    box-shadow: 0px 0px 20px 5px #ff4655;
+    box-shadow: 0px 0px 20px 5px var(--red);
 
 
 }
@@ -435,8 +443,8 @@ p {
 }
 
 .to-top:hover {
-    color: #ff4655;
-    border-color: #ff4655;
+    color: var(--red);
+    border-color: var(--red);
 }
 
 .to-top:hover:before {
@@ -477,7 +485,7 @@ p {
 .tournaments p span:first-child {
     font-family: "VALORANT", sans-serif;
     margin-right: 10px;
-    color: #ff4655;
+    color: var(--red);
 }
 
 .tournaments p em {
@@ -503,7 +511,7 @@ p {
 }
 
 .trophy-card-home:hover {
-    box-shadow: 0px 0px 30px 5px #ff4655;
+    box-shadow: 0px 0px 30px 5px var(--red);
     transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
     height: 340px;
 
@@ -550,7 +558,7 @@ p {
 }
 
 .teams img:hover {
-    box-shadow: 0px 0px 30px 5px #ff4655;
+    box-shadow: 0px 0px 30px 5px var(--red);
     transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
 }
 
@@ -752,6 +760,7 @@ p {
     .logo-left img {
         width: 120px;
         height: 50px;
+        cursor: pointer;
     }
 
     .menu {
@@ -958,7 +967,7 @@ p {
     }
 
     .teams h3:hover {
-        color: #ff4655;
+        color: var(--red);
         transition: all 1s cubic-bezier(.215, .61, .355, 1);
     }
 
