@@ -77,8 +77,8 @@
     display: inline-block;
     width: 15px;
     height: 15px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
 }
 
 .visible {
@@ -153,7 +153,9 @@
 }
 
 
-
+hr {
+    border: 2px solid var(--red);
+}
 
 
 @media screen and (min-width: 800px) {
@@ -242,3 +244,4 @@
 
 
 }
+

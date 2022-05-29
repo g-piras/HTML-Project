@@ -14,8 +14,9 @@ body {
 /* COLORS */
 
 :root {
-    --red: #FF4655;
+    
     --grey: #737373;
+    --red: #FF4655;
     --titleColor: #ece8e1;
 }
 
