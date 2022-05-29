@@ -1,4 +1,5 @@
 
+/* STRUCTURE*/
 
 form {
   position: relative;
@@ -8,18 +9,36 @@ form {
   margin-right: 5vw;
 }
 
-.form-intro h2,
-.form-intro p {
-  color: white;
+/* FORM CONTAINERS */
+
+div.form-container {
+  margin-bottom: 350px;
+  border-right: 3px solid var(--red);
 }
+
+div.internal-container-a {
+  border-bottom: 2px solid #ff4655;
+  border-left: 3px solid #ff4655;
+  border-radius: 10px;
+  padding: 2px 0px 15px 20px;
+  margin-bottom: 20px;
+}
+
+div.external-container-a {
+  border-top: 2px #ff4655;
+  border-right: 3px #ff4655;
+  border-radius: 10px;
+  padding: 12px 10px 0px 10px;
+  margin-bottom: 20px;
+}
+
+
+
+/* FORM INTRO */
 
 .form-intro {
   position: relative;
   top: 150px;
-}
-
-h2 span {
-  color: #ff4655;
 }
 
 .form-intro h2,
@@ -27,7 +46,14 @@ h2 span {
   text-align: center;
   margin-right: 10%;
   margin-left: 10%;
+  color: white;
 }
+
+h2 span {
+  color: #ff4655;
+}
+
+/* FORM ELEMENTS */
 
 label {
   color: white;
@@ -52,6 +78,66 @@ select {
   box-sizing: border-box;
 }
 
+
+p {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+label[for="tournament"] {
+  display: block;
+  margin-top: 10px;
+}
+
+
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.color-input {
+  margin-left: 30%;
+}
+
+label#other-games {
+  color: var(--red);
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* LINKS */
+
+a:hover {
+  color: var(--red);
+  border-bottom: 1px solid var(--red);
+}
+
+.riot-link {
+  margin-top: 50px;
+}
+
+#riot-link {
+  color: var(--red);
+  
+}
+
+/* BUTTONS */
+
+button.form-button {
+  float: left;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
 button[type="submit"] {
   width: 30%;
   background-color: #ff4655;
@@ -74,77 +160,7 @@ button[type="reset"] {
   cursor: pointer;
 }
 
-p {
-  color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-fieldset {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #ff4655;
-}
-
-label[for="tournament"] {
-  display: block;
-  margin-top: 10px;
-}
-
-textarea {
-  width: 100%;
-  height: 100px;
-  border-radius: 4px;
-}
-
-.color-input {
-  margin-left: 30%;
-}
-
-label#other-games {
-  color: var(--red);
-  margin-bottom: 20px;
-}
-
-input[type="radio"] {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#riot-link {
-  color: var(--red);
-}
-
-button.form-button {
-  float: left;
-  margin-left: 35px;
-  margin-top: 20px;
-}
-
-div.form-container {
-  margin-bottom: 350px;
-}
-
-div.internal-container-a {
-  border-bottom: 2px solid #ff4655;
-  border-left: 3px solid #ff4655;
-  border-radius: 10px;
-  padding: 2px 0px 15px 20px;
-  margin-bottom: 20px;
-}
-
-div.external-container-a {
-  border-top: 2px #ff4655;
-  border-right: 3px #ff4655;
-  border-radius: 10px;
-  padding: 12px 10px 0px 10px;
-  margin-bottom: 20px;
-}
-
-a:hover {
-  color: var(--red);
-  border-bottom: 1px solid var(--red);
-}
+/* BUTTONS INTERACTIONS */
 
 button[type="submit"]:hover {
   box-shadow: 2px 2px 3px 3px red;
@@ -156,9 +172,7 @@ button[type="reset"]:hover {
   font-size: medium;
 }
 
-div.form-container {
-  border-right: 3px solid var(--red);
-}
+/* MEDIA QUERY */
 
 @media screen and (min-width: 899.99px) {
   form {
