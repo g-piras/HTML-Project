@@ -42,6 +42,6 @@
     - Tournaments
         - `Optional` Venues
     - Players
-    - Join form
+    - Join Us
     - Gallery
         - `Optional` Videos

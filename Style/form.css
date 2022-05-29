@@ -1,18 +1,44 @@
 
+.form-intro h2,
+.form-intro p {
+  color: white;
+}
+
 form {
   position: relative;
   top: 170px;
   width: 80%;
   margin-left: 35px;
   margin-right: 35px;
-
+  
 }
 
-/* 
-label {
+.form-intro {
+  position: relative;
+  top: 150px;
+}
+
+h2 span {
+  color: #ff4655;
+}
+
+.form-intro h2,
+.form-intro p {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+ 
+label  { 
   color: white;
-  font-family: "Montserrat", sans-serif;
-} */
+} 
+
+input,
+option,
+select {
+  background-color: white;
+}
+
 
 input[type="text"],
 input[type="email"],
@@ -31,8 +57,8 @@ button[type="submit"] {
   width: 30%;
   background-color: #ff4655;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 15%;
+  padding: 12px 20px;
+  margin: 10px 10px; 
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -42,12 +68,12 @@ button[type="reset"] {
   width: 30%;
   background-color: white;
   color: black;
-  padding: 14px 20px;
-  margin: 8px 15%;
+  padding: 12px 20px;
+  margin: 10px 10px; 
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
+} 
 
 p {
   color: white;
@@ -60,8 +86,48 @@ fieldset {
   margin-bottom: 15px;
   border: 1px solid #ff4655;
 }
-/* 
-button {
-  position: relative;
-  bottom: 30px;
-} */
+
+label[for="tournament"] {
+  display: block;
+  margin-top: 10px;
+ /*  margin-bottom: 10px; */ 
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+}
+
+
+button.form-button {
+  float: left;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+ div.form-container {
+  margin-bottom: 350px;
+} 
+
+
+div.internal-container-a {
+  border-bottom: 2px  solid #ff4655;
+  border-left: 3px  solid #ff4655;
+  border-radius: 10px;
+  padding: 2px 0px 15px 20px;
+  margin-bottom: 20px;
+} 
+
+div.external-container-a {
+  border-top: 2px  #ff4655;
+  border-right: 3px  #ff4655;
+  border-radius: 10px;
+  padding: 12px 10px 0px 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+

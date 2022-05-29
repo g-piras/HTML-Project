@@ -6,7 +6,7 @@ h1,h2,h3,h4,h5{
 
 p{
     line-height: 30px;
-    color: rgb(179, 212, 220) !important;
+    color: rgb(179, 212, 220);
     font-size: larger;
 }
 
@@ -16,7 +16,9 @@ p{
     font-family: 'VALORANT', sans-serif;
     font-size: 40px;
     color: rgb(255, 103, 103);
+    margin-top: 130px;
 }
+
 
 .tournaments-sub-header {
     text-align: center;
@@ -38,7 +40,7 @@ p{
     width: 80%;
     padding-bottom: 3%;
     border-bottom: 0.5px solid grey ;
-    ;
+    
 }
 
 .gamingtrophy{
@@ -58,6 +60,14 @@ p{
 .trophy-card:hover{
     background-color: rgb(25, 25, 25);
     box-shadow: 0px 0px 10px 5px rgba(199, 250, 255, 0.418);
+}
+
+.footer-container h2{
+    margin-bottom: 0;
+}
+
+.footer-container p{
+    color: #737373;
 }
 
 
