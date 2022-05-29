@@ -5,7 +5,7 @@
 body {
     position: absolute;
     font-size: 14px;
-    background: #0f1923;
+    background: var(--background);
     width: 100%;
     font-family: 'Maven Pro', sans-serif;
 
@@ -14,9 +14,11 @@ body {
 /* COLORS */
 
 :root {
-    --red: #FF4655;
+    
     --grey: #737373;
-    --titleColor: #ece8e1;
+    --red: #FF4655;
+    --title: #ece8e1;
+    --background: #0f1923;
 }
 
 
