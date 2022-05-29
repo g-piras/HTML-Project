@@ -1,16 +1,16 @@
 
-.form-intro h2,
-.form-intro p {
-  color: white;
-}
 
 form {
   position: relative;
   top: 170px;
   width: 80%;
-  margin-left: 35px;
-  margin-right: 35px;
-  
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.form-intro h2,
+.form-intro p {
+  color: white;
 }
 
 .form-intro {
@@ -28,17 +28,16 @@ h2 span {
   margin-right: 10%;
   margin-left: 10%;
 }
- 
-label  { 
+
+label {
   color: white;
-} 
+}
 
 input,
 option,
 select {
   background-color: white;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -58,7 +57,7 @@ button[type="submit"] {
   background-color: #ff4655;
   color: white;
   padding: 12px 20px;
-  margin: 10px 10px; 
+  margin: 10px 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -69,11 +68,11 @@ button[type="reset"] {
   background-color: white;
   color: black;
   padding: 12px 20px;
-  margin: 10px 10px; 
+  margin: 10px 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-} 
+}
 
 p {
   color: white;
@@ -90,7 +89,6 @@ fieldset {
 label[for="tournament"] {
   display: block;
   margin-top: 10px;
- /*  margin-bottom: 10px; */ 
 }
 
 textarea {
@@ -99,6 +97,23 @@ textarea {
   border-radius: 4px;
 }
 
+.color-input {
+  margin-left: 30%;
+}
+
+label#other-games {
+  color: var(--red);
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#riot-link {
+  color: var(--red);
+}
 
 button.form-button {
   float: left;
@@ -106,28 +121,48 @@ button.form-button {
   margin-top: 20px;
 }
 
- div.form-container {
+div.form-container {
   margin-bottom: 350px;
-} 
-
+}
 
 div.internal-container-a {
-  border-bottom: 2px  solid #ff4655;
-  border-left: 3px  solid #ff4655;
+  border-bottom: 2px solid #ff4655;
+  border-left: 3px solid #ff4655;
   border-radius: 10px;
   padding: 2px 0px 15px 20px;
   margin-bottom: 20px;
-} 
+}
 
 div.external-container-a {
-  border-top: 2px  #ff4655;
-  border-right: 3px  #ff4655;
+  border-top: 2px #ff4655;
+  border-right: 3px #ff4655;
   border-radius: 10px;
   padding: 12px 10px 0px 10px;
   margin-bottom: 20px;
 }
 
+a:hover {
+  color: var(--red);
+  border-bottom: 1px solid var(--red);
+}
 
+button[type="submit"]:hover {
+  box-shadow: 2px 2px 3px 3px red;
+  font-size: medium;
+}
 
+button[type="reset"]:hover {
+  box-shadow: 2px 2px 3px 3px white;
+  font-size: medium;
+}
 
+div.form-container {
+  border-right: 3px solid var(--red);
+}
 
+@media screen and (min-width: 899.99px) {
+  form {
+    width: 50%;
+    margin-left: 25%;
+  }
+}

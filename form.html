@@ -402,11 +402,31 @@
             </select>
         </div>
         </div>
-    
-   <!--  <label class="form-item" for="hair-color">Hair</label>
-    <input class="color-input" type="color" id="hair-color" name="hair-color" value="hair-color"reuired required/>
-    <label class="form-item" for="eye-color">Eyes</label>
-    <input class="color-input" type="color" name="eye-color" id="eye-color" value="eye-color"required/> -->
+        <div class="external-container-a">
+         <div class="internal-container-a">
+            <label class="form-item" for="hair-color">Hair</label>
+            <select name="hair" id="hair">
+                <option value="black" class="color-input">Black</option>
+                <option value="blonde" class="color-input">Blonde</option>
+                <option value="brown" class="color-input">Brown</option>
+                <option value="grey" class="color-input">Grey</option>
+                <option value="red" class="color-input">Red</option>
+                <option value="other" class="color-input">Other</option>
+            </select>
+        </div>
+        </div>
+        <div class="external-container-a">
+        <div class="internal-container-a">
+            <label class="form-item" for="eye-color">Eyes</label>
+            <select name="eye" id="eye">
+                <option value="black" class="color-input">Black</option>
+                <option value="brown" class="color-input">Brown</option>
+                <option value="green" class="color-input">Green</option>
+                <option value="blue" class="color-input">Blue</option>
+                <option value="other" class="color-input">Other</option>
+             </select>
+        </div>
+        </div>
         <div class="external-container-a">
         <div class="internal-container-a">
             <label for="tournament">Desired tournament</label>
@@ -415,8 +435,37 @@
                 <option value="tournament2" class="tournament-item">tournament2</option>
                 <option value="tournament3" class="tournament-item">tournament3</option>
                 <option value="tournament4" class="tournament-item">tournament4</option>
-                <option value="tournament5" class="tournament-item">tournament5</option>                    <option value="tournament6" class="tournament-item">tournament6</option>
+                <option value="tournament5" class="tournament-item">tournament5</option>                    
+                <option value="tournament6" class="tournament-item">tournament6</option>
             </select>
+            <div>
+                <a target="_blank" href="./tournaments.html">
+                    <h3>Go to Tournaments page for more information</h3>
+                </a>    
+            </div>
+        </div>
+        </div>
+        <div class="external-container-a">
+        <div class="internal-container-a">
+            <div class="other-games">
+                <label for="other-games" name="other-games" id="other-games">RIOT games</label><br>
+                <input type="radio" id="league-of-legend" name="fav_language" value="league-of-legend">
+                <label for="league-of-legend">League Of Legend</label><br>
+                <input type="radio" id="teamfight-tactics" name="fav_language" value="teamfight-tactics">
+                <label for="teamfight-tactics">Teamfight Tactics</label><br>
+                <input type="radio" id="legends-of-runeterra" name="fav_language" value="legends-of-runeterra">
+                <label for="legends-of-runeterra">Legends Of Runeterra</label><br>
+                <input type="radio" id="lol-wild-rift" name="fav_language" value="lol-wild-rift">
+                <label for="lol-wild-rift">LOL: Wild Rift</label><br>
+                <input type="radio" id="not-picked" name="fav_language" value="not-picked">
+                <label for="not-picked">None</label><br>
+                <a target="_blank" href="https://www.riotgames.com/en">
+                    <h3>Do you like any other 
+                        <span id="riot-link">RIOT</span>
+                         games? Check out here...
+                    </h3>
+                </a>
+            </div>
         </div>
         </div>
         <div class="external-container-a">

@@ -1,4 +1,4 @@
-/* ! BASE STYLE */
+/* ALL PAGeS STANDARDS */
 
 
 
@@ -11,11 +11,12 @@ body {
 
 }
 
+/* COLORS */
+
 :root {
     --red: #FF4655;
 }
 
-/* ! classi da aggiungere al codice html */
 
 a {
     text-decoration: none;
@@ -30,8 +31,7 @@ p {
     color: #8b978f;
 }
 
-
-
+/* FONT-SIZES */
 
 .big-text {
     font-size: 70px;
@@ -160,7 +160,6 @@ p {
 .menu li:first-child {
     padding-top: 0;
 }
-
 
 
 .hamburger {
