@@ -55,6 +55,7 @@ We started thinking about how to divide page .......... Eloise pensaci tu
 - [gallery.css](./../Style/gallery.css)
 
 - [form.php](./../form.php)
+- [registered_user_page.php](./../registered_user_page.php)
 
 - [json](./../Contents/json/players.json)
 
