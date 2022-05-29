@@ -36,7 +36,7 @@ figcaption {
     visibility: hidden;
     width: fit-content;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 10.5px;
 }
 img:hover ~ figcaption {
     visibility: visible;
@@ -44,6 +44,12 @@ img:hover ~ figcaption {
 img:hover {
     transform: scale(1.03);
     transition: all 0.25s;
+}
+
+@media screen and (min-width: 450px) {
+    figcaption {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 680px) {
