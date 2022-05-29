@@ -31,7 +31,7 @@ The website should have at least the following areas:
 
 ## Approach to solution
 
-We started thinking about how to divide page .......... Eloise pensaci tu
+We started thinking about how to divide pages and work.... Eloise pensaci tu
 #
 
 ## File
@@ -191,6 +191,17 @@ window.addEventListener("scroll", function () {
 .header {
     animation: 0.7s ease-in-out 0s 1 navSlideInFromTop;
 }
+```
+
+The site was designed using the "content first" and "mobile first" approach.
+We used media queries to gradually upscale contents size in all versions, from mobile, landscape mobile, to desktop. We setted variuos brackpoints, most used are:
+
+```css
+@media screen and (min-width: 800px){}
+
+@media screen and (min-width: 1024px){}
+
+@media screen and (max-width: 900px) and (max-height: 700px) and (orientation: landscape){}
 ```
 
 #
