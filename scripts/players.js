@@ -1,0 +1,214 @@
+/**
+ * @file main.js
+ * @author: Giampietro Piras, Davide Murroni, Eloise Bryony Giorda, Federico Luciano Stroppiana, Francesco Abrate
+ * @project : Esports
+ * 
+ * This file contains all necessary functions
+ * to convert a jsonblob into HTML elements 
+ * for the player page
+ */
+
+let trophyIcon = "https://img.icons8.com/ios-glyphs/344/ffffff/trophy.png";
+
+/**
+ * Function that generates the necessary HTML elements
+ * for each player in each team 
+ * @param {*} playerInfo the player object from the jsonblob
+ * @param {*} container the container to append the elements to
+ */
+function generatePlayer(playerInfo, container) {
+  let playerLi = document.createElement("li");
+  playerLi.className = "player-list-item";
+  container.appendChild(playerLi);
+
+  let playerImage = document.createElement("img");
+  playerImage
+  .setAttribute("src", playerInfo.profilePicURL);
+  playerImage
+  .setAttribute("alt", playerInfo.gamerTag + " Profile Picture");
+  playerLi.appendChild(playerImage);
+
+  let nameDiv = document.createElement("div");
+  nameDiv.className = "player-name-heading";
+  playerLi.appendChild(nameDiv);
+
+  let playerTag = document.createElement("p");
+  playerTag.className = "gamerTag";
+  playerTag.innerText = playerInfo.gamerTag;
+  nameDiv.appendChild(playerTag);
+
+  let playerName = document.createElement("p");
+  playerName.className = "player-name hidden";
+  playerName.style.opacity = 0;
+  playerName.innerText = playerInfo.name;
+  nameDiv.appendChild(playerName);
+}
+
+
+/**
+ * Function that generates the HTML elements
+ * necessary for the team
+ * @param {*} teamInfo the team object taken from the jsonblob
+ * @param {*} container the container element to 
+ * append the team elements to
+ */
+function generateTeam(teamInfo, container) {
+  let teamList = document.createElement("li");
+  teamList.className = "team-list-item";
+  container.appendChild(teamList);
+
+  let teamBasicInfo = document.createElement("div");
+  teamBasicInfo.className = "team-info";
+  teamList.appendChild(teamBasicInfo);
+
+  let teamName = document.createElement("p");
+  teamName.innerText = teamInfo.team;
+  teamBasicInfo.appendChild(teamName);
+
+  let trophyIconImg = document.createElement("img");
+  trophyIconImg.setAttribute("src", trophyIcon);
+  trophyIconImg
+  .setAttribute("alt", teamInfo.team + " wins");
+  teamBasicInfo.appendChild(trophyIconImg);
+
+  let teamWins = document.createElement("p");
+  teamWins.innerText = teamInfo.wins;
+  teamBasicInfo.appendChild(teamWins);
+
+  let playerList = document.createElement("ul");
+  teamList.appendChild(playerList);
+  teamInfo.players.forEach((element) => {
+    generatePlayer(element, playerList);
+  });
+}
+
+
+/**
+ * function to choose the right team section and
+ * create the HTML elements required for the page 
+ * @param {*} json the json file from which to take the 
+ * information for teams and players
+ */
+function printTeams(json) {
+  json.forEach((element) => {
+    let sectionType;
+    if (element.active) {
+      sectionType = document
+      .getElementsByClassName("teams")[0];
+    } else {
+      sectionType = document
+      .getElementsByClassName("teams")[1];
+    }
+    generateTeam(element, sectionType);
+  });
+}
+
+
+/**
+ * function to convert a jsonblob into an object
+ * @param {*} file the jsonblob url
+ * @param {*} callback the function to execute at
+ *  the end of loading
+ */
+function readTextFile(file, callback) {
+  let rawFile = new XMLHttpRequest();
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function () {
+    if (rawFile.readyState === 4 && rawFile.status == "200") {
+      callback(rawFile.responseText);
+    }
+  };
+  rawFile.send();
+}
+
+
+/**
+ * Function to generate the selected players 
+ * information in the neeed pages' section
+ * @param {*} jsonObj the object obtained from the jsonblob
+ * @param {*} playerName the name of the player selected
+ */
+function generatePlayerInfo(jsonObj, playerName) {
+  for (const teams of jsonObj) {
+    for (const player of teams.players) {
+      if (player.name === playerName.innerText) {
+        document
+          .getElementById("player-info-pfp")
+          .setAttribute("src", player.profilePicURL);
+        document.getElementById("player-info-name")
+        .innerText = player.name;
+        document.getElementById("player-info-code")
+        .innerText = player.gamerTag;
+        document.getElementById("player-info-bio")
+        .innerText = player.bio;
+        document.getElementById("player-info-age")
+        .innerText = player.age;
+        document.getElementById("player-info-experience")
+        .innerText =
+          player.yearsOfXP;
+        document
+          .getElementById("player-info-nationality")
+          .setAttribute("src", player.nationalityURL);
+        tournaments = document
+        .getElementsByClassName("player-info-tournament");
+        for (let i = 0; i < tournaments.length; i++) {
+          if (i < Object.keys(player.tournaments).length) {
+            tournaments[i].innerText = Object.keys(player.tournaments)[i];
+            tournaments[i].setAttribute("href", player.tournaments[Object.keys(player.tournaments)[i]]);
+          } else {
+            tournaments[i].innerText = "";
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/**callback function excecuted when the jsonblob is converted */
+readTextFile(
+  "https://jsonblob.com/api/jsonBlob/979126680807555072",
+  function (text) {
+    let jsonData = JSON.parse(text);
+    printTeams(jsonData);
+    document
+      .getElementsByClassName("close-profile")[0]
+      .addEventListener("click", function () {
+        document.getElementById("selected-player-container")
+        .className =
+          "player-inactive";
+        document.body.style.overflow = "visible";
+      });
+
+    document.getElementById("empty-div").addEventListener("click", function () {
+      document.getElementById("selected-player-container")
+      .className =
+        "player-inactive";
+      document.body.style.overflow = "visible";
+    });
+    let playerNames = document.getElementsByClassName("player-name");
+    const players = document.getElementsByClassName("player-list-item");
+    for (let i = 0; i < players.length; i++) {
+      players[i].addEventListener("click", function () {
+        generatePlayerInfo(jsonData, playerNames[i]);
+        document.getElementById("selected-player-container")
+        .className =
+          "player-active";
+        document.body.style.overflow = "hidden";
+      });
+      window.addEventListener("scroll", function () {
+        let playerName = playerNames[i];
+        playerName.style.removeProperty("opacity");
+        let targetPosition = playerName.getBoundingClientRect().top;
+        let screenPosition;
+
+        screenPosition = window.innerHeight / 1.1;
+        if (targetPosition < screenPosition) {
+          playerName.className = "player-name";
+        } else {
+          playerName.className = "player-name hidden";
+        }
+      });
+    }
+  }
+);

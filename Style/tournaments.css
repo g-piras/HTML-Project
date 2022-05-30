@@ -1,40 +1,65 @@
+/*
+tournaments.css
+
+display the various tournaments
+*/
+:root {
+    --main-red-color: #ff4655;
+  }
+
 /*tournament section*/
-h1,h2,h3,h4,h5{
-    margin-bottom: 1cm;
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.7cm;
+    font-size: larger;
 }
 
 p{
     line-height: 30px;
+    color: rgb(179, 212, 220);
+    font-size: 15px;
+}
+
+h6{
+    color: rgb(143, 255, 7);
+}
+
+.past-date{
+    color: rgb(255, 0, 255);
 }
 
 .tournaments-header {
     text-align: center;
-    padding: 6%;
+    padding: 2%;
     font-family: 'VALORANT', sans-serif;
-    font-size: 35px;
-    color: rgb(255, 103, 103);
+    font-size: 40px;
+    color: var(--main-red-color);
+    margin-top: 20px;
 }
+
 
 .tournaments-sub-header {
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    font-size: 20px;
+    padding-bottom: 2%;
+    margin-top: 40px;
+    font-size: 30px;
     font-family: 'VALORANT', sans-serif;
 }
 
 .trophy-title{
     font-family: 'VALORANT', sans-serif;
+    color:  var(--main-red-color) ;
 }
 
 .containercards{
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 30px;
+    gap: 50px;
     margin: 0 auto;
     width: 80%;
     padding-bottom: 3%;
-    border-bottom: 0.5px solid grey ;
+    border-bottom: 0.5px solid var(--main-red-color) ;
+    margin-bottom: 3%;
+    
 }
 
 .gamingtrophy{
@@ -44,18 +69,44 @@ p{
 
 .trophy-card{
     background-color: #111;
-    color: rgb(255, 103, 103);
-    border-radius: 10px;
-    border: grey solid 0.3px;
+    /* border-radius: 5px; */
+    border: rgb(75, 75, 75) solid 1px;
     padding: 20px;
+    transition: 0.5s ease-in-out;
+    height: 333.05px;
 }
 
 .trophy-card:hover{
     background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 7px 5px rgba(199, 244, 255, 0.629) ;
+    padding: 25px;
+    
+}
+
+.footer-container h2{
+    margin-bottom: 0;
+}
+
+.footer-container p{
+    color: #737373;
+}
+
+.trophy-card:hover .trophy-title {
+    text-decoration:underline;
 }
 
 
-@media screen and (min-width: 850px){
+
+
+
+.img-header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+@media screen and (min-width: 750px){
     .containercards{
       grid-template-columns: 1fr 1fr;
   }  

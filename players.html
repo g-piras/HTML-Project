@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- RESET CSS -->
+
+    <link href="http://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./Contents/img/favicon.ico">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link rel="stylesheet" href="./Style/players.css" />
+
+    <title>Valorant Esport</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <div class="header">
+      <div class="logo-left">
+        <img src="./Contents/img/logo-red-white.png" alt="logo-left" />
+      </div>
+      <ul class="menu">
+        <li><a href="./index.html">HOMEPAGE</a></li>
+        <li><a href="./tournaments.html">TOURNAMENTS</a></li>
+        <li><a href="./players.html">TEAMS</a></li>
+        <li><a href="./news.html">NEWS</a></li>
+        <li><a href="./gallery.html">GALLERY</a></li>
+        <li><a href="./form.html">JOIN US</a></li>
+      </ul>
+
+      <span class="arrow arrow-down"></span>
+
+      <div class="logo-right">
+        <img src="./Contents/img/transparent-red-logo2.png" alt="" srcset="" />
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero__content">
+        <h1>
+          <span>LevelUp</span><span class="intro-text">VALORANT</span
+          ><span id="esport">ESPORT</span>
+        </h1>
+      </div>
+
+      <img
+        src="./Contents/img/Spike_Rush_Banner.jpg"
+        alt="banner"
+        id="background-img"
+      />
+    </div>
+
+    <div class="bottom-arrow"></div>
+    <!-- PAGE CONTENT-->
+    <section class="page-header">
+      <h1>TEAMS AND PLAYERS</h1>
+    </section>
+    <main>
+      <!--SELECTED PLAYER INFORMATION-->
+      <section id="selected-player-container" class="player-inactive">
+        <div id="empty-div"></div>
+        <div id="selected-player">
+          <img
+            src="https://www.iconsdb.com/icons/preview/white/x-mark-xxl.png"
+            alt=""
+            class="close-profile"
+          />
+          <h2>Player profile</h2>
+          <img
+            src=""
+            alt="selected player profile image"
+            id="player-info-pfp"
+          />
+          <p>Name: <span id="player-info-name"></span></p>
+          <div class="player-info-inline">
+            <p>Tag: <span id="player-info-code"></span></p>
+            <img src="" alt="player nationality" id="player-info-nationality" />
+          </div>
+          <p id="bio-label">Bio:</p>
+          <p id="player-info-bio"></p>
+          <p>Age: <span id="player-info-age"></span></p>
+          <p>Years of experience: <span id="player-info-experience"></span></p>
+          <p id="tournaments-label">Latest tournaments:</p>
+          <ul>
+            <li>
+              <a href="" class="player-info-tournament"></a>
+            </li>
+            <li>
+              <a href="" class="player-info-tournament"></a>
+            </li>
+            <li>
+              <a href="" class="player-info-tournament"></a>
+            </li>
+            <li>
+              <a href="" class="player-info-tournament"></a>
+            </li>
+            <li>
+              <a href="" class="player-info-tournament"></a>
+            </li>
+          </ul>
+        </div>
+        <!--TEAMS-->
+      </section>
+      <!--ACTIVE TEAMS-->
+      <div class="category-subtitle">
+        <h2 id="active">ACTIVE TEAMS</h2>
+      </div>
+      <section class="active-players">
+        <ul class="teams"></ul>
+      </section>
+      <!--RETIRED TEAMS-->
+      <div class="category-subtitle">
+        <h2 id="retired">RETIRED TEAMS</h2>
+      </div>
+      <section class="retired-players">
+        <ul class="teams"></ul>
+      </section>
+    </main>
+  <!-- footer -->
+  
+  <footer>
+    <div class="footer-container">
+      <div class="social-links">
+        <ul>
+          <li>
+            <a href="https://twitter.com/ValorantEsports" target="_blank"><img
+                src="./Contents/img/articles img/twitter.png" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCA1d3HFGFUmkKr2JIUA5Vlw" target="_blank">
+              <img src="./Contents/img/articles img/youtube.png" alt="youtube" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/valorantesports/" target="_blank"><img
+                src="./Contents/img/articles img/instagram.png" alt="instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ValorantEsports/" target="_blank"><img
+                src="./Contents/img/articles img/facebook.png" alt="facebook" /></a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer-logo">
+        <h1>
+          <span>LevelUp</span><span class="valorant-footer-text">VALORANT</span><span id="esport-footer">ESPORT</span>
+        </h1>
+      </div>
+  
+  
+      <div class="inline-footer">
+  
+        <div class="about-us">
+          <div class="team-levelup">
+            <h2>OUR TEAM</h2>
+            <p><a href="https://github.com/furenshi" target="_blank">Francesco Abrate</a></p>
+            <p><a href="https://github.com/EloiseBGiorda" target="_blank">Eloise Bryony Giorda</a></p>
+            <p><a href="https://github.com/dmurro" target="_blank">Davide Murroni</a></p>
+            <p><a href="https://github.com/KelosDev" target="_blank">Giampietro Piras</a></p>
+            <p><a href="https://github.com/FedericoStroppiana" target="_blank">Federico Luciano Stroppiana</a></p>
+          </div>
+  
+          <div class="bottom-footer">
+            <ul class="footer-sections">
+              <li><a href="./index.html">HOMEPAGE</a></li>
+              <li><a href="./tournaments.html">TOURNAMENTS</a></li>
+              <li><a href="./players.html">TEAMS</a></li>
+              <li><a href="./news.html">NEWS</a></li>
+              <li><a href="./gallery.html">GALLERY</a></li>
+              <li><a href="./form.html">JOIN US</a></li>
+            </ul>
+          </div>
+  
+  
+          <div class="contacts">
+            <ul>
+              <li>Email: levelup@mail.com</li>
+              <li>Phone: 333-444-5555</li>
+              <li>City: Italy, Piedmont, Turin 10138</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy">&copy; LevelUp</div>
+      </div>
+    </footer>
+  
+
+  <!--SCRIPTS-->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/players.js"></script>
+    <!--END OF BODY-->
+  </body>
+</html>

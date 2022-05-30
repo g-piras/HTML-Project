@@ -1,0 +1,522 @@
+/* -----------------   MOBILE / GENERAL   ---------------- */
+
+/*Header-----    ! HERO */
+
+.hero {
+  height: 80vh;
+}
+
+#background-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*End of Header----     ! HERO */
+
+/*Page heading*/
+
+h1 {
+  font-family: "VALORANT", sans-serif;
+  font-weight: bold;
+  color: #ff4655;
+  font-size: 38px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.page-header {
+  padding: 80px 0 40px 0;
+  align-items: center !important;
+}
+
+/*End of page heading*/
+
+/*Page content*/
+
+section,
+main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+main {
+  font-family: "Maven Pro", sans-serif !important;
+  font-weight: bold;
+  padding: 2% 5% 0 5%;
+}
+
+main h2 {
+  font-family: "VALORANT", sans-serif;
+  width: 100%;
+  font-size: 35px;
+  color: white;
+  margin-top: 35px;
+  padding: 20px 20px 5px 20px;
+  border-radius: 10px;
+  border-top: 2px solid white;
+  margin: 20px auto;
+}
+
+/*End of page content*/
+
+/*Selected player info*/
+
+#selected-player-container.player-active {
+  display: flex;
+}
+
+#selected-player-container.player-inactive {
+  display: none;
+}
+
+#empty-div {
+  opacity: 40%;
+  z-index: 90;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+#selected-player {
+  opacity: 100%;
+  z-index: 100;
+  position: fixed;
+  background-color: #0f1923;
+  border-top: #ff4655 3px solid;
+  border-right: #ff4655 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 83vh;
+  top: 10%;
+  border-radius: 20px;
+}
+
+#selected-player .close-profile {
+  position: absolute;
+  display: block;
+  width: 25px;
+  top: 10px;
+  right: 10px;
+}
+
+#player-info-pfp {
+  margin-top: 50px;
+}
+
+#selected-player p {
+  font-family: "VALORANT", sans-serif;
+  color: #ff4655;
+  font-size: 3.5vw;
+  padding: 4px 20px;
+}
+
+#selected-player span,
+#selected-player a,
+#selected-player #player-info-bio {
+  font-family: "Maven Pro", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 3vw;
+  padding: 3px 20px;
+}
+
+
+#selected-player a:visited{
+  color: white;
+  font-size: 3vw;
+}
+
+#selected-player #player-info-bio {
+  padding: 3px 30px;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.player-info-inline {
+  width: 100%;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#selected-player h2 {
+  width: auto;
+  font-size: 5.5vw;
+  margin: auto;
+  padding: 7px 15px;
+  position: absolute;
+  flex-direction: column;
+  align-self: center;
+  justify-content: start;
+  top: 25px;
+}
+
+#selected-player #player-info-pfp {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: white;
+  border-top: #ff4655 3px solid;
+  border-right: #ff4655 3px solid;
+  margin-bottom: 20px;
+}
+
+#selected-player #player-info-nationality {
+  width: 30px;
+  height: 25px;
+  height: auto;
+  border-radius: 5px;
+  margin: 0 20px;
+  padding: 0;
+}
+
+/*End of selected player info*/
+
+/*Teams*/
+
+.team-info {
+  font-family: "VALORANT", sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-bottom: #ff4655 solid 1px;
+  border-radius: 20px;
+}
+
+.team-info p:first-child {
+  color: #ff4655;
+  font-size: 28px;
+  word-break: keep-all;
+}
+
+.team-info p {
+  padding: 10px 0;
+}
+
+.team-info * {
+  margin: 5px 0;
+  color: white;
+}
+
+.team-list-item {
+  background-color: black;
+  padding: 30px 0 35px 0;
+  border-radius: 25px;
+  border-top: 3px solid #ff4655;
+  border-right: 3px solid #ff4655;
+  text-align: center;
+  margin: 40px auto;
+  width: 330px;
+}
+
+.team-list-item p {
+  padding: 5px;
+}
+
+.team-info img {
+  padding: 10px 0;
+  width: 30px;
+  display: inherit;
+  margin-left: 5px;
+  border: none;
+}
+
+.team-info img:hover {
+  cursor: default;
+  transition: none;
+  box-shadow: none;
+}
+
+/*End of teams*/
+
+/*Players*/
+
+.player-list-item img {
+  display: none;
+}
+
+.gamerTag {
+  font-size: 18px;
+  color: white;
+}
+
+.player-list-item:active .gamerTag, 
+#selected-player a:active,
+.player-list-item:hover .gamerTag, 
+#selected-player a:hover{
+  animation: toRed 300ms ease-in-out forwards;
+}
+
+.player-list-item:hover{
+  cursor: pointer;
+}
+
+p.player-name {
+  padding: 0 0 10px 0 !important;
+}
+
+p.player-name.hidden {
+  animation: shrink 300ms ease-in-out forwards !important;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  perspective: 1000px;
+  z-index: -1;
+}
+
+p.player-name:not(.hidden) {
+  display: block !important;
+  opacity: 1 !important;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+/*End of players*/
+
+/*Animations*/
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes toRed {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #ff4655;
+  }
+}
+
+/*End of animations*/
+
+/*------------------------   MEDIA QUERIES   -------------------------*/
+
+/*Media query for longer screens*/
+
+@media screen and (min-height: 750px) {
+  #selected-player h2 {
+    position: relative !important;
+    top: auto;
+    margin-bottom: 25px !important;
+    margin-top: 30px !important;
+  }
+
+  #selected-player #player-info-pfp {
+    margin-top: 0 !important;
+  }
+}
+/*end of first media query*/
+
+/*Media Query to fix font size of selected player information*/
+
+@media screen and (min-width: 500px) {
+  #selected-player p {
+    font-size: 18px !important;
+  }
+
+  #selected-player span,
+  #selected-player a,
+  #selected-player #player-info-bio {
+    font-size: 15px !important;
+  }
+
+  #selected-player h2 {
+    font-size: 28px !important;
+  }
+}
+
+/*end of first media query*/
+
+/*Desktop media query*/
+
+@media screen and (min-width: 800px) {
+  .player-list-item img {
+    width: 316px;
+    height: 316px;
+    display: block;
+    border: none;
+    border-left: #ff4655 2px solid;
+    border-bottom: #ff4655 2px solid;
+    border-radius: 25px;
+  }
+
+  .player-list-item img:hover {
+    transition: none;
+    box-shadow: none;
+  }
+
+  .team-info {
+    width: 100%;
+    align-self: flex-start;
+    top: 0;
+  }
+
+  .team-list-item {
+    background-color: transparent;
+    padding: 30px 0 35px 0;
+    border: none;
+    text-align: center;
+    width: 80vw;
+    margin-top: 0;
+    background-color: #0000005b;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+  }
+
+  .player-list-item {
+    display: inline-flex !important;
+    width: 320px;
+    height: 410px;
+    border-top: #ff4655 3px solid;
+    border-right: #ff4655 3px solid;
+    border-radius: 25px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 30px !important;
+    background-color: #000;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .player-list-item * {
+    display: block;
+  }
+
+  .player-list-item:hover {
+    box-shadow: 0px 0px 20px 5px var(--red);
+  }
+
+  .player-name-heading {
+    position: relative;
+    bottom: 0px !important;
+    padding-bottom: 20px;
+    border-radius: 25px;
+  }
+
+  #selected-player h2 {
+    position: absolute !important;
+    top: 30px;
+    margin-bottom: 25px !important;
+    margin-top: 20px !important;
+    font-size: 34px !important;
+    padding: 15px !important;
+  }
+
+  #selected-player #player-info-pfp {
+    margin-top: 0 !important;
+    width: 280px;
+    height: 280px;
+  }
+
+  #selected-player {
+    width: 50vw;
+    height: 84vh;
+    top: 10%;
+    border-radius: 20px;
+  }
+}
+
+/*End of third media query*/
+
+/*Media query to fix selected player on shorter screens*/
+
+@media screen and (max-height: 700px) {
+  #selected-player #player-info-pfp {
+    margin-top: 20px !important;
+    margin-bottom: 2px;
+    width: 120px;
+    height: 120px;
+  }
+
+  #selected-player h2 {
+    top: 0;
+    font-size: 3vh !important;
+  }
+
+  #selected-player p {
+    font-size: 2vh !important;
+  }
+
+  #selected-player span,
+  #selected-player a,
+  #selected-player #player-info-bio {
+    font-size: 1.8vh !important;
+  }
+}
+
+/*End of fourth media query*/
+
+/*Media query to fix selected player on mid height screens*/
+
+@media screen and (max-height: 900px) and (min-height: 700px) {
+  #selected-player #player-info-pfp {
+    margin-top: 20px !important;
+    margin-bottom: 5px;
+    width: 180px;
+    height: 180px;
+  }
+
+  #selected-player h2 {
+    top: 5px;
+    font-size: 26px !important;
+  }
+
+  #selected-player p {
+    font-size: 16px !important;
+  }
+
+  #selected-player span,
+  #selected-player a,
+  #selected-player #player-info-bio {
+    font-size: 14px !important;
+  }
+}
+/*End of fifth media query*/

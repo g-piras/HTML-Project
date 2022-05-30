@@ -29,15 +29,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./Contents/img/favicon.ico">
 
-
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./Style/news.css">
+    <!-- styles -->
+        <link rel="stylesheet" href="./Style/style.css">
+        <link rel="stylesheet" href="./Style/news.css">
     <title>Valorant Esport</title>
 </head>
 
 <body>
 
+
+    <!-- HEADER -->
 
     <div class="header">
         <div class="logo-left"> <img src="./Contents/img/logo-red-white.png" alt="logo-left"></div>
@@ -49,6 +53,8 @@
             <li><a href="./gallery.html">GALLERY</a></li>
             <li><a href="./form.html">JOIN US</a></li>
         </ul>
+
+        <span class="arrow arrow-down"></span>
 
         <div class="logo-right">
             <img src="./Contents/img/transparent-red-logo2.png" alt="" srcset="">
@@ -64,18 +70,20 @@
 
     <!-- Articles -->
 
-
-
-
     <section class="articles-section">
 
         <article>
 
-            <div class="news-title">
-                <h2>NEWS</h2>
-            </div>
+          
 
             <!-- article one -->
+
+            <div class="top-background">
+                
+            </div>
+
+            
+
 
             <a name="article-one"></a>
 
@@ -151,12 +159,12 @@
                 <br><br>
 
                 <a href="index.html#go-back">
-                    <h3>go back</h3>
+                    <span class="arrow arrow-left"></span>
                 </a>
 
             </div>
-
-
+            <br>
+            <hr>
 
             <!-- article two -->
 
@@ -300,10 +308,13 @@
                 </p>
                 <br><br>
                 <a href="index.html#go-back">
-                    <h3>go back</h3>
+                    <span class="arrow arrow-left"></span>
                 </a>
 
             </div>
+
+            <br>
+            <hr>
 
             <!-- article three -->
 
@@ -392,9 +403,12 @@
                 <br><br>
 
                 <a href="index.html#go-back">
-                    <h3>go back</h3>
+                    <span class="arrow arrow-left"></span>
                 </a>
             </div>
+
+            <br>
+            <hr>
 
             <!-- article four -->
 
@@ -543,8 +557,8 @@
 
                 <br><br>
 
-                <a href="index.html#go-back" >
-                    <h3>go back</h3>
+                <a href="index.html#go-back">
+                    <span class="arrow arrow-left"></span>
                 </a>
 
 
@@ -558,41 +572,85 @@
 
     </section>
 
+    <div class="top">
+        <a href="#" class="to-top top-fixed"></a>
+    </div>
 
-    <footer>
-        <div class="footer-container">
-            <div class="social-links">
-                <ul>
-                    <li><img src="./Contents/img/articles img/twitter.png" alt="twitter"></li>
-                    <li><img src="./Contents/img/articles img/youtube.png" alt="twitter"></li>
-                    <li><img src="./Contents/img/articles img/instagram.png" alt="twitter"></li>
-                    <li><img src="./Contents/img/articles img/facebook.png" alt="twitter"></li>
-                </ul>
-            </div>
-            
-            <div class="footer-logo">
-                <h1><span>LevelUp</span><span class="valorant-footer-text">VALORANT</span><span
-                        id="esport-footer">ESPORT</span></h1>
-            </div>
-    
-            <div class="bottom-footer">
-                <ul class="footer-sections">
-                    <li><a href="./index.html">HOMEPAGE</a></li>
-                    <li><a href="./tournaments.html">TOURNAMENTS</a></li>
-                    <li><a href="./players.html">TEAMS</a></li>
-                    <li><a href="./news.html">NEWS</a></li>
-                    <li><a href="./gallery.html">GALLERY</a></li>
-                    <li><a href="./form.html">JOIN US</a></li>
-                </ul>
-            </div>
-    
+
+<!-- footer -->
+
+<footer>
+    <div class="footer-container">
+        <div class="social-links">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/ValorantEsports" target="_blank"><img
+                            src="./Contents/img/articles img/twitter.png" alt="twitter" /></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCA1d3HFGFUmkKr2JIUA5Vlw" target="_blank">
+                        <img src="./Contents/img/articles img/youtube.png" alt="youtube" /></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/valorantesports/" target="_blank"><img
+                            src="./Contents/img/articles img/instagram.png" alt="instagram" /></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/ValorantEsports/" target="_blank"><img
+                            src="./Contents/img/articles img/facebook.png" alt="facebook" /></a>
+                </li>
+            </ul>
         </div>
-    </footer>
-  
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!-- Jquery -->
-    <script src="./scripts/news.js"></script>
+        <div class="footer-logo">
+            <h1>
+                <span>LevelUp</span><span class="valorant-footer-text">VALORANT</span><span
+                    id="esport-footer">ESPORT</span>
+            </h1>
+        </div>
 
+
+        <div class="inline-footer">
+
+            <div class="about-us">
+                <div class="team-levelup">
+                    <h2>OUR TEAM</h2>
+                    <p><a href="https://github.com/furenshi" target="_blank">Francesco Abrate</a></p>
+                    <p><a href="https://github.com/EloiseBGiorda" target="_blank">Eloise Bryony Giorda</a></p>
+                    <p><a href="https://github.com/dmurro" target="_blank">Davide Murroni</a></p>
+                    <p><a href="https://github.com/KelosDev" target="_blank">Giampietro Piras</a></p>
+                    <p><a href="https://github.com/FedericoStroppiana" target="_blank">Federico Luciano Stroppiana</a>
+                    </p>
+                </div>
+
+                <div class="bottom-footer">
+                    <ul class="footer-sections">
+                        <li><a href="./index.html">HOMEPAGE</a></li>
+                        <li><a href="./tournaments.html">TOURNAMENTS</a></li>
+                        <li><a href="./players.html">TEAMS</a></li>
+                        <li><a href="./news.html">NEWS</a></li>
+                        <li><a href="./gallery.html">GALLERY</a></li>
+                        <li><a href="./form.html">JOIN US</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="contacts">
+                    <ul>
+                        <li>Email: levelup@mail.com</li>
+                        <li>Phone: 333-444-5555</li>
+                        <li>City: Italy, Piedmont, Turin 10138</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy">&copy; LevelUp</div>
+
+    </div>
+</footer>
+    <script src="./scripts/main.js"></script>
+    
 </body>
 
 </html>
