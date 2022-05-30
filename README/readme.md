@@ -146,10 +146,6 @@ window.addEventListener("scroll", function () {
 
 **funcion** -> if menu is hidden due to scroll you can click in every part of the page and then the menu will be visible again
 
-<<<<<<< HEAD
-=======
-**function** ->  if menu is hidden due to scroll you can click in every part of the page and then the menu will be visible again
->>>>>>> francesco
 ```js
 // If menu is hidden just click in every part of the page and menu will drop down again
 
