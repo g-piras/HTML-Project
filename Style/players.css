@@ -130,13 +130,20 @@ main h2 {
 }
 
 #selected-player span,
-#selected-player li,
+#selected-player a,
 #selected-player #player-info-bio {
   font-family: "Maven Pro", sans-serif;
+  text-decoration: none;
   font-weight: bold;
   color: white;
   font-size: 3vw;
   padding: 3px 20px;
+}
+
+
+#selected-player a:visited{
+  color: white;
+  font-size: 3vw;
 }
 
 #selected-player #player-info-bio {
@@ -255,10 +262,12 @@ main h2 {
 .gamerTag {
   font-size: 18px;
   color: white;
-  animation: toWhite 100ms ease-in-out forwards;
 }
 
-.player-list-item:active .gamerTag {
+.player-list-item:active .gamerTag, 
+#selected-player a:active,
+.player-list-item:hover .gamerTag, 
+#selected-player a:hover{
   animation: toRed 100ms ease-in-out forwards;
 }
 
@@ -320,15 +329,6 @@ p.player-name:not(.hidden) {
   }
 }
 
-@keyframes toWhite {
-  0% {
-    color: inherit;
-  }
-  100% {
-    color: white;
-  }
-}
-
 /*End of animations*/
 
 /*------------------------   MEDIA QUERIES   -------------------------*/
@@ -357,7 +357,7 @@ p.player-name:not(.hidden) {
   }
 
   #selected-player span,
-  #selected-player li,
+  #selected-player a,
   #selected-player #player-info-bio {
     font-size: 15px !important;
   }
@@ -483,7 +483,7 @@ p.player-name:not(.hidden) {
   }
 
   #selected-player span,
-  #selected-player li,
+  #selected-player a,
   #selected-player #player-info-bio {
     font-size: 1.8vh !important;
   }
@@ -511,7 +511,7 @@ p.player-name:not(.hidden) {
   }
 
   #selected-player span,
-  #selected-player li,
+  #selected-player a,
   #selected-player #player-info-bio {
     font-size: 14px !important;
   }
