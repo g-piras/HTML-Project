@@ -5,25 +5,47 @@ display the various tournaments
 */
 :root {
     --main-red-color: #ff4655;
-  }
+    --valorant: 'VALORANT', sans-serif;
+}
 
 /*tournament section*/
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.7cm;
     font-size: larger;
 }
 
-p{
+
+
+button {
+    background-color: #111;
+    border: #aaaaaa solid 0.1px;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #272626;
+    color: rgb(255, 255, 255);
+}
+
+p {
     line-height: 30px;
     color: rgb(179, 212, 220);
     font-size: 15px;
 }
 
-h6{
+h6 {
     color: rgb(143, 255, 7);
 }
 
-.past-date{
+.past-date {
     color: rgb(255, 0, 255);
 }
 
@@ -32,7 +54,8 @@ h6{
     padding: 2%;
     font-family: 'VALORANT', sans-serif;
     font-size: 40px;
-    color: var(--main-red-color);
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff4655, 0 0 40px #ff4655, 0 0 50px #ff4655, 0 0 60px #ff4655, 0 0 70px #ff4655;
     margin-top: 20px;
 }
 
@@ -45,76 +68,169 @@ h6{
     font-family: 'VALORANT', sans-serif;
 }
 
-.trophy-title{
+.trophy-title {
     font-family: 'VALORANT', sans-serif;
-    color:  var(--main-red-color) ;
+    color: var(--main-red-color);
 }
 
-.containercards{
+.containercards {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     gap: 50px;
     margin: 0 auto;
     width: 80%;
     padding-bottom: 3%;
-    border-bottom: 0.5px solid var(--main-red-color) ;
+    border-bottom: 1px solid var(--main-red-color);
     margin-bottom: 3%;
-    
+
 }
 
-.gamingtrophy{
-    height: 4cm;
+
+
+.gamingtrophy {
+    height: 3.5cm;
     float: right;
+    transition: 0.5s;
 }
 
-.trophy-card{
+
+.trophy-card {
     background-color: #111;
     /* border-radius: 5px; */
     border: rgb(75, 75, 75) solid 1px;
     padding: 20px;
     transition: 0.5s ease-in-out;
-    height: 333.05px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
-.trophy-card:hover{
+.trophy-card:hover {
     background-color: rgb(25, 25, 25);
-    box-shadow: 0px 0px 7px 5px rgba(199, 244, 255, 0.629) ;
-    padding: 25px;
-    
+    box-shadow: 0px 0px 7px 5px rgba(199, 244, 255, 0.246);
+
+
 }
 
-.footer-container h2{
+.footer-container h2 {
     margin-bottom: 0;
 }
 
-.footer-container p{
+.footer-container p {
     color: #737373;
 }
 
 .trophy-card:hover .trophy-title {
-    text-decoration:underline;
+    text-decoration: underline;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 18%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #00387020;
+    /* Black w/ opacity */
+    ;
+    backdrop-filter: blur(20px);
+}
+
+.modal h2 {
+    text-align: center;
+    color: rgb(212, 254, 255);
+    font-size: 40px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+.modal-card {
+    background-color: #000911;
+    color: var(--main-red-color);
+    padding: 5%;
+    border: solid #ffffff 0.4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    font-size: larger;
+}
+
+.modal-card h3,
+.modal-card h4 {
+    color: var(--main-red-color);
+    font-family: var(--valorant);
+}
+
+/* Modal Content */
+.modal-content {
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    margin-right: 5%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: var(--main-red-color);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
 
 
 
-.img-header{
+.img-header {
     display: block;
+    margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
 
-@media screen and (min-width: 750px){
-    .containercards{
-      grid-template-columns: 1fr 1fr;
-  }  
-  }
 
-@media screen and (min-width: 1200px){
-  .containercards{
-    grid-template-columns: 1fr 1fr 1fr;
-}  
+
+
+@media screen and (min-width: 800px) {
+    .containercards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .modal-grid {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
 }
 
+@media screen and (min-width: 1300px) {
+    .containercards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+}
