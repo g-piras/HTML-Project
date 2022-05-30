@@ -41,28 +41,53 @@ We started thinking about how to divide pages and work.... Eloise pensaci tu
 
 ## File
 
-- [README](./readme.md)
-- [index.html](./../index.html)
-- [form.html](./../form.html)
-- [gallery.html](./../gallery.html)
-- [news.html](./../news.html)
-- [players.html](./../players.html)
-- [tournaments.html](./../tournaments.html)
-
-- [main.js](scripts/main.js)
-- [index.js](./../scripts/index.js)
-- [players.js](./../scripts/players.js)
-- [style.css](./../Style/style.css)
-- [tournaments.css](./../Style/tournaments.css)
-- [news.css](./../Style/news.css)
-- [form.css](./../Style/form.css)
-- [players.css](./../Style/players.css)
-- [gallery.css](./../Style/gallery.css)
-
-- [form.php](./../form.php)
-- [registered_user_page.php](./../registered_user_page.php)
-
-- [json](./../Contents/json/players.json)
+HTML-Project/  
+┣ .vscode/  
+┃ ┗ settings.json  
+┣ Contents/  
+┃ ┣ img/  
+┃ ┃ ┣ articles img/  
+┃ ┃ ┣ gallery-img/  
+┃ ┃ ┣ trophies-logos/  
+┃ ┃ ┣ banner.png  
+┃ ┃ ┣ Dev_Blog_5_VAL_esports_graphic_rev.jpeg  
+┃ ┃ ┣ favicon.ico  
+┃ ┃ ┣ logo-red-white.png  
+┃ ┃ ┣ news-valorant-msi-mga-dragon-cup-winter-2021-tournament-announced-3.webp  
+┃ ┃ ┣ pngegg.png  
+┃ ┃ ┣ red-black-logo.png  
+┃ ┃ ┣ Spike_Rush_Banner.jpg  
+┃ ┃ ┣ teams.jpg  
+┃ ┃ ┣ tournaments.jpg  
+┃ ┃ ┗ transparent-red-logo2.png  
+┃ ┣ json/  
+┃ ┃ ┗ [players.json](./../Contents/json/players.json)  
+┃ ┣ video/  
+┃ ┃ ┗ intro-video_Trim.mp4  
+┃ ┗ LINEE GUIDA.md  
+┣ Esport/  
+┃ ┗ Contents/  
+┣ README/  
+┃ ┗ [readme.md](./readme.md)  
+┣ scripts/  
+┃ ┣ [index.js](./../scripts/index.js)  
+┃ ┣ [main.js](scripts/main.js)  
+┃ ┗ [players.js](./../scripts/players.js)  
+┣ Style/  
+┃ ┣ [form.css](./../Style/form.css)  
+┃ ┣ [gallery.css](./../Style/gallery.css)  
+┃ ┣ [news.css](./../Style/news.css)  
+┃ ┣ [players.css](./../Style/players.css)  
+┃ ┣ [style.css](./../Style/style.css)  
+┃ ┗ [tournaments.css](./../Style/tournaments.css)  
+┣ [form.html](./../form.html)  
+┣ [form.php](./../form.php)  
+┣ [gallery.html](./../gallery.html)  
+┣ [index.html](./../index.html)  
+┣ [news.html](./../news.html)  
+┣ [players.html](./../players.html)  
+┣ [registered_user_page.php](./../registered_user_page.php)  
+┗ [tournaments.html](./../tournaments.html)  
 
 #
 
