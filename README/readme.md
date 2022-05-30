@@ -918,6 +918,10 @@ Contact information:
 
 ---
 
+## COPYRIGHT
+
+Some copyrighted material has been used. All credit goes to the original owner of said material.
+
 ## AUTHORS     
 
 
