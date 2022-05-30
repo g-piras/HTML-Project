@@ -268,7 +268,11 @@ main h2 {
 #selected-player a:active,
 .player-list-item:hover .gamerTag, 
 #selected-player a:hover{
-  animation: toRed 100ms ease-in-out forwards;
+  animation: toRed 300ms ease-in-out forwards;
+}
+
+.player-list-item:hover{
+  cursor: pointer;
 }
 
 p.player-name {
@@ -383,7 +387,6 @@ p.player-name:not(.hidden) {
   }
 
   .player-list-item img:hover {
-    cursor: default;
     transition: none;
     box-shadow: none;
   }
