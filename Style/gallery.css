@@ -47,6 +47,11 @@ figcaption {
     font-size: 10.5px;
 }
 
+p.gallery-intro {
+   text-align: center;
+   margin-bottom: 1vh;
+}
+
 /* caption appears when mouse over image */
 
 img:hover ~ figcaption {

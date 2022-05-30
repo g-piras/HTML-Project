@@ -20,7 +20,7 @@ hamburger.addEventListener("click", function () {
 let lastScrollTop = 0;
 
 let menuHidden = document.querySelector(".header");
-let arrowDown = document.querySelector(".arrow-down");
+
 
 window.addEventListener("scroll", function () {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -40,6 +40,8 @@ window.addEventListener("scroll", function () {
 
 // Show littel arrow when menu is hidden
 
+let arrowDown = document.querySelector(".arrow-down");
+
 window.addEventListener("scroll", function () {
     if (menuHidden.style.top == "-100px") {
         arrowDown.classList.add("visible");
@@ -58,6 +60,14 @@ window.addEventListener("click", function () {
     menuHidden.style.top = "0px";
 });
 
+/**
+ * Function onclick that shows an alert messagge after clicking the submit messagge in the form page
+ * 
+ */
+
+function success() {
+    alert("Your registration is successfull!");
+  }
 
 
 

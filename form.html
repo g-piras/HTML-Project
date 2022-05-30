@@ -57,7 +57,7 @@
 
 
         <div class="logo-right">
-            <img src="./Contents/img/transparent-red-logo2.png" alt="" srcset="">
+            <img src="./Contents/img/transparent-red-logo2.png" alt="" >
         </div>
 
         <div class="hamburger">
@@ -123,34 +123,34 @@
                 <div class="external-container-a">
                     <div class="internal-container-a">
                         <label for="email">Enter your email:</label>
-                        <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                        <input type="email" name="email" id="email" placeholder="Enter your email..." value="" required>
                     </div>
                 </div>
                 <div class="external-container-a">
                     <div class="internal-container-a">
                         <label class="form-item" for="phone">Phone</label>
                         <input type="tel" id="phone" name="phone" placeholder="333-333-3333"
-                            pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}">
+                            pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" value="">
                     </div>
                 </div>
                 <div class="external-container-a">
                     <div class="internal-container-a">
                         <label class="form-item" for="city">City</label>
                         <input type="text" name="city" id="address" placeholder="Enter your city..."
-                            pattern="^[a-zA-Z]+$" maxlenght="30">
+                            pattern="^[a-zA-Z\s]+$" maxlenght="30" value="">
                     </div>
                 </div>
                 <div class="external-container-a">
                     <div class="internal-container-a">
                         <label class="form-item" for="address">Address</label>
                         <input type="text" name="address" id="address" placeholder="Enter your address..."
-                            maxlenght="50" pattern="[a-zA-Z0-9\s]+(\.)?">
+                            maxlenght="50" pattern="[a-zA-Z0-9\s]+(\.)?" value="">
                     </div>
                 </div>
                 <div class="external-container-a">
                     <div class="internal-container-a">
                         <label for="country">Country</label>
-                        <select id="country" name="country" value="country" pattern="^[a-zA-Z]+$" required>
+                        <select id="country" name="country" value="" pattern="^[a-zA-Z]+$" required>
                             <option value="Afganistan">Afghanistan</option>
                             <option value="Albania">Albania</option>
                             <option value="Algeria">Algeria</option>
@@ -492,7 +492,7 @@
                     </div>
                 </div>
                 <button class="form-button" type="reset" form="form" value="Reset">Reset</button>
-                <button class="form-button" type="submit" form="form" value="Submit">Submit</button>
+                <button onclick="success()" class="form-button" type="submit" form="form" value="Submit">Submit</button>
             </div>
         </form>
 
@@ -506,19 +506,19 @@
                 <ul>
                     <li>
                         <a href="https://twitter.com/ValorantEsports" target="_blank"><img
-                                src="./Contents/img/articles img/twitter.png" alt="twitter" /></a>
+                                src="./Contents/img/articles-img/twitter.png" alt="twitter" /></a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/channel/UCA1d3HFGFUmkKr2JIUA5Vlw" target="_blank">
-                            <img src="./Contents/img/articles img/youtube.png" alt="youtube" /></a>
+                            <img src="./Contents/img/articles-img/youtube.png" alt="youtube" /></a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/valorantesports/" target="_blank"><img
-                                src="./Contents/img/articles img/instagram.png" alt="instagram" /></a>
+                                src="./Contents/img/articles-img/instagram.png" alt="instagram" /></a>
                     </li>
                     <li>
                         <a href="https://www.facebook.com/ValorantEsports/" target="_blank"><img
-                                src="./Contents/img/articles img/facebook.png" alt="facebook" /></a>
+                                src="./Contents/img/articles-img/facebook.png" alt="facebook" /></a>
                     </li>
                 </ul>
             </div>
@@ -573,5 +573,4 @@
     </footer>
 
     <script src="./scripts/main.js"></script>
-
 </body>
