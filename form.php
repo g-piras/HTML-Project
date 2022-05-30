@@ -48,3 +48,5 @@ $query = "INSERT INTO  players
         echo "no";
     }
 }
+
+?>

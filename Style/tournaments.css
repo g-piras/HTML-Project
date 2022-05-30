@@ -28,6 +28,7 @@ button {
     padding: 5px;
     margin-top: 20px;
     border-radius: 2px;
+    position: sticky;
 }
 
 button:hover {
@@ -63,6 +64,10 @@ h6 {
     margin-top: 20px;
 }
 
+.side-border{
+    border-left: #ff4655 solid 0.5px;
+    padding-left: 10px;
+}
 
 .tournaments-sub-header {
     text-align: center;
@@ -160,13 +165,19 @@ h6 {
     border: solid #ffffff 0.4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: justify;
-    font-size: larger;
 }
+
+.modal-card p{
+    font-size: 18px;
+}
+
+
 
 .modal-card h3,
 .modal-card h4 {
     color: var(--main-red-color);
     font-family: var(--valorant);
+    font-size: 20px;
 }
 
 /* Modal Content */
