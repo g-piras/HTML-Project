@@ -516,22 +516,114 @@ img:hover {
 }
 ```
 
-#
+****
 
 ## Join Us Page
 
 The Join Us page [form.html](./../form.html) has been projected following the site standars.
 Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
-Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he change page.
+
+#### Structure 
+
+There' s a short introduction to guide the user in the registration.
 Every input in the page is client/side validated.
-To accomplish this result we served of the attributes
+To accomplish this result we served of the HTML attributes
 
 ```HTML
  patten=""
  required=""
 ```
+If inputs don' t match patterns will pop up a message that will help the user to 
+modify, in a correct way, its inputs. 
+The required attribute don't allows user to leave empty fields.
 
-#
+This page has been projected **mobile first**.
+There' s just one media query for the main section (the form) to fit contents in desktop version.
+The content size respect portrait and landscape orientation.
+
+#### Interaction/Animation
+
+The interaction in this page is limited.
+
+Input fields have a focus "animation", clicking on the intestation and when selected.
+Only buttons have CSS animation to attract the attention of the user and help it to press the right button.
+
+#### Navigation
+
+User can reach the page from the main navigation on the top of every page, and also from the bottom, in the footer.
+
+Inside form there are two external links:
+- Redirect users to our tournaments page
+- Rediret users to RIOT page, to check other games
+
+Both links open in a new tab:
+
+``` html
+ target="_blank" 
+ ```
+
+
+this allow user to navigate and pick desidered information out of form page
+without loosing inserted datas or exit the site. 
+
+#### Functionality (...and why)
+
+**PHP**
+ 
+```HTML
+   <form method="post" action="./form.php" class="form-container" id="form" name="form">
+```
+In this project, we used the method post attribute to send data. The post method appends data inside the body of the HTTP request instead of showing in URL, and that for us is obviously the best method beacuse we store people sensitive data. This allow us to protect our users.
+The action attribute is set to the [./form.php](../form.php) page. 
+In this page we execute the connection to the web server and the database. 
+
+``` PHP
+    $servername = "localhost"; // address
+    $username = "root";         //user
+    $password = "";             //password 
+    $dbname = "levelupg_contact_db"; //database name
+
+    if (isset($_POST['fname'])) { 
+    echo "ok";
+
+
+$connection = new mysqli($servername, $username, $password, $dbname);
+```
+
+We used isset on fname, this mechanism collaborate with the form client-side validation because user can' t leave the name field empty.
+This means that you can t send that if u don't fill the form as required.
+
+To make data readable for the database we used 
+``` PHP
+    real_escape_string*()
+```
+This function escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
+
+Here' s the query we used to fill the database fields
+
+``` PHP
+    $query = "INSERT INTO  players
+ (firstName, middleName, surname,
+ battleTag, teamName,  mail,
+ phone, city, userAddress, country, age, gender,
+ hair, eyes, tournament, otherGames, bio )
+        VALUES('$fName', '$mName', '$lName', '$battleTag', 
+        '$teamName', '$email', '$telephone', '$city', '$userAddress', 
+        '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
+    if($connection->query($query) === true ) {
+        header("Location: ./form.html");
+    } else {
+        echo "no";
+    }
+}
+```
+
+
+**MYSQL**
+
+
+****
 
 ## Players Page
 
