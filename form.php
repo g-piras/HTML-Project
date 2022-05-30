@@ -42,6 +42,7 @@ $query = "INSERT INTO  players
         VALUES('$fName', '$mName', '$lName', '$battleTag', 
         '$teamName', '$email', '$telephone', '$city', '$userAddress', 
         '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
+    
     if($connection->query($query) === true ) {
         header("Location: ./form.html");
     } else {
