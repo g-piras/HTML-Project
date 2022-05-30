@@ -640,7 +640,6 @@ All datas will fill a table.
 - In this project we didn' t create a login area.
 - Database is located on localhost 
 - Some areas, as already underlined, could not be secure and data could not be safe
-- 
 
 
 ****
