@@ -44,6 +44,25 @@ h1 {
   align-items: center;
 }
 
+p.players-introduction{
+  font-size: 20px;
+  color:white;
+  font-family: "Maven Pro", sans-serif;
+}
+
+p.players-introduction a{
+  font-size: 20px;
+  color:#ff4655;
+  font-family: "VALORANT", sans-serif;
+}
+
+p.players-introduction a:hover{
+  font-size: 20px;
+  color:#ff4655;
+  font-family: "VALORANT", sans-serif;
+  animation: toWhite 300ms ease-in-out forwards;
+}
+
 /*End of page heading*/
 
 /*Page content*/
@@ -68,11 +87,10 @@ main h2 {
   width: 100%;
   font-size: 35px;
   color: white;
-  margin-top: 35px;
   padding: 20px 20px 5px 20px;
   border-radius: 10px;
   border-top: 2px solid white;
-  margin: 20px auto;
+  margin: 80px auto 20px auto;
 }
 
 /*End of page content*/
@@ -206,6 +224,10 @@ main h2 {
 /*End of selected player info*/
 
 /*Teams*/
+ul.teams{
+  margin:0;
+}
+
 
 .team-info {
   font-family: "VALORANT", sans-serif;
@@ -346,6 +368,14 @@ p.player-name:not(.hidden) {
   }
 }
 
+@keyframes toWhite {
+  0% {
+    color: #ff4655;
+  }
+  100% {
+    color: white;
+  }
+}
 /*End of animations*/
 
 /*------------------------   MEDIA QUERIES   -------------------------*/
