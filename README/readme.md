@@ -73,6 +73,7 @@ HTML-Project/
 ┃ ┣ [index.js](./../scripts/index.js)  
 ┃ ┣ [main.js](scripts/main.js)  
 ┃ ┗ [players.js](./../scripts/players.js)  
+┃ ┗ [tournamenys.js](./../scripts/tournaments.js)  
 ┣ Style/  
 ┃ ┣ [form.css](./../Style/form.css)  
 ┃ ┣ [gallery.css](./../Style/gallery.css)  
