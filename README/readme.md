@@ -867,7 +867,6 @@ And a format for the players:
 #
 
 ## Browser compatibility
->>>>>>> davide
 
 - Google Chrome v. 99.0.4844.84
 - Apple Safari v. 15.4
