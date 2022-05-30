@@ -20,7 +20,7 @@ hamburger.addEventListener("click", function () {
 let lastScrollTop = 0;
 
 let menuHidden = document.querySelector(".header");
-let arrowDown = document.querySelector(".arrow-down");
+
 
 window.addEventListener("scroll", function () {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -39,6 +39,8 @@ window.addEventListener("scroll", function () {
 
 
 // Show littel arrow when menu is hidden
+
+let arrowDown = document.querySelector(".arrow-down");
 
 window.addEventListener("scroll", function () {
     if (menuHidden.style.top == "-100px") {

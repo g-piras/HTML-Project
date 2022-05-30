@@ -2,7 +2,7 @@
 
 ## Final target
 
-Create an website with various areas that display information about an Esports league,
+Create a website with various areas that display information about an Esports league,
 its tournaments, teams and players
 
 #
@@ -114,7 +114,6 @@ hamburger.addEventListener("click", function () {
 
 let lastScrollTop = 0;
 let menuHidden = document.querySelector(".header");
-let arrowDown = document.querySelector(".arrow-down");
 
 window.addEventListener("scroll", function () {
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -132,12 +131,15 @@ window.addEventListener("scroll", function () {
 ```js
 // Show littel arrow when menu is hidden
 
+let arrowDown = document.querySelector(".arrow-down");
+
 window.addEventListener("scroll", function () {
-  if (menuHidden.style.top == "-100px") {
-    arrowDown.classList.add("visible");
-  } else {
-    arrowDown.classList.remove("visible");
-  }
+    if (menuHidden.style.top == "-100px") {
+        arrowDown.classList.add("visible");
+
+    } else {
+        arrowDown.classList.remove("visible");
+    }
 });
 ```
 
