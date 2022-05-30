@@ -329,7 +329,7 @@ p {
     flex-direction: column;
     margin-top: 20px;
     font-size: 21px;
-    color: var(--titleColor);
+    color: var(--title);
 }
 
 .content-piramid-img {
@@ -371,7 +371,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-size: 60px;
     font-weight: bold;
-    color: var(--titleColor);
+    color: var(--title);
     padding-bottom: 20px;
 }
 
@@ -475,7 +475,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: bold;
-    color: var(--titleColor);
+    color: var(--title);
     padding-bottom: 40px;
 }
 
@@ -483,7 +483,7 @@ p {
 
     padding-bottom: 20px;
     line-height: 1.4;
-    color: var(--titleColor)a9;
+    color: var(--title);
 }
 
 .tournaments p span:first-child {
@@ -505,7 +505,7 @@ p {
     width: 100%;
     min-width: 300px;
     height: 320px;
-    background-image: url("/Contents/img/tournaments.jpg");
+    background-image: url("../Contents/img/tourn.jpg");
     background-repeat: repeat-y;
     background-position: center;
     background-size: 120%;
@@ -550,7 +550,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: bold;
-    color: var(--titleColor);
+    color: var(--title);
     padding-bottom: 40px;
 }
 
@@ -570,7 +570,7 @@ p {
 .teams h3 {
     font-size: 20px;
     padding-top: 20px;
-    color: var(--titleColor);
+    color: var(--title);
     text-align: center;
     padding-bottom: 20px;
 }
