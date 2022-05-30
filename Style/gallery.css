@@ -7,7 +7,7 @@
 /* MOBILE FIRST */
 
 body {
-    background-color: #ECECEC;
+    background-color: var(--background);
 }
 .gallery img {
     width: 100%;
@@ -17,8 +17,8 @@ body {
     margin: 92px auto 40px auto;
     padding-top: 55px;
     font-family: "VALORANT", sans-serif;
-    color: black;
-    border-bottom: 0.5px solid red;
+    color: var(--title);
+    border-bottom: 0.5px solid var(--red);
     font-size: 50px;
     font-weight: bold;
     width: fit-content;
