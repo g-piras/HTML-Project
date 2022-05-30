@@ -2,7 +2,7 @@
 
 ## Final target
 
-Create an website with various areas that display information about an Esports league,
+Create a website with various areas that display information about an Esports league,
 its tournaments, teams and players
 
 #
@@ -534,8 +534,7 @@ To accomplish this result we served of the HTML attributes
  patten=""
  required=""
 ```
-If inputs don' t match patterns will pop up a message that will help the user to 
-modify, in a correct way, its inputs. 
+If inputs don' t match patterns will pop up a message that will help the user to modify, in a correct way, its inputs. 
 The required attribute don't allows user to leave empty fields.
 
 This page has been projected **mobile first**.
@@ -596,7 +595,7 @@ This means that you can t send that if u don't fill the form as required.
 
 To make data readable for the database we used 
 ``` PHP
-    real_escape_string*()
+    real_escape_string()
 ```
 This function escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
 
@@ -629,18 +628,17 @@ The Id is setted as PRIMARY KEY, and it autoincrements.
 
 **To the database... and back**
 
-After we created the database we wanted to test a "callback" form the db to an HTML to help page owners to manage users information.
-the result is in [registered_user_page.php](./../registered_user_page.php).
-The page is softly styled with some CSS and Bootstrap.  
+After we created the database we wanted to test a "callback" from the db to an HTML to help page owners to manage users information.
+The result is in [registered_user_page.php](./../registered_user_page.php).
+The page is softly styled with some CSS.  
 All datas will fill a table.
-**This is just a test!!!**
-**The page is not secure!**
+**This is just a test!**
+**The page is not secure!!!**
 
 #### NOTES
 
 - In this project we didn' t create a login area.
 - Database is located on localhost 
-- There's no message to display user that its registration was successfully
 - Some areas as already underlined could not be secure and data could be not safe
 
 
