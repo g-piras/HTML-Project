@@ -60,6 +60,14 @@ window.addEventListener("click", function () {
     menuHidden.style.top = "0px";
 });
 
+/**
+ * Function onclick that shows an alert messagge after clicking the submit messagge in the form page
+ * 
+ */
+
+function success() {
+    alert("Your registration is successfull!");
+  }
 
 
 

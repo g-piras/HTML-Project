@@ -137,7 +137,7 @@
                     <div class="internal-container-a">
                         <label class="form-item" for="city">City</label>
                         <input type="text" name="city" id="address" placeholder="Enter your city..."
-                            pattern="^[a-zA-Z]+$" maxlenght="30">
+                            pattern="^[a-zA-Z\s]+$" maxlenght="30">
                     </div>
                 </div>
                 <div class="external-container-a">
@@ -492,7 +492,7 @@
                     </div>
                 </div>
                 <button class="form-button" type="reset" form="form" value="Reset">Reset</button>
-                <button class="form-button" type="submit" form="form" value="Submit">Submit</button>
+                <button onclick="success()" class="form-button" type="submit" form="form" value="Submit">Submit</button>
             </div>
         </form>
 
@@ -573,5 +573,4 @@
     </footer>
 
     <script src="./scripts/main.js"></script>
-
 </body>
