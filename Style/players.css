@@ -48,6 +48,8 @@ p.players-introduction{
   font-size: 20px;
   color:white;
   font-family: "Maven Pro", sans-serif;
+  text-align: center;
+  padding: 30px;
 }
 
 p.players-introduction a{
@@ -60,9 +62,8 @@ p.players-introduction a:hover{
   font-size: 20px;
   color:#ff4655;
   font-family: "VALORANT", sans-serif;
-  animation: toWhite 300ms ease-in-out forwards;
+  animation: toWhite 200ms ease-in-out forwards;
 }
-
 /*End of page heading*/
 
 /*Page content*/
