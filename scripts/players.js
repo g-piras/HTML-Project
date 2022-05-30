@@ -1,6 +1,11 @@
 /**
  * @file main.js
  * @author: Giampietro Piras, Davide Murroni, Eloise Bryony Giorda, Federico Luciano Stroppiana, Francesco Abrate
+ * @project : Esports
+ * 
+ * This file contains all necessary functions
+ * to convert a jsonblob into HTML elements 
+ * for the player page
  */
 
 let trophyIcon = "https://img.icons8.com/ios-glyphs/344/ffffff/trophy.png";
@@ -79,7 +84,8 @@ function generateTeam(teamInfo, container) {
 
 
 /**
- * function to create the HTML elements required from the page 
+ * function to choose the right team section and
+ * create the HTML elements required for the page 
  * @param {*} json the json file from which to take the 
  * information for teams and players
  */
@@ -146,8 +152,9 @@ function generatePlayerInfo(jsonObj, playerName) {
         tournaments = document
         .getElementsByClassName("player-info-tournament");
         for (let i = 0; i < tournaments.length; i++) {
-          if (i < player.tournaments.length) {
-            tournaments[i].innerText = player.tournaments[i];
+          if (i < Object.keys(player.tournaments).length) {
+            tournaments[i].innerText = Object.keys(player.tournaments)[i];
+            tournaments[i].setAttribute("href", player.tournaments[Object.keys(player.tournaments)[i]]);
           } else {
             tournaments[i].innerText = "";
           }
