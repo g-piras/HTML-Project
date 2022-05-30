@@ -49,6 +49,10 @@ h6 {
     color: rgb(255, 0, 255);
 }
 
+.whiteborder{
+    border: white 1px solid;
+}
+
 .tournaments-header {
     text-align: center;
     padding: 2%;
@@ -99,7 +103,7 @@ h6 {
     /* border-radius: 5px; */
     border: rgb(75, 75, 75) solid 1px;
     padding: 20px;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
@@ -107,6 +111,7 @@ h6 {
 .trophy-card:hover {
     background-color: rgb(25, 25, 25);
     box-shadow: 0px 0px 7px 5px rgba(199, 244, 255, 0.246);
+    transform: rotate(3deg);
 
 
 }
@@ -195,7 +200,7 @@ h6 {
 
 .img-header {
     display: block;
-    margin-top: 8%;
+    margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -212,6 +217,11 @@ h6 {
     .modal-grid {
 
         grid-template-columns: 1fr 1fr;
+
+    }
+    .img-header {
+
+        margin-top: 8%;
 
     }
 
