@@ -46,6 +46,7 @@ We started thinking about how to divide pages and work.... Eloise pensaci tu
 - [main.js](scripts/main.js)
 - [index.js](./../scripts/index.js)
 - [players.js](./../scripts/players.js)
+- [tournaments.js](./../scripts/tournaments.js)
   
 - [style.css](./../Style/style.css)
 - [tournaments.css](./../Style/tournaments.css)
@@ -109,7 +110,7 @@ window.addEventListener("scroll", function () {
 ```
 
 
-**funcion** ->  if menu is hidden due to scroll you can click in every part of the page and then the menu will be visible again
+**function** ->  if menu is hidden due to scroll you can click in every part of the page and then the menu will be visible again
 ```js
 // If menu is hidden just click in every part of the page and menu will drop down again
 
@@ -155,6 +156,39 @@ window.addEventListener("scroll", function () {
     onScroll(".content-teaser-img", 1.3);
     onScroll(".artOne", .95);
 });
+```
+
+
+When the user clicks on `<span>` (x), close the modal
+
+```js
+for(let i = 0; i < span.length; i++){
+    span[i].onclick = function() {
+    modal[i].style.display = "none";
+    document.body.style.overflow = "visible"
+}
+}
+```
+**function** -> When the user clicks anywhere outside of the modal, close it
+
+```js
+window.onclick = function(event) {
+    for(let i = 0; i < modal.length; i++){
+       if (event.target == modal[i]) {
+        modal[i].style.display = "none";
+        document.body.style.overflow = "visible"
+        } 
+    }   
+}
+```
+**function** -> When the user clicks the button, open the modal 
+```js
+for (let i = 0; i < btn.length; i++){
+    btn[i].onclick = function() {
+        modal[i].style.display = "block";
+        document.body.style.overflow = "hidden";
+    }
+}
 ```
 
 #
@@ -233,6 +267,21 @@ We use animations to increase the scale when the mouse pass over the images
 img:hover {
     transform: scale(1.03);
     transition: all 0.25s;
+}
+```
+
+We use the display grid property to organize the divs on some pages of our site
+
+```css
+.containercards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid var(--main-red-color);
+    margin-bottom: 3%;
 }
 ```
 
