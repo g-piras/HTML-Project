@@ -1,3 +1,13 @@
+/**
+* players.css
+*
+* The player page should follow the website's theme and absolutely
+* display players in a list formation on mobile and cards formation
+* on Desktop. Some animations are also included as asked of bonus 1.
+*/
+
+
+
 /* -----------------   MOBILE / GENERAL   ---------------- */
 
 /*Header-----    ! HERO */
@@ -31,7 +41,7 @@ h1 {
 
 .page-header {
   padding: 80px 0 40px 0;
-  align-items: center !important;
+  align-items: center;
 }
 
 /*End of page heading*/
@@ -48,7 +58,7 @@ main {
 }
 
 main {
-  font-family: "Maven Pro", sans-serif !important;
+  font-family: "Maven Pro", sans-serif;
   font-weight: bold;
   padding: 2% 5% 0 5%;
 }
@@ -119,7 +129,7 @@ main h2 {
 }
 
 #player-info-pfp {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #selected-player p {
@@ -140,6 +150,10 @@ main h2 {
   padding: 3px 20px;
 }
 
+#selected-player li{
+  
+  padding: 3px 20px;
+}
 
 #selected-player a:visited{
   color: white;
@@ -168,9 +182,8 @@ main h2 {
   flex-direction: column;
   align-self: center;
   justify-content: start;
-  top: 25px;
+  top:15px;
 }
-
 #selected-player #player-info-pfp {
   width: 180px;
   height: 180px;
@@ -276,11 +289,11 @@ main h2 {
 }
 
 p.player-name {
-  padding: 0 0 10px 0 !important;
+  padding: 0 0 10px 0;
 }
 
 p.player-name.hidden {
-  animation: shrink 300ms ease-in-out forwards !important;
+  animation: shrink 300ms ease-in-out forwards;
   top: 100%;
   left: 0;
   width: 100%;
@@ -452,8 +465,8 @@ p.player-name:not(.hidden) {
 
   #selected-player #player-info-pfp {
     margin-top: 0 !important;
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
   }
 
   #selected-player {
@@ -470,14 +483,14 @@ p.player-name:not(.hidden) {
 
 @media screen and (max-height: 700px) {
   #selected-player #player-info-pfp {
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     margin-bottom: 2px;
     width: 120px;
     height: 120px;
   }
 
   #selected-player h2 {
-    top: 0;
+    top: 10px;
     font-size: 3vh !important;
   }
 
