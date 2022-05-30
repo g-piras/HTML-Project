@@ -1,14 +1,10 @@
-# Esports-01
+# ESPORTS - `Group-01`
 
-## Final target
 
-Create a website with various areas that display information about an Esports league,
-its tournaments, teams and players
+## PROJECT INTRODUCTION AND DESCRIPTION    
+Create an website with various areas that display information about an Esports league, its tournaments, teams and players.
 
 #
-
-## Requirements
-
 **_Structure and behavior_**
 
 Create a website about an Esports league
@@ -29,17 +25,51 @@ All pages should include:
 
     ● the league's name and logo
     ● main navigation (switching between different pages/areas)
-    ● secondary navigation (jumping to different sections in the same page
+    ● secondary navigation (jumping to different sections in the same page)
 
 #
 
-## Approach to solution
+## USAGE   
 
-We started thinking about how to divide pages and work.... Eloise pensaci tu
+The website can be visited by starting up any of the HTML files, all having navigation leading to each other. It is also heavily recommended to use a web server (like XAMPP), to utilize the back-end functionalities provided with the join us page `form.html`.
 
 #
 
-## File
+## CONFIGURATION AND TECHNICAL CHARACTERISTICS   
+
+In the main folder there are six HTML files:
+- **index.html**, containing the elements seen within the home page.
+- **tournaments.html**, containing the elements seen in the tournaments page.
+- **players.html**, containing the elements seen in the teams and players page.
+- **news.html**, containing the elements seen within the news page.
+- **gallery.html**, containing the elements seen within the gallery page.
+- **form.html**, containing the elemnts seen in the join us page.
+
+There are also two PHP files:
+- **form.php**, managing the backend for the join us page
+- **registered_user_page.php**, managing the registered user for the join us page.
+
+#
+
+In the folder /**Style** there are six CSS files:
+- **style.css**, containing the style rulesets needed for the home page.
+- **tournaments.css**, containing the style rulesets needed for the tournaments page.
+- **players.css**, containing the style rulesets needed for the teams and players page.
+- **news.css**, containing the style rulesets needed for the news page.
+- **gallery.css**, containing the style rulesets needed for the gallery page.
+- **form.css**, containing the style rulesets needed for the join us page.
+
+#
+
+In the folder /**scripts** there are four javascript files:
+- **index.js**, containing the functions needed for the home page.
+- **main.js**, cointaning the functions used for the header and navigation, used in all pages
+- **players.js**, containing the functions used in the teams and players page
+- **tournaments.js**, containing the functions used in the tournaments page
+
+#
+
+## FILES AND PROJECT STRUCTURE     
 
 HTML-Project/  
 ┣ .vscode/  
@@ -73,7 +103,6 @@ HTML-Project/
 ┃ ┣ [index.js](./../scripts/index.js)  
 ┃ ┣ [main.js](scripts/main.js)  
 ┃ ┗ [players.js](./../scripts/players.js)  
-┃ ┗ [tournamenys.js](./../scripts/tournaments.js)  
 ┣ Style/  
 ┃ ┣ [form.css](./../Style/form.css)  
 ┃ ┣ [gallery.css](./../Style/gallery.css)  
@@ -92,9 +121,221 @@ HTML-Project/
 
 #
 
+
+Every js file has header documentation following the JSDoc comment format that explain its aim. The folder **/JSDoc**  cointains a JSDoc documentation, which was not personalized, of the entire project. The folder **/Contents** contains the **/img** folder containg all images, the **/json** folder containg a copy of the json file used for the jsonblob, and the **/video** folder containg the intro video
+
+---
+
+## FEATURES AND BONUSES DELIVERED
+
+The project was executed by dividing the pages and relative files between the developers:
+
+## Home Page - Giampietro Piras
+
+The home page [index.html](./../index.html) has been projected creating the website standards.
+It also creates the navigation bar and the footer that are used in all pages
+It holds secondary navigation to all other pages alongside some snippets from various sections and some descriptions to the esports league.
+
+## Tournaments Page - Francesco Abrate
+
+The tournaments page [tournament.html](./../tournaments.html) has been projected following the website standards.
+Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+The modal parts of the page are managed through the javascript file tournament.js
+
+## Players Page - Eloise Bryony Giorda
+
+The players page [players.html](./../players.html) has been projected following the website standards.
+Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+The players are automatically generated using javascript, getting the information from json files, in this case a jsonblob. This makes the page modifyable through any change to the json file.
+The json file follows a format for the teams:
+
+```json
+{
+  "team": /* string representing the teams name */,
+  "active": /* boolean value */,
+  "wins": /* number of wins */,
+  "players": [
+    {
+      /*
+        object with player information
+      */
+    }
+    //...
+  ]
+}
+```
+
+And a format for the players:
+
+```json
+{
+  "profilePicURL": /*string value representing the URL for the players profile picture*/,
+  "gamerTag": /*string value representing the players BattleTag*/,
+  "name": /*string value representing the players name*/,
+  "bio": /*string value representing the players bio / description */,
+  "age": /*numeric value representing the player's age*/,
+  "yearsOfXP": /*numeric value representing the player's years of experience*/,
+  "nationalityURL": /*string value representing the URL for the players nationality flag*/,
+  "tournaments": {
+    /*
+        an object containing 0 to 5 of the most recent tournaments (the name being the key) and their URL link (it being the value)
+    */
+    }
+}
+```
+
+## Gallery Page - Federico Luciano Stroppiana
+
+The Galler page [gallery.html](./../gallery.html) has been projected following the site standars.
+Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+It hold all the pictures of the various esports events.
+
+## News Page - Giampetro Piras
+
+The News page [news.html](./../news.html) has been projected following the site standars.
+Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+It holds all the articles relative to the events.
+
+## Join Us Page - Davide Murroni
+
+The Join Us page [form.html](./../form.html) has been projected following the site standars.
+Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+Every input in the page is client/side validated.
+To accomplish this result we served of the attributes
+
+```HTML
+ patten=""
+ required=""
+```
+
+#
+
+## style section
+
+**_style.css_** In this file we used some transition animations. For example:
+
+```css
+.menu {
+  transition: all 0.7s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hero__content .intro-text,
+#esport {
+  transition: all 0.9s ease-in;
+}
+```
+
+**_news.css_** In this file we used some **@keyframes** to have some advanced animations. For example, going into the news page you can see how contents come from the left and the header from the top of the page.
+
+```css
+@keyframes navSlideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.header {
+  animation: 0.7s ease-in-out 0s 1 navSlideInFromTop;
+}
+```
+
+The site was designed using the "content first" and "mobile first" approach.
+We used media queries to gradually upscale content size in all versions, from mobile, landscape mobile, to desktop. We setted variuos brackpoints, the most used being:
+
+```css
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 900px) and (max-height: 700px) and (orientation: landscape) {
+}
+```
+
+**_gallery.css_** In this file we display in columns photos about valorant tournaments
+
+```css
+.gallery {
+  columns: 2;
+  column-gap: 0;
+  padding: 5px;
+}
+```
+
+Using the "mobile first" approach we start with 2 columns  
+Then we increase the number of columns with the increasing of the screen width using media queries
+
+```css
+@media screen and (min-width: 450px) {
+}
+
+@media screen and (min-width: 680px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1100px) {
+}
+```
+
+We use animations to increase the scale when the mouse pass over the images
+
+```css
+img:hover {
+  transform: scale(1.03);
+  transition: all 0.25s;
+}
+```
+
+**_players.css_** Style sheet used for the player page. It was styled to respect the project's requirement of showing the players in a list format in the mobile vesion, and cards in the desktop version. Both use a section to display a selected players' information when clicked on, a section that is, otherwise, hidden. We used some animations, between which, as an example, the animations to show and hide the players names on scroll depending on the window's position
+
+```css
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+}
+```
+
+**_form.css_** Style sheet used for the join us page. It was styled to respect the websites style template and make the form's input spaces fit within the site.
+
+**_tournaments.css_** Style sheet used for the tournaments page. It was styled to respect the project's requirement of showing the torunaments in a list format in the mobile vesion, and cards in the desktop version. Both use a section to display more information when clicked on, a section that is, otherwise, hidden. We used some animations, between which, as an example, the animations to highlight hovered tournaments to invite the user to click on them.
+
+#
+
 ## javascript section
 
-**_main.js_** this is the main javascript file where we can found all those functions that will be used in every HTML files. In particular:
+**_main.js_** this is the main javascript file where we can find all the functions that will be used in every HTML file. In particular it holds:
 
 **function** -> to drop down menu in mobile version
 
@@ -154,7 +395,7 @@ window.addEventListener("click", function () {
 });
 ```
 
-**_index.js_** this is the javascript file in wich there are functionality useful for index.html file. In particular:
+**_index.js_** this is the javascript file in wich there are functionality useful for all the html files. In particular it holds:
 
 **function** -> will scroll down the page by 600px when big white arrow is clicked
 
@@ -167,7 +408,7 @@ arrow.addEventListener("click", function () {
 });
 ```
 
-**function** -> will show contents while user is scrolling the page
+**function** -> will show contents when the user is scrolling the page
 
 ```js
 /**
@@ -359,7 +600,7 @@ function generatePlayerInfo(jsonObj, playerName) {
 }
 ```
 
-**function** -> called on loading of the jsonblob to convert and excecute the necessary page start functions
+**function** -> called on loading of the jsonblob to convert and excecute the necessary page on start functions
 
 ```js
 function (text) {
@@ -406,7 +647,9 @@ function (text) {
 ```
 
 
-When the user clicks on `<span>` (x), close the modal
+**tournaments.js_** this is the javascript file that holds the necessary functions for tournaments.html to manage the modal sections:
+
+**Code** When the user clicks on `<span>` (x) to close the modal
 
 ```js
 for(let i = 0; i < span.length; i++){
@@ -416,7 +659,7 @@ for(let i = 0; i < span.length; i++){
 }
 }
 ```
-**function** -> When the user clicks anywhere outside of the modal, close it
+**function** -> When the user clicks anywhere outside of the modal, to close it
 
 ```js
 window.onclick = function(event) {
@@ -428,7 +671,7 @@ window.onclick = function(event) {
     }   
 }
 ```
-**function** -> When the user clicks the button, open the modal 
+**function** -> When the user clicks the button to open the modal 
 ```js
 for (let i = 0; i < btn.length; i++){
     btn[i].onclick = function() {
@@ -438,317 +681,10 @@ for (let i = 0; i < btn.length; i++){
 }
 ```
 
-#
-
-## style section
-
-**_style.css_** In this file we used some transition animations. For example:
-
-```css
-.menu {
-  transition: all 0.7s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-
-.hero__content .intro-text,
-#esport {
-  transition: all 0.9s ease-in;
-}
-```
-
-**_news.css_** In this file we used some **@keyframes** to have some advanced animations. For example, going into the news page you can see how contents come from left and the header from top of the page.
-
-```css
-@keyframes navSlideInFromTop {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.header {
-  animation: 0.7s ease-in-out 0s 1 navSlideInFromTop;
-}
-```
-
-The site was designed using the "content first" and "mobile first" approach.
-We used media queries to gradually upscale contents size in all versions, from mobile, landscape mobile, to desktop. We setted variuos brackpoints, most used are:
-
-```css
-@media screen and (min-width: 800px) {
-}
-
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (max-width: 900px) and (max-height: 700px) and (orientation: landscape) {
-}
-```
-
-**_gallery.css_** In this file we display in columns photos about valorant tournaments
-
-```css
-.gallery {
-  columns: 2;
-  column-gap: 0;
-  padding: 5px;
-}
-```
-
-Using the "mobile first" approach we start with 2 columns  
-Then we increase the number of columns with the increasing of the screen width using media queries
-
-```css
-@media screen and (min-width: 450px) {
-}
-
-@media screen and (min-width: 680px) {
-}
-
-@media screen and (min-width: 800px) {
-}
-
-@media screen and (min-width: 1100px) {
-}
-```
-
-We use animations to increase the scale when the mouse pass over the images
-
-```css
-img:hover {
-  transform: scale(1.03);
-  transition: all 0.25s;
-}
-```
-
-**_players.css_** Style sheet used for the player page. It was styled to respect the project's requirement of showing the players in a list format in the mobile vesion, and cards in the desktop version. Both use a section to display a selected players' information when clicked on, a section that is, otherwise, hidden. We used some animations, between which, as an example, the animations to show and hide the players names on scroll depending on the window's position
-
-```css
-@keyframes growDown {
-  0% {
-    transform: scaleY(0);
-  }
-  80% {
-    transform: scaleY(1.1);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
-
-@keyframes shrink {
-  0% {
-    transform: scaleY(1);
-  }
-  80% {
-    transform: scaleY(1.1);
-  }
-  100% {
-    transform: scaleY(0);
-    opacity: 0;
-  }
-}
-```
-
-We use the display grid property to organize the divs on some pages of our site
-
-```css
-.containercards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    margin: 0 auto;
-    width: 80%;
-    padding-bottom: 3%;
-    border-bottom: 1px solid var(--main-red-color);
-    margin-bottom: 3%;
-}
-```
 
 #
 
-## Join Us Page
-
-The Join Us page [form.html](./../form.html) has been projected following the site standars.
-Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
-Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he change page.
-
-#### Structure 
-
-There' s a short introduction to guide the user in the registration.
-Every input in the page is client/side validated.
-To accomplish this result we served of the HTML attributes
-
-```HTML
- patten=""
- required=""
-```
-If inputs don' t match patterns will pop up a message that will help the user to modify, in a correct way, its inputs. 
-The required attribute don't allows user to leave empty fields.
-
-This page has been projected **mobile first**.
-There' s just one media query for the main section (the form) to fit contents in desktop version.
-The content size respect portrait and landscape orientation.
-
-#### Interaction/Animation
-
-The interaction in this page is limited.
-
-Input fields have a focus "animation", clicking on the intestation and when selected.
-Only buttons have CSS animation to attract the attention of the user and help it to press the right button.
-
-#### Navigation
-
-User can reach the page from the main navigation on the top of every page, and also from the bottom, in the footer.
-
-Inside form there are two external links:
-- Redirect users to our tournaments page
-- Rediret users to RIOT page, to check other games
-
-Both links open in a new tab:
-
-``` html
- target="_blank" 
- ```
-
-
-this allow user to navigate and pick desidered information out of form page
-without loosing inserted datas or exit the site. 
-
-#### Functionality (...and why)
-
-**PHP**
- 
-```HTML
-   <form method="post" action="./form.php" class="form-container" id="form" name="form">
-```
-In this project, we used the method post attribute to send data. The post method appends data inside the body of the HTTP request instead of showing in URL, and that for us is obviously the best method beacuse we store people sensitive data. This allow us to protect our users.
-The action attribute is set to the [./form.php](../form.php) page. 
-In this page we execute the connection to the web server and the database. 
-
-``` PHP
-    $servername = "localhost"; // address
-    $username = "root";         //user
-    $password = "";             //password 
-    $dbname = "levelupg_contact_db"; //database name
-
-    if (isset($_POST['fname'])) { 
-    echo "ok";
-
-
-$connection = new mysqli($servername, $username, $password, $dbname);
-```
-
-We used isset on fname, this mechanism collaborate with the form client-side validation because user can' t leave the name field empty.
-This means that you can t send that if u don't fill the form as required.
-
-To make data readable for the database we used 
-``` PHP
-    real_escape_string()
-```
-This function escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
-
-Here' s the query we used to fill the database fields
-
-``` PHP
-    $query = "INSERT INTO  players
- (firstName, middleName, surname,
- battleTag, teamName,  mail,
- phone, city, userAddress, country, age, gender,
- hair, eyes, tournament, otherGames, bio )
-        VALUES('$fName', '$mName', '$lName', '$battleTag', 
-        '$teamName', '$email', '$telephone', '$city', '$userAddress', 
-        '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
-    if($connection->query($query) === true ) {
-        header("Location: ./form.html");
-    } else {
-        echo "no";
-    }
-}
-```
-
-
-**MYSQL**
-
-We created a symple database with just one table "players".
-Every column except the Id match a form input field.
-The Id is setted as PRIMARY KEY, and it autoincrements.
-
-
-**To the database... and back**
-
-After we created the database we wanted to test a "callback" from the db to an HTML to help page owners to manage users information.
-The result is in [registered_user_page.php](./../registered_user_page.php).
-The page is softly styled with some CSS.  
-All datas will fill a table.
-**This is just a test!**
-**The page is not secure!!!**
-
-#### NOTES
-
-- In this project we didn' t create a login area.
-- Database is located on localhost 
-- Some areas as already underlined could not be secure and data could be not safe
-
-
-****
-
-## Players Page
-
-The players page [players.html](./../players.html) has been projected following the website standards.
-Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
-Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
-The players are automatically generated using javascript, getting the information from json files, in this case a jsonblob. This makes the page modifyable through any change to the json file.
-The json file follows a format for the teams:
-
-```json
-{
-  "team": /* string representing the teams name */,
-  "active": /* boolean value */,
-  "wins": /* number of wins */,
-  "players": [
-    {
-      /*
-        object with player information
-      */
-    }
-    //...
-  ]
-}
-```
-
-And a format for the players:
-
-```json
-{
-  "profilePicURL": /*string value representing the URL for the players profile picture*/,
-  "gamerTag": /*string value representing the players BattleTag*/,
-  "name": /*string value representing the players name*/,
-  "bio": /*string value representing the players bio / description */,
-  "age": /*numeric value representing the player's age*/,
-  "yearsOfXP": /*numeric value representing the player's years of experience*/,
-  "nationalityURL": /*string value representing the URL for the players nationality flag*/,
-  "tournaments": {
-    /*
-        an object containing 0 to 5 of the most recent tournaments (the name being the key) and their URL link (it being the value)
-    */
-    }
-}
-```
-
-#
-
-## References
-
-- [W3Schools](www.w3schools.com)
-- [MDN](developer.mozilla.org)
-- [stackoverflow](https://stackoverflow.com/)
-
-#
-
-## Browser compatibility
+## BROWSER COMPATIBILITY
 
 - Google Chrome v. 99.0.4844.84
 - Apple Safari v. 15.4
@@ -758,20 +694,70 @@ And a format for the players:
 
 #
 
-## Authors
+## EXTERNAL RESOURCES      
 
-**Davide Murroni** - davide.murroni@edu.itspiemonte.it
+- [JsonBlob](https://jsonblob.com/)
+- [W3Schools](www.w3schools.com)
+- [MDN](developer.mozilla.org)
+- [stackoverflow](https://stackoverflow.com/)
 
-**Eloise Bryony Giorda** - eloise.giorda@edu.itspiemonte.it
+#
 
-**Francesco Abrate** - francesco.abrate@edu.itspiemonte.it
+## LICENSE AND CONTACT INFORMATION    
 
-**Giampietro Piras** - giampietro.piras@edu.itspiemonte.it
+MIT License
 
-**Federico Luciano Stroppiana** - federico.stroppiana@edu.itspiemonte.it
+Copyright (c) [2022] [Francesco Abrate, Eloise Bryony Giorda, Davide Murroni, Giampietro Piras, Federico Luciano Stroppiana]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+The software is provided "as is", without warranty of any kind, express or 
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and noninfringement. In no event shall the
+authors or copyright holders be liable for any claim, damages or other liability,
+whether in an action of contract, tort or otherwise, arising from, out of 
+or in connection with the software or the use or other dealings in the software. 
+
+Contact information:
+- davide.murroni@edu.itspiemonte.it
+- francesco.abrate@edu.itspiemonte.it
+- eloise.giorda@edu.itspiemonte.it
+- giampietro.piras@edu.itspiemonte.it
+- federico.stroppiana@edu.itspiemonte.it
+
+---
+
+## AUTHORS     
+
+
+
+**Davide Murroni** - developer
+
+**Eloise Bryony Giorda** - developer
+
+**Francesco Abrate** - developer
+
+**Giampietro Piras** - developer
+
+**Federico Luciano Stroppiana** - developer
 
 #
 
 **_ITS ICT Piemonte - Web Developer_**
 
 #
+
+## CHANGELOG AND VERSION HISTORY     
+
+We have used the Git on Visual Code to work on the flow of the project. The changelog and history of the project can be resumed from the commits that we have made on: https://github.com/KelosDev/HTML-Project
+
+--- 
+
