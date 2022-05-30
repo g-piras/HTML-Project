@@ -622,6 +622,27 @@ Here' s the query we used to fill the database fields
 
 **MYSQL**
 
+We created a symple database with just one table "players".
+Every column except the Id match a form input field.
+The Id is setted as PRIMARY KEY, and it autoincrements.
+
+
+**To the database... and back**
+
+After we created the database we wanted to test a "callback" form the db to an HTML to help page owners to manage users information.
+the result is in [registered_user_page.php](./../registered_user_page.php).
+The page is softly styled with some CSS and Bootstrap.  
+All datas will fill a table.
+**This is just a test!!!**
+**The page is not secure!**
+
+#### NOTES
+
+- In this project we didn' t create a login area.
+- Database is located on localhost 
+- There's no message to display user that its registration was successfully
+- Some areas as already underlined could not be secure and data could be not safe
+
 
 ****
 
