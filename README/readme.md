@@ -73,6 +73,7 @@ HTML-Project/
 ┃ ┣ [index.js](./../scripts/index.js)  
 ┃ ┣ [main.js](scripts/main.js)  
 ┃ ┗ [players.js](./../scripts/players.js)  
+┃ ┗ [tournamenys.js](./../scripts/tournaments.js)  
 ┣ Style/  
 ┃ ┣ [form.css](./../Style/form.css)  
 ┃ ┣ [gallery.css](./../Style/gallery.css)  
@@ -404,6 +405,39 @@ function (text) {
       }
 ```
 
+
+When the user clicks on `<span>` (x), close the modal
+
+```js
+for(let i = 0; i < span.length; i++){
+    span[i].onclick = function() {
+    modal[i].style.display = "none";
+    document.body.style.overflow = "visible"
+}
+}
+```
+**function** -> When the user clicks anywhere outside of the modal, close it
+
+```js
+window.onclick = function(event) {
+    for(let i = 0; i < modal.length; i++){
+       if (event.target == modal[i]) {
+        modal[i].style.display = "none";
+        document.body.style.overflow = "visible"
+        } 
+    }   
+}
+```
+**function** -> When the user clicks the button, open the modal 
+```js
+for (let i = 0; i < btn.length; i++){
+    btn[i].onclick = function() {
+        modal[i].style.display = "block";
+        document.body.style.overflow = "hidden";
+    }
+}
+```
+
 #
 
 ## style section
@@ -518,7 +552,22 @@ img:hover {
 }
 ```
 
-****
+We use the display grid property to organize the divs on some pages of our site
+
+```css
+.containercards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid var(--main-red-color);
+    margin-bottom: 3%;
+}
+```
+
+#
 
 ## Join Us Page
 
