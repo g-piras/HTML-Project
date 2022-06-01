@@ -862,9 +862,8 @@ for (let i = 0; i < btn.length; i++){
 ## EXTERNAL RESOURCES      
 
 - [JsonBlob](https://jsonblob.com/)
-- [W3Schools](www.w3schools.com)
-- [MDN](developer.mozilla.org)
-- [stackoverflow](https://stackoverflow.com/)
+- [XAMPP](https://www.apachefriends.org/it/index.html)
+- [phpMyAdmin](http://localhost/phpmyadmin/)
 
 #
 
