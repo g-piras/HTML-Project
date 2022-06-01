@@ -145,6 +145,7 @@ main h2 {
   width: 25px;
   top: 10px;
   right: 10px;
+  cursor: pointer;
 }
 
 #player-info-pfp {
@@ -307,6 +308,10 @@ ul.teams{
   animation: toRed 300ms ease-in-out forwards;
 }
 
+#selected-player .close-profile:hover{ 
+  transform: scale(1.3);
+}
+
 .player-list-item:hover{
   cursor: pointer;
 }
@@ -325,8 +330,8 @@ p.player-name.hidden {
 }
 
 p.player-name:not(.hidden) {
-  display: block !important;
-  opacity: 1 !important;
+  display: block;
+  opacity: 1;
   animation: growDown 300ms ease-in-out forwards;
   transform-origin: top center;
 }
@@ -385,14 +390,14 @@ p.player-name:not(.hidden) {
 
 @media screen and (min-height: 750px) {
   #selected-player h2 {
-    position: relative !important;
+    position: relative;
     top: auto;
-    margin-bottom: 25px !important;
-    margin-top: 30px !important;
+    margin-bottom: 25px;
+    margin-top: 30px;
   }
 
   #selected-player #player-info-pfp {
-    margin-top: 0 !important;
+    margin-top: 0;
   }
 }
 /*end of first media query*/
@@ -401,17 +406,17 @@ p.player-name:not(.hidden) {
 
 @media screen and (min-width: 500px) {
   #selected-player p {
-    font-size: 18px !important;
+    font-size: 18px;
   }
 
   #selected-player span,
   #selected-player a,
   #selected-player #player-info-bio {
-    font-size: 15px !important;
+    font-size: 15px;
   }
 
   #selected-player h2 {
-    font-size: 28px !important;
+    font-size: 28px;
   }
 }
 
@@ -453,11 +458,11 @@ p.player-name:not(.hidden) {
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row !important;
+    flex-direction: row;
   }
 
   .player-list-item {
-    display: inline-flex !important;
+    display: inline-flex;
     width: 320px;
     height: 410px;
     border-top: #ff4655 3px solid;
@@ -465,7 +470,7 @@ p.player-name:not(.hidden) {
     border-radius: 25px;
     justify-content: space-between;
     flex-direction: column;
-    margin: 20px 30px !important;
+    margin: 20px 30px;
     background-color: #000;
     transition: all ease-in-out 0.5s;
   }
@@ -480,22 +485,22 @@ p.player-name:not(.hidden) {
 
   .player-name-heading {
     position: relative;
-    bottom: 0px !important;
+    bottom: 0px;
     padding-bottom: 20px;
     border-radius: 25px;
   }
 
   #selected-player h2 {
-    position: absolute !important;
+    position: absolute;
     top: 30px;
-    margin-bottom: 25px !important;
-    margin-top: 20px !important;
-    font-size: 34px !important;
-    padding: 15px !important;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-size: 34px;
+    padding: 15px;
   }
 
   #selected-player #player-info-pfp {
-    margin-top: 0 !important;
+    margin-top: 0;
     width: 260px;
     height: 260px;
   }
@@ -514,7 +519,7 @@ p.player-name:not(.hidden) {
 
 @media screen and (max-height: 700px) {
   #selected-player #player-info-pfp {
-    margin-top: 10px !important;
+    margin-top: 10px;
     margin-bottom: 2px;
     width: 120px;
     height: 120px;
@@ -522,17 +527,17 @@ p.player-name:not(.hidden) {
 
   #selected-player h2 {
     top: 10px;
-    font-size: 3vh !important;
+    font-size: 3vh;
   }
 
   #selected-player p {
-    font-size: 2vh !important;
+    font-size: 2vh;
   }
 
   #selected-player span,
   #selected-player a,
   #selected-player #player-info-bio {
-    font-size: 1.8vh !important;
+    font-size: 1.8vh;
   }
 }
 
@@ -542,7 +547,7 @@ p.player-name:not(.hidden) {
 
 @media screen and (max-height: 900px) and (min-height: 700px) {
   #selected-player #player-info-pfp {
-    margin-top: 20px !important;
+    margin-top: 20px;
     margin-bottom: 5px;
     width: 180px;
     height: 180px;
@@ -550,17 +555,17 @@ p.player-name:not(.hidden) {
 
   #selected-player h2 {
     top: 5px;
-    font-size: 26px !important;
+    font-size: 26px;
   }
 
   #selected-player p {
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
   #selected-player span,
   #selected-player a,
   #selected-player #player-info-bio {
-    font-size: 14px !important;
+    font-size: 14px;
   }
 }
 /*End of fifth media query*/

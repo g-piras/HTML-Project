@@ -31,7 +31,7 @@ All pages should include:
 
 ## USAGE   
 
-The website can be visited by starting up any of the HTML files, all having navigation leading to each other. It is also heavily recommended to use a web server (like XAMPP), to utilize the back-end functionalities provided with the join us page `form.html`.
+The website can be visited by starting up any of the HTML files, all having navigation leading to each other. A web server (XAMPP - downloadable at https://www.apachefriends.org/it/index.html - activating `Apache` and `MySQL`) must be used alongside the added database
 
 #
 
@@ -92,11 +92,12 @@ HTML-Project/
 ┃ ┃ ┗ transparent-red-logo2.png  
 ┃ ┣ json/  
 ┃ ┃ ┗ [players.json](./../Contents/json/players.json)  
-┃ ┣ video/  
-┃ ┃ ┗ intro-video_Trim.mp4  
-┃ ┗ LINEE GUIDA.md  
-┣ Esport/  
-┃ ┗ Contents/  
+┃ ┗ video/  
+┃   ┗ intro-video_Trim.mp4  
+┣ database/  
+┃ ┣ 
+┃ ┣ 
+┃ ┗  
 ┣ README/  
 ┃ ┗ [readme.md](./readme.md)  
 ┣ scripts/  
@@ -130,22 +131,41 @@ Every js file has header documentation following the JSDoc comment format that e
 
 The project was executed by dividing the pages and relative files between the developers:
 
-## Home Page - Giampietro Piras
+## FEATURE 1 - Home Page - Giampietro Piras
 
-The home page [index.html](./../index.html) has been projected creating the website standards.
+The home page [index.html](./../index.html) has been projected creating the website standards, this means:
+- a small introduction to the website.
+- content area for most recent news posts (at least 3).
+- some information from other areas and their respective CTAs.
+It includes a breif About section regarding the league. `(Feature 7 - About)`
 It also creates the navigation bar and the footer that are used in all pages
 It holds secondary navigation to all other pages alongside some snippets from various sections and some descriptions to the esports league.
 
-## Tournaments Page - Francesco Abrate
+## FEATURE 2 - Tournaments Page - Francesco Abrate
 
-The tournaments page [tournament.html](./../tournaments.html) has been projected following the website standards.
+The tournaments page [tournament.html](./../tournaments.html) has been projected following the website standards, meaning:
+- grouping of tournaments in their respective sections.
+- each tournament holds:
+  - a name.
+  - a code.
+  - a location.
+  - an image.
+  - a date.
+  - a list of teams partecipating.
+- the page is responsive, listing the torunaments in mobile view, and using a card format on larger viewports.
 Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
 Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
 The modal parts of the page are managed through the javascript file tournament.js
 
-## Players Page - Eloise Bryony Giorda
+## FEATURE 3 - Players Page - Eloise Bryony Giorda
 
-The players page [players.html](./../players.html) has been projected following the website standards.
+The players page [players.html](./../players.html) has been projected following the website standards, which are:
+- the site must hold a list of teams, each holding a list of players.
+- the teams must be grouped in 'active' and 'retired.
+- there must be at least 8 teams with 5 players each.
+- all players sould include at least a name, code, bio, photo, age, nationality,
+years of experience and links to tournaments in which the player has participated.
+- the page is responsive, listing the torunaments in mobile view, and using a card format on larger viewports.
 Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
 Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
 The players are automatically generated using javascript, getting the information from json files, in this case a jsonblob. This makes the page modifyable through any change to the json file.
@@ -186,32 +206,158 @@ And a format for the players:
 }
 ```
 
-## Gallery Page - Federico Luciano Stroppiana
+## FEATURE 4 - Gallery Page - Federico Luciano Stroppiana
 
-The Galler page [gallery.html](./../gallery.html) has been projected following the site standars.
+The Gallery page [gallery.html](./../gallery.html) has been projected following the site standars, these being:
+- the gallery ough to hold images relating to the tournaments and league.
 Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
 Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
-It hold all the pictures of the various esports events.
 
-## News Page - Giampetro Piras
+## FEATURE 5 - News Page - Giampetro Piras `(No requirements were asked)`
 
 The News page [news.html](./../news.html) has been projected following the site standars.
 Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
 Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
 It holds all the articles relative to the events.
 
-## Join Us Page - Davide Murroni
+## FEATURE 6 - Join Us Page
 
-The Join Us page [form.html](./../form.html) has been projected following the site standars.
+The Join Us page [form.html](./../form.html) has been projected following the site standars:
+- the form should have input fields for:
+  - first, middle (optional) and last names.
+  - desired torunaments.
+  - age, gender, hair and eye color.
+  - contact information: email, phone numbers, address, etc...
+  - games (one or more games that the player us specialized in).
+  - a short biography.
+- be client-side validated.
 Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
-Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
+Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he change page.
+
+#### Structure 
+
+There's a short introduction to guide the user in the registration.
 Every input in the page is client/side validated.
-To accomplish this result we served of the attributes
+To accomplish this result we served of the HTML attributes
 
 ```HTML
  patten=""
  required=""
 ```
+If inputs don' t match patterns will pop up a message that will help the user to modify, in a correct way, its inputs. 
+The required attribute don't allows user to leave empty fields.
+
+This page has been projected **mobile first**.
+There' s just one media query for the main section (the form) to fit contents in desktop version.
+The content size respect portrait and landscape orientation.
+
+#### Interaction/Animation
+
+The interaction in this page is limited.
+
+Input fields have a focus "animation", clicking on the intestation and when selected.
+Only buttons have CSS animation to attract the attention of the user and help it to press the right button.
+
+#### Navigation
+
+User can reach the page from the main navigation on the top of every page, and also from the bottom, in the footer.
+
+Inside form there are two external links:
+- Redirect users to our tournaments page
+- Rediret users to RIOT page, to check other games
+
+Both links open in a new tab:
+
+``` html
+ target="_blank" 
+ ```
+
+
+this allow user to navigate and pick desidered information out of form page
+without loosing inserted datas or exit the site. 
+
+### BONUS 2 - Functionality (...and why)
+
+**PHP**
+ 
+```HTML
+   <form method="post" action="./form.php" class="form-container" id="form" name="form">
+```
+In this project, we used the method post attribute to send data. The post method appends data inside the body of the HTTP request instead of showing in URL, and that for us is obviously the best method beacuse we store people sensitive data. This allow us to protect our users.
+The action attribute is set to the [./form.php](../form.php) page. 
+In this page we execute the connection to the web server and the database. 
+
+``` PHP
+    $servername = "localhost"; // address
+    $username = "root";         //user
+    $password = "";             //password 
+    $dbname = "levelupg_contact_db"; //database name
+
+    if (isset($_POST['fname'])) { 
+    echo "ok";
+
+
+$connection = new mysqli($servername, $username, $password, $dbname);
+```
+
+We used isset on fname, this mechanism collaborate with the form client-side validation because user can' t leave the name field empty.
+This means that you can t send that if u don't fill the form as required.
+
+To make data readable for the database we used 
+``` PHP
+    real_escape_string()
+```
+This function escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
+
+Here' s the query we used to fill the database fields
+
+``` PHP
+    $query = "INSERT INTO  players
+ (firstName, middleName, surname,
+ battleTag, teamName,  mail,
+ phone, city, userAddress, country, age, gender,
+ hair, eyes, tournament, otherGames, bio )
+        VALUES('$fName', '$mName', '$lName', '$battleTag', 
+        '$teamName', '$email', '$telephone', '$city', '$userAddress', 
+        '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
+    if($connection->query($query) === true ) {
+        header("Location: ./form.html");
+    } else {
+        echo "no";
+    }
+}
+```
+
+**MYSQL**
+
+We created a symple database with just one table "players".
+Every column except the Id match a form input field.
+The Id is setted as PRIMARY KEY, and it autoincrements.
+
+
+**To the database... and back**
+
+After we created the database we wanted to test a "callback" from the db to an HTML to help page owners to manage users information.
+The result is in [registered_user_page.php](./../registered_user_page.php).
+The page is softly styled with some CSS.  
+All datas will fill a table.
+**This is just a test!**
+**The page is not secure!!!**
+
+#### NOTES
+
+- In this project we didn' t create a login area.
+- Database is located on localhost 
+- Some areas, as already underlined, could not be secure and data could not be safe
+
+#
+
+### BONUS 1 - Animations
+All pages feature animations throught. The animations can be on hover, scroll or activation.
+Some examples are:
+- sliding navbar when called in mobile view.
+- appearing text on scroll.
+- highlighting of clickable content.
 
 #
 
@@ -677,181 +823,6 @@ for (let i = 0; i < btn.length; i++){
     btn[i].onclick = function() {
         modal[i].style.display = "block";
         document.body.style.overflow = "hidden";
-    }
-}
-```
-
-
-#
-
-<<<<<<< HEAD
-## BROWSER COMPATIBILITY
-=======
-## Join Us Page
-
-The Join Us page [form.html](./../form.html) has been projected following the site standars.
-Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
-Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he change page.
-
-#### Structure 
-
-There' s a short introduction to guide the user in the registration.
-Every input in the page is client/side validated.
-To accomplish this result we served of the HTML attributes
-
-```HTML
- patten=""
- required=""
-```
-If inputs don' t match patterns will pop up a message that will help the user to modify, in a correct way, its inputs. 
-The required attribute don't allows user to leave empty fields.
-
-This page has been projected **mobile first**.
-There' s just one media query for the main section (the form) to fit contents in desktop version.
-The content size respect portrait and landscape orientation.
-
-#### Interaction/Animation
-
-The interaction in this page is limited.
-
-Input fields have a focus "animation", clicking on the intestation and when selected.
-Only buttons have CSS animation to attract the attention of the user and help it to press the right button.
-
-#### Navigation
-
-User can reach the page from the main navigation on the top of every page, and also from the bottom, in the footer.
-
-Inside form there are two external links:
-- Redirect users to our tournaments page
-- Rediret users to RIOT page, to check other games
-
-Both links open in a new tab:
-
-``` html
- target="_blank" 
- ```
-
-
-this allow user to navigate and pick desidered information out of form page
-without loosing inserted datas or exit the site. 
-
-#### Functionality (...and why)
-
-**PHP**
- 
-```HTML
-   <form method="post" action="./form.php" class="form-container" id="form" name="form">
-```
-In this project, we used the method post attribute to send data. The post method appends data inside the body of the HTTP request instead of showing in URL, and that for us is obviously the best method beacuse we store people sensitive data. This allow us to protect our users.
-The action attribute is set to the [./form.php](../form.php) page. 
-In this page we execute the connection to the web server and the database. 
-
-``` PHP
-    $servername = "localhost"; // address
-    $username = "root";         //user
-    $password = "";             //password 
-    $dbname = "levelupg_contact_db"; //database name
-
-    if (isset($_POST['fname'])) { 
-    echo "ok";
-
-
-$connection = new mysqli($servername, $username, $password, $dbname);
-```
-
-We used isset on fname, this mechanism collaborate with the form client-side validation because user can' t leave the name field empty.
-This means that you can t send that if u don't fill the form as required.
-
-To make data readable for the database we used 
-``` PHP
-    real_escape_string()
-```
-This function escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection.
-
-Here' s the query we used to fill the database fields
-
-``` PHP
-    $query = "INSERT INTO  players
- (firstName, middleName, surname,
- battleTag, teamName,  mail,
- phone, city, userAddress, country, age, gender,
- hair, eyes, tournament, otherGames, bio )
-        VALUES('$fName', '$mName', '$lName', '$battleTag', 
-        '$teamName', '$email', '$telephone', '$city', '$userAddress', 
-        '$country', '$age', '$gender', '$hair', '$eye', '$tournaments','$otherGames', '$bio')";
-    if($connection->query($query) === true ) {
-        header("Location: ./form.html");
-    } else {
-        echo "no";
-    }
-}
-```
-
-
-**MYSQL**
-
-We created a symple database with just one table "players".
-Every column except the Id match a form input field.
-The Id is setted as PRIMARY KEY, and it autoincrements.
-
-
-**To the database... and back**
-
-After we created the database we wanted to test a "callback" from the db to an HTML to help page owners to manage users information.
-The result is in [registered_user_page.php](./../registered_user_page.php).
-The page is softly styled with some CSS.  
-All datas will fill a table.
-**This is just a test!**
-**The page is not secure!!!**
-
-#### NOTES
-
-- In this project we didn' t create a login area.
-- Database is located on localhost 
-- Some areas, as already underlined, could not be secure and data could not be safe
-
-
-****
-
-## Players Page
-
-The players page [players.html](./../players.html) has been projected following the website standards.
-Navigation bar and footer are "inherited" from the homepage, following the rules like all other pages.
-Also colors are the same of the whole site, this helps the user to recognize that he still is in the same site, even if he changed page.
-The players are automatically generated using javascript, getting the information from json files, in this case a jsonblob. This makes the page modifyable through any change to the json file.
-The json file follows a format for the teams:
-
-```json
-{
-  "team": /* string representing the teams name */,
-  "active": /* boolean value */,
-  "wins": /* number of wins */,
-  "players": [
-    {
-      /*
-        object with player information
-      */
-    }
-    //...
-  ]
-}
-```
-
-And a format for the players:
-
-```json
-{
-  "profilePicURL": /*string value representing the URL for the players profile picture*/,
-  "gamerTag": /*string value representing the players BattleTag*/,
-  "name": /*string value representing the players name*/,
-  "bio": /*string value representing the players bio / description */,
-  "age": /*numeric value representing the player's age*/,
-  "yearsOfXP": /*numeric value representing the player's years of experience*/,
-  "nationalityURL": /*string value representing the URL for the players nationality flag*/,
-  "tournaments": {
-    /*
-        an object containing 0 to 5 of the most recent tournaments (the name being the key) and their URL link (it being the value)
-    */
     }
 }
 ```
