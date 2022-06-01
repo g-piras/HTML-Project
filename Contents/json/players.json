@@ -1,644 +1,644 @@
 [
-    {
-      "team": "FunPlus Phoenix",
-      "active": true,
-      "wins": 69,
-      "players": [
-        {
-          "profilePicURL": "https://www.vlr.gg/img/base/ph/sil.png",
-          "gamerTag": "SUYGETSU",
-          "name": "Dmitry Ilyushin",
-          "bio": "Dmitry 'SUYGETSU' Ilyushin (born July 16, 2002) is a Russian player who currently plays for FunPlus Phoenix.",
-          "age": 19,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6080173b56f0c.png",
-          "gamerTag": "Zyppan",
-          "name": "Pontus Eek",
-          "bio": "Pontus 'Zyppan' Eek (born July 17, 2002) is a Swedish player who currently plays for FunPlus Phoenix.",
-          "age": 19,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/se.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6080172676121.png",
-          "gamerTag": "ANGE1",
-          "name": "Kyrylo Karasov",
-          "bio": "Kirill 'ANGE1' Karasiow (born September 10, 1989) is a Ukrainian player who currently plays for FunPlus Phoenix. He is a former Counter-Strike: Global Offensive professional.",
-          "age": 32,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ua.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/608017482981c.png",
-          "gamerTag": "Shao",
-          "name": "Andrey Kiprsky",
-          "bio": "Andrey 'Shao' Kiprsky (born January 27, 2000) is a Russian player who currently plays for FunPlus Phoenix.",
-          "age": 22,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/60bde5232d96c.png",
-          "gamerTag": "ardiis",
-          "name": "Ardis Svarenieks",
-          "bio": "Ardis 'ardiis' Svarenieks (born May 1, 1998) is a Latvian player who currently plays for FunPlus Phoenix.",
-          "age": 24,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/lv.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2"
-          }
+  {
+    "team": "FunPlus Phoenix",
+    "active": true,
+    "wins": 69,
+    "players": [
+      {
+        "profilePicURL": "",
+        "gamerTag": "SUYGETSU",
+        "name": "Dmitry Ilyushin",
+        "bio": "Dmitry 'SUYGETSU' Ilyushin (born July 16, 2002) is a Russian player who currently plays for FunPlus Phoenix.",
+        "age": 19,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2"
         }
-      ]
-    },
-    {
-      "team": "G2 Esports",
-      "active": true,
-      "wins": 36,
-      "players": [
-        {
-          "profilePicURL": "https://owcdn.net/img/61e2602d5377a.png",
-          "gamerTag": "hoody",
-          "name": "Aaro Peltokangas",
-          "bio": "Aaro 'hoody' Peltokangas (born September 17, 1998) is a Finnish player who currently plays for G2 Esports. He is a retired professional Counter-Strike: Global Offensive player.",
-          "age": 23,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61e260470d04d.png",
-          "gamerTag": "Meddo",
-          "name": "Johan Renbjörk Lundborg",
-          "bio": "Johan 'Meddo' Renbjörk Lundborg (born July 21, 1999) is a Swedish player who currently plays for G2 Esports. He is a retired professional Counter-Strike: Global Offensive player.",
-          "age": 23,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/se.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61e26020663c8.png",
-          "gamerTag": "Mixwell",
-          "name": "Oscar Cañellas",
-          "bio": "Oscar 'mixwell' Cañellas Colocho (born October 10, 1995) is a Spanish player who currently plays for G2 Esports. He came to VALORANT from a professional competitive Counter-Strike: Global Offensive and Counter-Strike: Source career.",
-          "age": 27,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/es.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61e2600561139.png",
-          "gamerTag": "AvovA",
-          "name": "Auni Chahade",
-          "bio": "Auni 'AvovA' Chahade (born November 5, 1998) is a Danish player who currently plays for G2 Esports.",
-          "age": 23,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/dk.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61e260684aa25.png",
-          "gamerTag": "nukkye",
-          "name": "Žygimantas Chmieliauskas",
-          "bio": "Žygimantas 'nukkye' Chmieliauskas (born November 5, 1997) is a Lithuanian player who currently plays for G2 Esports. He is an ex-professional Counter-Strike: Global Offensive player",
-          "age": 24,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/lt.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
+      },
+      {
+        "profilePicURL": "zyppan.webp",
+        "gamerTag": "Zyppan",
+        "name": "Pontus Eek",
+        "bio": "Pontus 'Zyppan' Eek (born July 17, 2002) is a Swedish player who currently plays for FunPlus Phoenix.",
+        "age": 19,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
         }
-      ]
-    },
-    {
-      "team": "Team Liquid",
-      "active": true,
-      "wins": 84,
-      "players": [
-        {
-          "profilePicURL": "https://owcdn.net/img/62249ca670bbe.png",
-          "gamerTag": "Jamppi",
-          "name": "Elias Olkkonen",
-          "bio": "Elias 'Jamppi' Olkkonen (born July 22, 2001) is a Finnish player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player.",
-          "age": 20,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/62249f63d8cb5.png",
-          "gamerTag": "Nivera",
-          "name": "Nabil Benrlitom",
-          "bio": "Nabil 'Nivera' Benrlitom (born June 10, 2001) is a Belgian player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player. He is Adil 'ScreaM' Benrlitom's younger brother.",
-          "age": 20,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/be.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/62249e3975f58.png",
-          "gamerTag": "L1NK",
-          "name": "Travis Mendoza",
-          "bio": "Travis 'L1NK' Mendoza (born August 8, 1998) is a British player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player.",
-          "age": 23,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a0bde68ec.png",
-          "gamerTag": "soulcas",
-          "name": "Dom Sulcas",
-          "bio": "Dom 'soulcas' Sulcas (born January 2, 2000) is a British player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player.",
-          "age": 22,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a26d779fc.png",
-          "gamerTag": "ScreaM",
-          "name": "Adil Benrlitom",
-          "bio": "Adil 'ScreaM' Benrlitom (born July 2, 1994) is a Belgian player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player. He is Nabil 'Nivera' Benrlitom's older brother.",
-          "age": 27,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/be.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
-          }
+      },
+      {
+        "profilePicURL": "ange1.webp",
+        "gamerTag": "ANGE1",
+        "name": "Kyrylo Karasov",
+        "bio": "Kirill 'ANGE1' Karasiow (born September 10, 1989) is a Ukrainian player who currently plays for FunPlus Phoenix. He is a former Counter-Strike: Global Offensive professional.",
+        "age": 32,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ua.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
         }
-      ]
-    },
-    {
-      "team": "Acend",
-      "active": true,
-      "wins": 70,
-      "players": [
-        {
-          "profilePicURL": "https://owcdn.net/img/61c34e227d744.png",
-          "gamerTag": "zeek",
-          "name": "Aleksander Zygmunt",
-          "bio": "Aleksander 'zeek' Zygmunt (born September 11, 2001) is a Polish player who currently plays for Acend. He is a retired professional Fortnite player known for his time on AGO Esports.",
-          "age": 21,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/pl.svg",
-          "tournaments": {
-            "VCT 2022: EMEA Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "LVP Rising Series - Finale" : "https://liquipedia.net/valorant/LVP/Rising_Series_Finale",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: Stage 3 Masters" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Stage_3/Masters"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61003e0e9e38a.png",
-          "gamerTag": "vakk",
-          "name": "Vakaris Bebravičius",
-          "bio": "Vakaris 'vakk' Bebravičius (born July 7, 2000) is a Lithuanian player who currently plays for Acend.",
-          "age": 22,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/lt.svg",
-          "tournaments": {}
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/623ba4ef26cee.png",
-          "gamerTag": "MONSTEERR",
-          "name": "Ondřej Petrů",
-          "bio": "Ondřej 'MONSTEERR' Petrů (born June 27, 2004) is a Czech player who currently plays for Acend.",
-          "age": 18,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/cz.svg",
-          "tournaments": {}
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61c34dedbf61c.png",
-          "gamerTag": "cNed",
-          "name": "Mehmet Yağız İpek",
-          "bio": "Mehmet Yağız 'cNed' İpek (born January 18, 2002) is a Turkish player who currently plays for Acend.",
-          "age": 20,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
-          "tournaments": {
-            "VCT 2022: EMEA Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "LVP Rising Series - Finale" : "https://liquipedia.net/valorant/LVP/Rising_Series_Finale",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: Stage 3 Masters" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Stage_3/Masters"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61c34e036deff.png",
-          "gamerTag": "starxo",
-          "name": "Patryk Kopczynski",
-          "bio": "Patryk 'starxo' Kopczyński (born August 28, 2001) is a Polish player who currently plays for Acend.",
-          "age": 21,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/pl.svg",
-          "tournaments": {
-            "VCT 2022: EMEA Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
-            "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "LVP Rising Series - Finale" : "https://liquipedia.net/valorant/LVP/Rising_Series_Finale",
-            "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
-            "VCT 2021: Stage 3 Masters" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Stage_3/Masters"
-          }
+      },
+      {
+        "profilePicURL": "shao.webp",
+        "gamerTag": "Shao",
+        "name": "Andrey Kiprsky",
+        "bio": "Andrey 'Shao' Kiprsky (born January 27, 2000) is a Russian player who currently plays for FunPlus Phoenix.",
+        "age": 22,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
         }
-      ]
-    },
-    {
-      "team": "OpTic Gaming",
-      "active": true,
-      "wins": 88,
-      "players": [
-        {
-          "profilePicURL": "https://owcdn.net/img/6207470ac0601.png",
-          "gamerTag": "FNS",
-          "name": "Pujan Mehta",
-          "bio": "Pujan 'FNS' Mehta (born March 19, 1992) is a Canadian player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
-          "age": 30,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/620746f8c6c70.png",
-          "gamerTag": "crashies",
-          "name": "Austin Roberts",
-          "bio": "Austin 'crashies' Roberts (born December 20, 1997) is an American player who currently plays for OpTic Gaming.",
-          "age": 25,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6207471b7b93a.png",
-          "gamerTag": "Victor",
-          "name": "Victor Wong",
-          "bio": "Victor 'Victor' Wong (born September 14, 1996) is an American player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
-          "age": 26,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6207474eb81b1.png",
-          "gamerTag": "Marved",
-          "name": "Jimmy Nguyen",
-          "bio": "Jimmy 'Marved' Nguyen (born February 24, 2000) is a Canadian player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
-          "age": 22,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/62074728f3fd4.png",
-          "gamerTag": "yay",
-          "name": "Jaccob Whiteaker",
-          "bio": "Jaccob 'yay' Whiteaker (born September 9, 1998) is an American player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
-          "age": 24,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
-          }
+      },
+      {
+        "profilePicURL": "ardiis.webp",
+        "gamerTag": "ardiis",
+        "name": "Ardis Svarenieks",
+        "bio": "Ardis 'ardiis' Svarenieks (born May 1, 1998) is a Latvian player who currently plays for FunPlus Phoenix.",
+        "age": 24,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/lv.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2"
         }
-      ]
-    },
-    {
-      "team": "Cloud9",
-      "active": true,
-      "wins": 105,
-      "players": [
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a530d0113.png",
-          "gamerTag": "vanity",
-          "name": "Anthony Malaspina",
-          "bio": "Anthony 'vanity' Malaspina (born December 4, 1998) is an American player who currently plays for Cloud9 Blue. He is a former professional Counter-Strike: Global Offensive player.",
-          "age": 24,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
-            "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
-            "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a505119f2.png",
-          "gamerTag": "leaf",
-          "name": "Nathan Orf",
-          "bio": "Nathan 'leaf' Orf (born November 24, 2003) is an American player who currently plays for Cloud9 Blue. He is a former professional Counter-Strike: Global Offensive player.",
-          "age": 19,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
-            "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
-            "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
-          }
-        },
-        {
-          "profilePicURL": "https://www.vlr.gg/img/base/ph/sil.png",
-          "gamerTag": "curry",
-          "name": "Rahul Nemani",
-          "bio": "Rahul 'curry' Nemani (born August 5, 2002) is an American player who currently plays for Cloud9. He is a retired professional Counter-Strike: Global Offensive player.",
-          "age": 20,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {}
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a513ced81.png",
-          "gamerTag": "mitch",
-          "name": "Mitch Semago",
-          "bio": "Mitch 'mitch' Semago (born July 31, 1996) is an American player who currently plays for Cloud9.",
-          "age": 26,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
-            "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
-            "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a4eb22518.png",
-          "gamerTag": "Xeppaa",
-          "name": "Erick Bach",
-          "bio": "Erick 'Xeppaa' Bach (born July 19, 2000) is an American player who currently plays for Cloud9 Blue. He is a retired professional Counter-Strike: Global Offensive player.",
-          "age": 22,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
-            "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
-            "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
-            "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
-          }
+      }
+    ]
+  },
+  {
+    "team": "G2 Esports",
+    "active": true,
+    "wins": 36,
+    "players": [
+      {
+        "profilePicURL": "hoody.webp",
+        "gamerTag": "hoody",
+        "name": "Aaro Peltokangas",
+        "bio": "Aaro 'hoody' Peltokangas (born September 17, 1998) is a Finnish player who currently plays for G2 Esports. He is a retired professional Counter-Strike: Global Offensive player.",
+        "age": 23,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1"
         }
-      ]
-    },
-    {
-      "team": "Dignitas",
-      "active": false,
-      "wins": 35,
-      "players": [
-        {
-          "profilePicURL": "https://liquipedia.net/commons/images/f/f3/Triumph_ryann.png",
-          "gamerTag": "ryann",
-          "name": "Ryan Welsh",
-          "bio": "Ryan 'ryann' Welsh (born February 10, 2001) is an American player who previously played for Ghost Gaming. He is a former Counter-Strike: Global Offensive player.",
-          "age": 21,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
-            "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
-            "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6224a8bef17cc.png",
-          "gamerTag": "dephh",
-          "name": "Rory Jackson",
-          "bio": "Rory 'dephh' Jackson (born December 23, 1991) is a British player who currently plays for XSET. He is a former professional Counter-Strike: Global Offensive player.",
-          "age": 31,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
-          "tournaments": {
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
-            "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
-            "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
-          }
-        },
-        {
-          "profilePicURL": "https://www.vlr.gg/img/base/ph/sil.png",
-          "gamerTag": "MAKKA",
-          "name": "Bryan Drouillard",
-          "bio": "Bryan 'MAKKA' Drouillard is an American player who currently plays for Knights. He is a retired professional Counter-Strike: Global Offensive player.",
-          "age": 24,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
-            "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
-            "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6278bd32573d4.png",
-          "gamerTag": "koalanoob",
-          "name": "Gianfranco Potestio",
-          "bio": "GianFranco 'koalanoob' Potestio is a Canadian player of Italian descent who currently plays for Ghost Gaming.",
-          "age": 27,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
-          "tournaments": {
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
-            "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
-            "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
-          }
-        },
-        {
-          "profilePicURL": "https://www.vlr.gg/img/base/ph/sil.png",
-          "gamerTag": "psalm",
-          "name": "Harrison Chang",
-          "bio": "Harrison 'psalm' Chang (born February 6, 1995) is an American player who is currently an inactive member of The Guard. He is a former Fortnite and Heroes of the Storm player.",
-          "age": 27,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
-            "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
-            "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
-          }
+      },
+      {
+        "profilePicURL": "meddo.webp",
+        "gamerTag": "Meddo",
+        "name": "Johan Renbjörk Lundborg",
+        "bio": "Johan 'Meddo' Renbjörk Lundborg (born July 21, 1999) is a Swedish player who currently plays for G2 Esports. He is a retired professional Counter-Strike: Global Offensive player.",
+        "age": 23,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1"
         }
-      ]
-    },
-    {
-      "team": "Project X",
-      "active": false,
-      "wins": 5,
-      "players": [
-        {
-          "profilePicURL": "https://owcdn.net/img/6273b9ae2ae54.png",
-          "gamerTag": "cinnamon",
-          "name": "Klaudia Beczkiewicz",
-          "bio": "Klaudia 'cinnamon' Beczkiewicz (born October 27, 1995) is an American player of Polish descent, currently residing in the United Kingdom. She is a former Counter-Strike: Global Offensive player.",
-          "age": 27,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
-          "tournaments": {
-            "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
-            "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
-            "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
-            "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/61f949933beaa.png",
-          "gamerTag": "Glance",
-          "name": "Anastasia Anisimova",
-          "bio": "Anastasia 'Glance' Anisimova is a Russian player who currently plays for G2 Gozen.",
-          "age": 23,
-          "yearsOfXP": 2,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
-          "tournaments": {
-            "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
-            "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
-            "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
-            "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6273b9c8f09ff.png",
-          "gamerTag": "Smurfette",
-          "name": "Yağmur Gündüz",
-          "bio": "Yağmur 'Smurfette' Gündüz (born May 19, 1998) is a Turkish player who currently plays for Guild X. She is a former Counter-Strike: Global Offensive player.",
-          "age": 23,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
-          "tournaments": {
-            "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
-            "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
-            "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
-            "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
-          }
-        },
-        {
-          "profilePicURL": "https://www.vlr.gg/img/base/ph/sil.png",
-          "gamerTag": "Kim",
-          "name": "Sophia Benfakir",
-          "bio": "Sophia 'Kim' Benfakir (born January 29, 1993) is a French player who currently plays for Rix.GG Lightning. She is a former Counter-Strike: Global Offensive player.",
-          "age": 29,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
-          "tournaments": {
-            "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
-            "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
-            "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
-            "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
-          }
-        },
-        {
-          "profilePicURL": "https://owcdn.net/img/6273b9bf5c271.png",
-          "gamerTag": "roxi",
-          "name": "Vivian Schilling",
-          "bio": "Vivian 'roxi' Schilling (born November 30, 1996) is a German player of Filipino descent. She is a former Counter-Strike: Global Offensive player . She is also a former streamer for BIG.",
-          "age": 26,
-          "yearsOfXP": 1,
-          "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/de.svg",
-          "tournaments": {
-            "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
-            "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
-            "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
-            "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
-          }
+      },
+      {
+        "profilePicURL": "mixwell.webp",
+        "gamerTag": "Mixwell",
+        "name": "Oscar Cañellas",
+        "bio": "Oscar 'mixwell' Cañellas Colocho (born October 10, 1995) is a Spanish player who currently plays for G2 Esports. He came to VALORANT from a professional competitive Counter-Strike: Global Offensive and Counter-Strike: Source career.",
+        "age": 27,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "profilePicURL": "avova.webp",
+        "gamerTag": "AvovA",
+        "name": "Auni Chahade",
+        "bio": "Auni 'AvovA' Chahade (born November 5, 1998) is a Danish player who currently plays for G2 Esports.",
+        "age": 23,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/dk.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      },
+      {
+        "profilePicURL": "nukkye.webp",
+        "gamerTag": "nukkye",
+        "name": "Žygimantas Chmieliauskas",
+        "bio": "Žygimantas 'nukkye' Chmieliauskas (born November 5, 1997) is a Lithuanian player who currently plays for G2 Esports. He is an ex-professional Counter-Strike: Global Offensive player",
+        "age": 24,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/lt.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VCT 2022: CIS Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers/CIS/Closed_Qualifier_1",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      }
+    ]
+  },
+  {
+    "team": "Team Liquid",
+    "active": true,
+    "wins": 84,
+    "players": [
+      {
+        "profilePicURL": "jamppi.webp",
+        "gamerTag": "Jamppi",
+        "name": "Elias Olkkonen",
+        "bio": "Elias 'Jamppi' Olkkonen (born July 22, 2001) is a Finnish player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player.",
+        "age": 20,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/fi.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      },
+      {
+        "profilePicURL": "nivera.webp",
+        "gamerTag": "Nivera",
+        "name": "Nabil Benrlitom",
+        "bio": "Nabil 'Nivera' Benrlitom (born June 10, 2001) is a Belgian player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player. He is Adil 'ScreaM' Benrlitom's younger brother.",
+        "age": 20,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/be.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      },
+      {
+        "profilePicURL": "l1nk.webp",
+        "gamerTag": "L1NK",
+        "name": "Travis Mendoza",
+        "bio": "Travis 'L1NK' Mendoza (born August 8, 1998) is a British player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player.",
+        "age": 23,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      },
+      {
+        "profilePicURL": "soulcas.webp",
+        "gamerTag": "soulcas",
+        "name": "Dom Sulcas",
+        "bio": "Dom 'soulcas' Sulcas (born January 2, 2000) is a British player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player.",
+        "age": 22,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      },
+      {
+        "profilePicURL": "scream.webp",
+        "gamerTag": "ScreaM",
+        "name": "Adil Benrlitom",
+        "bio": "Adil 'ScreaM' Benrlitom (born July 2, 1994) is a Belgian player who currently plays for Team Liquid. He is a former Counter-Strike: Global Offensive player. He is Nabil 'Nivera' Benrlitom's older brother.",
+        "age": 27,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/be.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: EMEA STage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: EMEA Stage 3" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/EMEA/Stage_3/Challengers_Playoffs"
+        }
+      }
+    ]
+  },
+  {
+    "team": "Acend",
+    "active": true,
+    "wins": 70,
+    "players": [
+      {
+        "profilePicURL": "zeek.webp",
+        "gamerTag": "zeek",
+        "name": "Aleksander Zygmunt",
+        "bio": "Aleksander 'zeek' Zygmunt (born September 11, 2001) is a Polish player who currently plays for Acend. He is a retired professional Fortnite player known for his time on AGO Esports.",
+        "age": 21,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/pl.svg",
+        "tournaments": {
+          "VCT 2022: EMEA Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "LVP Rising Series - Finale" : "https://liquipedia.net/valorant/LVP/Rising_Series_Finale",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: Stage 3 Masters" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Stage_3/Masters"
+        }
+      },
+      {
+        "profilePicURL": "vakk.webp",
+        "gamerTag": "vakk",
+        "name": "Vakaris Bebravičius",
+        "bio": "Vakaris 'vakk' Bebravičius (born July 7, 2000) is a Lithuanian player who currently plays for Acend.",
+        "age": 22,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/lt.svg",
+        "tournaments": {}
+      },
+      {
+        "profilePicURL": "monsteerr.webp",
+        "gamerTag": "MONSTEERR",
+        "name": "Ondřej Petrů",
+        "bio": "Ondřej 'MONSTEERR' Petrů (born June 27, 2004) is a Czech player who currently plays for Acend.",
+        "age": 18,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/cz.svg",
+        "tournaments": {}
+      },
+      {
+        "profilePicURL": "cned.webp",
+        "gamerTag": "cNed",
+        "name": "Mehmet Yağız İpek",
+        "bio": "Mehmet Yağız 'cNed' İpek (born January 18, 2002) is a Turkish player who currently plays for Acend.",
+        "age": 20,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
+        "tournaments": {
+          "VCT 2022: EMEA Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "LVP Rising Series - Finale" : "https://liquipedia.net/valorant/LVP/Rising_Series_Finale",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: Stage 3 Masters" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Stage_3/Masters"
+        }
+      },
+      {
+        "profilePicURL": "starxo.webp",
+        "gamerTag": "starxo",
+        "name": "Patryk Kopczynski",
+        "bio": "Patryk 'starxo' Kopczyński (born August 28, 2001) is a Polish player who currently plays for Acend.",
+        "age": 21,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/pl.svg",
+        "tournaments": {
+          "VCT 2022: EMEA Stage 1 Challengers" : "https://liquipedia.net/valorant/VCT/2022/EMEA/Stage_1/Challengers",
+          "VALORANT Champions 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "LVP Rising Series - Finale" : "https://liquipedia.net/valorant/LVP/Rising_Series_Finale",
+          "Red Bull Home Ground #2" : "https://liquipedia.net/valorant/Red_Bull/Home_Ground/2",
+          "VCT 2021: Stage 3 Masters" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Stage_3/Masters"
+        }
+      }
+    ]
+  },
+  {
+    "team": "OpTic Gaming",
+    "active": true,
+    "wins": 88,
+    "players": [
+      {
+        "profilePicURL": "fns.webp",
+        "gamerTag": "FNS",
+        "name": "Pujan Mehta",
+        "bio": "Pujan 'FNS' Mehta (born March 19, 1992) is a Canadian player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
+        "age": 30,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
+        }
+      },
+      {
+        "profilePicURL": "crashies.webp",
+        "gamerTag": "crashies",
+        "name": "Austin Roberts",
+        "bio": "Austin 'crashies' Roberts (born December 20, 1997) is an American player who currently plays for OpTic Gaming.",
+        "age": 25,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
+        }
+      },
+      {
+        "profilePicURL": "victor.webp",
+        "gamerTag": "Victor",
+        "name": "Victor Wong",
+        "bio": "Victor 'Victor' Wong (born September 14, 1996) is an American player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
+        "age": 26,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
+        }
+      },
+      {
+        "profilePicURL": "marved.webp",
+        "gamerTag": "Marved",
+        "name": "Jimmy Nguyen",
+        "bio": "Jimmy 'Marved' Nguyen (born February 24, 2000) is a Canadian player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
+        "age": 22,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
+        }
+      },
+      {
+        "profilePicURL": "yay.webp",
+        "gamerTag": "yay",
+        "name": "Jaccob Whiteaker",
+        "bio": "Jaccob 'yay' Whiteaker (born September 9, 1998) is an American player who currently plays for OpTic Gaming. He is a former Counter-Strike: Global Offensive player.",
+        "age": 24,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: Stage 1 Masters" : "https://liquipedia.net/valorant/VCT/2022/Stage_1/Masters",
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers"
+        }
+      }
+    ]
+  },
+  {
+    "team": "Cloud9",
+    "active": true,
+    "wins": 105,
+    "players": [
+      {
+        "profilePicURL": "vanity.webp",
+        "gamerTag": "vanity",
+        "name": "Anthony Malaspina",
+        "bio": "Anthony 'vanity' Malaspina (born December 4, 1998) is an American player who currently plays for Cloud9 Blue. He is a former professional Counter-Strike: Global Offensive player.",
+        "age": 24,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
+          "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
+          "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
+        }
+      },
+      {
+        "profilePicURL": "leaf.webp",
+        "gamerTag": "leaf",
+        "name": "Nathan Orf",
+        "bio": "Nathan 'leaf' Orf (born November 24, 2003) is an American player who currently plays for Cloud9 Blue. He is a former professional Counter-Strike: Global Offensive player.",
+        "age": 19,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
+          "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
+          "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
+        }
+      },
+      {
+        "profilePicURL": "curry.webp",
+        "gamerTag": "curry",
+        "name": "Rahul Nemani",
+        "bio": "Rahul 'curry' Nemani (born August 5, 2002) is an American player who currently plays for Cloud9. He is a retired professional Counter-Strike: Global Offensive player.",
+        "age": 20,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {}
+      },
+      {
+        "profilePicURL": "mitch.webp",
+        "gamerTag": "mitch",
+        "name": "Mitch Semago",
+        "bio": "Mitch 'mitch' Semago (born July 31, 1996) is an American player who currently plays for Cloud9.",
+        "age": 26,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
+          "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
+          "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
+        }
+      },
+      {
+        "profilePicURL": "xeppaa.webp",
+        "gamerTag": "Xeppaa",
+        "name": "Erick Bach",
+        "bio": "Erick 'Xeppaa' Bach (born July 19, 2000) is an American player who currently plays for Cloud9 Blue. He is a retired professional Counter-Strike: Global Offensive player.",
+        "age": 22,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "VCT 2022: North America Stage 1" : "https://liquipedia.net/valorant/VCT/2022/North_America/Stage_1/Challengers",
+          "Knights Arena Valorampage" : "https://liquipedia.net/valorant/Knights_Arena/Valorampage",
+          "VALORANT Championships 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/Champions",
+          "VCT 2021: North America Last Chance" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Last_Chance_Qualifier",
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Summer_Championship"
+        }
+      }
+    ]
+  },
+  {
+    "team": "Dignitas",
+    "active": false,
+    "wins": 35,
+    "players": [
+      {
+        "profilePicURL": "ryann.webp",
+        "gamerTag": "ryann",
+        "name": "Ryan Welsh",
+        "bio": "Ryan 'ryann' Welsh (born February 10, 2001) is an American player who previously played for Ghost Gaming. He is a former Counter-Strike: Global Offensive player.",
+        "age": 21,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
+          "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
+          "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
+        }
+      },
+      {
+        "profilePicURL": "dephh.webp",
+        "gamerTag": "dephh",
+        "name": "Rory Jackson",
+        "bio": "Rory 'dephh' Jackson (born December 23, 1991) is a British player who currently plays for XSET. He is a former professional Counter-Strike: Global Offensive player.",
+        "age": 31,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+        "tournaments": {
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
+          "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
+          "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
+        }
+      },
+      {
+        "profilePicURL": "",
+        "gamerTag": "MAKKA",
+        "name": "Bryan Drouillard",
+        "bio": "Bryan 'MAKKA' Drouillard is an American player who currently plays for Knights. He is a retired professional Counter-Strike: Global Offensive player.",
+        "age": 24,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
+          "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
+          "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
+        }
+      },
+      {
+        "profilePicURL": "koalanoob.webp",
+        "gamerTag": "koalanoob",
+        "name": "Gianfranco Potestio",
+        "bio": "GianFranco 'koalanoob' Potestio is a Canadian player of Italian descent who currently plays for Ghost Gaming.",
+        "age": 27,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+        "tournaments": {
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
+          "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
+          "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
+        }
+      },
+      {
+        "profilePicURL": "",
+        "gamerTag": "psalm",
+        "name": "Harrison Chang",
+        "bio": "Harrison 'psalm' Chang (born February 6, 1995) is an American player who is currently an inactive member of The Guard. He is a former Fortnite and Heroes of the Storm player.",
+        "age": 27,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "Nerd Street Gamers" : "https://liquipedia.net/valorant/Nerd_Street_Gamers/2021/Monthly/March",
+          "Knights monthly gauntlet" : "https://liquipedia.net/valorant/Knights/Monthly_Gauntlet/March",
+          "VCT 2021" : "https://liquipedia.net/valorant/VALORANT_Champions_Tour/2021/North_America/Stage_1/Challengers_2/Open_Qualifier"
+        }
+      }
+    ]
+  },
+  {
+    "team": "Project X",
+    "active": false,
+    "wins": 5,
+    "players": [
+      {
+        "profilePicURL": "cinnamon.webp",
+        "gamerTag": "cinnamon",
+        "name": "Klaudia Beczkiewicz",
+        "bio": "Klaudia 'cinnamon' Beczkiewicz (born October 27, 1995) is an American player of Polish descent, currently residing in the United Kingdom. She is a former Counter-Strike: Global Offensive player.",
+        "age": 27,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "tournaments": {
+          "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
+          "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
+          "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
+          "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
+        }
+      },
+      {
+        "profilePicURL": "glance.webp",
+        "gamerTag": "Glance",
+        "name": "Anastasia Anisimova",
+        "bio": "Anastasia 'Glance' Anisimova is a Russian player who currently plays for G2 Gozen.",
+        "age": 23,
+        "yearsOfXP": 2,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
+        "tournaments": {
+          "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
+          "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
+          "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
+          "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
+        }
+      },
+      {
+        "profilePicURL": "smurfette.webp",
+        "gamerTag": "Smurfette",
+        "name": "Yağmur Gündüz",
+        "bio": "Yağmur 'Smurfette' Gündüz (born May 19, 1998) is a Turkish player who currently plays for Guild X. She is a former Counter-Strike: Global Offensive player.",
+        "age": 23,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
+        "tournaments": {
+          "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
+          "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
+          "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
+          "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
+        }
+      },
+      {
+        "profilePicURL": "",
+        "gamerTag": "Kim",
+        "name": "Sophia Benfakir",
+        "bio": "Sophia 'Kim' Benfakir (born January 29, 1993) is a French player who currently plays for Rix.GG Lightning. She is a former Counter-Strike: Global Offensive player.",
+        "age": 29,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
+        "tournaments": {
+          "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
+          "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
+          "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
+          "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
+        }
+      },
+      {
+        "profilePicURL": "roxi.webp",
+        "gamerTag": "roxi",
+        "name": "Vivian Schilling",
+        "bio": "Vivian 'roxi' Schilling (born November 30, 1996) is a German player of Filipino descent. She is a former Counter-Strike: Global Offensive player . She is also a former streamer for BIG.",
+        "age": 26,
+        "yearsOfXP": 1,
+        "nationalityURL": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+        "tournaments": {
+          "Women in games" : "https://liquipedia.net/valorant/Women_in_Games/Community_Cup",
+          "Birds of Prey" : "https://liquipedia.net/valorant/The_Goose_House/Birds_of_Prey/Episode_2",
+          "Huntress Trials" : "https://liquipedia.net/valorant/Rix.GG/Huntress_Trials/2021/August",
+          "Girls' House" : "https://liquipedia.net/valorant/Girls%27_House/EU_Open/3"
+        }
+      }
+    ]
+  }
+]

@@ -2,9 +2,9 @@
  * @file main.js
  * @author: Giampietro Piras, Davide Murroni, Eloise Bryony Giorda, Federico Luciano Stroppiana, Francesco Abrate
  * @project : Esports
- * 
+ *
  * This file contains all necessary functions
- * to convert a jsonblob into HTML elements 
+ * to convert a jsonblob into HTML elements
  * for the player page
  */
 
@@ -12,7 +12,7 @@ let trophyIcon = "https://img.icons8.com/ios-glyphs/344/ffffff/trophy.png";
 
 /**
  * Function that generates the necessary HTML elements
- * for each player in each team 
+ * for each player in each team
  * @param {*} playerInfo the player object from the jsonblob
  * @param {*} container the container to append the elements to
  */
@@ -22,8 +22,14 @@ function generatePlayer(playerInfo, container) {
   container.appendChild(playerLi);
 
   let playerImage = document.createElement("img");
-  playerImage
-  .setAttribute("src", playerInfo.profilePicURL);
+  if (playerInfo.profilePicURL === "") {
+    playerImage
+    .setAttribute("src", "./Contents/img/players-img/default.png");
+  } else {
+    let urlString = "./Contents/img/players-img/" 
+    + playerInfo.profilePicURL;
+    playerImage.setAttribute("src", urlString);
+  }
   playerImage
   .setAttribute("alt", playerInfo.gamerTag + " Profile Picture");
   playerLi.appendChild(playerImage);
@@ -44,12 +50,11 @@ function generatePlayer(playerInfo, container) {
   nameDiv.appendChild(playerName);
 }
 
-
 /**
  * Function that generates the HTML elements
  * necessary for the team
  * @param {*} teamInfo the team object taken from the jsonblob
- * @param {*} container the container element to 
+ * @param {*} container the container element to
  * append the team elements to
  */
 function generateTeam(teamInfo, container) {
@@ -67,8 +72,7 @@ function generateTeam(teamInfo, container) {
 
   let trophyIconImg = document.createElement("img");
   trophyIconImg.setAttribute("src", trophyIcon);
-  trophyIconImg
-  .setAttribute("alt", teamInfo.team + " wins");
+  trophyIconImg.setAttribute("alt", teamInfo.team + " wins");
   teamBasicInfo.appendChild(trophyIconImg);
 
   let teamWins = document.createElement("p");
@@ -82,27 +86,23 @@ function generateTeam(teamInfo, container) {
   });
 }
 
-
 /**
  * function to choose the right team section and
- * create the HTML elements required for the page 
- * @param {*} json the json file from which to take the 
+ * create the HTML elements required for the page
+ * @param {*} json the json file from which to take the
  * information for teams and players
  */
 function printTeams(json) {
   json.forEach((element) => {
     let sectionType;
     if (element.active) {
-      sectionType = document
-      .getElementsByClassName("teams")[0];
+      sectionType = document.getElementsByClassName("teams")[0];
     } else {
-      sectionType = document
-      .getElementsByClassName("teams")[1];
+      sectionType = document.getElementsByClassName("teams")[1];
     }
     generateTeam(element, sectionType);
   });
 }
-
 
 /**
  * function to convert a jsonblob into an object
@@ -121,9 +121,8 @@ function readTextFile(file, callback) {
   rawFile.send();
 }
 
-
 /**
- * Function to generate the selected players 
+ * Function to generate the selected players
  * information in the neeed pages' section
  * @param {*} jsonObj the object obtained from the jsonblob
  * @param {*} playerName the name of the player selected
@@ -132,9 +131,16 @@ function generatePlayerInfo(jsonObj, playerName) {
   for (const teams of jsonObj) {
     for (const player of teams.players) {
       if (player.name === playerName.innerText) {
-        document
-          .getElementById("player-info-pfp")
-          .setAttribute("src", player.profilePicURL);
+        if (player.profilePicURL === "") {
+          document
+            .getElementById("player-info-pfp")
+            .setAttribute("src", "./Contents/img/players-img/default.png");
+        } else {
+          let urlString = "./Contents/img/players-img/" + player.profilePicURL;
+          document
+            .getElementById("player-info-pfp")
+            .setAttribute("src", urlString);
+        }
         document.getElementById("player-info-name")
         .innerText = player.name;
         document.getElementById("player-info-code")
@@ -154,7 +160,10 @@ function generatePlayerInfo(jsonObj, playerName) {
         for (let i = 0; i < tournaments.length; i++) {
           if (i < Object.keys(player.tournaments).length) {
             tournaments[i].innerText = Object.keys(player.tournaments)[i];
-            tournaments[i].setAttribute("href", player.tournaments[Object.keys(player.tournaments)[i]]);
+            tournaments[i].setAttribute(
+              "href",
+              player.tournaments[Object.keys(player.tournaments)[i]]
+            );
           } else {
             tournaments[i].innerText = "";
           }
@@ -163,7 +172,6 @@ function generatePlayerInfo(jsonObj, playerName) {
     }
   }
 }
-
 
 /**callback function excecuted when the jsonblob is converted */
 readTextFile(
@@ -174,15 +182,13 @@ readTextFile(
     document
       .getElementsByClassName("close-profile")[0]
       .addEventListener("click", function () {
-        document.getElementById("selected-player-container")
-        .className =
+        document.getElementById("selected-player-container").className =
           "player-inactive";
         document.body.style.overflow = "visible";
       });
 
     document.getElementById("empty-div").addEventListener("click", function () {
-      document.getElementById("selected-player-container")
-      .className =
+      document.getElementById("selected-player-container").className =
         "player-inactive";
       document.body.style.overflow = "visible";
     });
@@ -191,8 +197,7 @@ readTextFile(
     for (let i = 0; i < players.length; i++) {
       players[i].addEventListener("click", function () {
         generatePlayerInfo(jsonData, playerNames[i]);
-        document.getElementById("selected-player-container")
-        .className =
+        document.getElementById("selected-player-container").className =
           "player-active";
         document.body.style.overflow = "hidden";
       });
