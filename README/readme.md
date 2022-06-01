@@ -31,7 +31,7 @@ All pages should include:
 
 ## USAGE   
 
-The website can be visited by starting up any of the HTML files, all having navigation leading to each other. A web server (XAMPP - downloadable at https://www.apachefriends.org/it/index.html - activating `Apache` and `MySQL`) must be used alongside the added database
+The website can be visited by starting up any of the HTML files, all having navigation leading to each other. A web server (XAMPP - downloadable at https://www.apachefriends.org/it/index.html - activating `Apache` and `MySQL`) must be used alongside the added database "levelupg_contact_db.sql"
 in the /**database** folder (must be added to phpMyAdmin - accesible at http://localhost/dashboard/ - - - -> phpMyAdmin(top right - last item in navbar) - or at http://localhost/phpmyadmin/) to utilize the back end of the form in the join us page as asked by **bonus 2**.
 
 
@@ -107,9 +107,7 @@ HTML-Project/
 ┃ ┗ video/  
 ┃   ┗ intro-video_Trim.mp4  
 ┣ database/  
-┃ ┣ 
-┃ ┣ 
-┃ ┗  
+┃ ┗ levelupg_contact_db.sql
 ┣ README/  
 ┃ ┗ [readme.md](./readme.md)  
 ┣ scripts/  
