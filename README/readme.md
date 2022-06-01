@@ -32,6 +32,18 @@ All pages should include:
 ## USAGE   
 
 The website can be visited by starting up any of the HTML files, all having navigation leading to each other. A web server (XAMPP - downloadable at https://www.apachefriends.org/it/index.html - activating `Apache` and `MySQL`) must be used alongside the added database
+in the /**database** folder (must be added to phpMyAdmin - accesible at http://localhost/dashboard/ - - - -> phpMyAdmin(top right - last item in navbar) - or at http://localhost/phpmyadmin/) to utilize the back end of the form in the join us page as asked by **bonus 2**.
+
+
+**How to upload the database**
+- Go to http://localhost/phpmyadmin/
+- Create a new database by clicking on new (first element in the left navigation bar)
+- Use this name: "levelupg_contact_db"
+- Click on this database
+- Go to import and click on "Choose file" from "Files to import" (first section of the import page)
+- Select the file "levelupg_contact_db.sql" from the **/database** folder
+- Confirm to upload the database
+
 
 #
 
